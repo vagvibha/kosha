@@ -1,0 +1,14 @@
+{
+  "tabs": [
+    {"path": "data/wordconcepts/tree.csv",       "url": "PASTE the WordConcepts > tree tab URL (it ends in #gid=...)"},
+    {"path": "data/wordconcepts/concepts.csv",   "url": "PASTE the WordConcepts > concepts tab URL"},
+    {"path": "data/wordconcepts/artha_map.csv",  "url": "PASTE the WordConcepts > artha_map tab URL"},
+    {"path": "data/amarakosha/words.csv",        "url": "PASTE the AmaraKosha > words tab URL"},
+    {"path": "data/amarakosha/shlokas.csv",      "url": "PASTE the AmaraKosha > shlokas tab URL"},
+    {"path": "data/amarakosha/sudha.csv",        "url": "PASTE the AmaraKosha > sudha tab URL"},
+    {"path": "data/amarakosha/ks_words.csv",     "url": "PASTE the AmaraKosha > ks_words tab URL"},
+    {"path": "data/dhatukosha/dhatu.csv",        "url": "PASTE the DhatuKosha > dhatu tab URL"},
+    {"path": "data/dhatukosha/upasarga-dhatu.csv","url": "PASTE the DhatuKosha > upasarga-dhatu tab URL"},
+    {"path": "data/examples/vakyamuktavali.csv", "url": "PASTE the examples tab URL"}
+  ]
+}

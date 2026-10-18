@@ -1,0 +1,135 @@
+:root{
+  --bg:#fbfaf7; --panel:#f4f1ea; --fg:#1d1d1b; --mut:#6b6a66; --line:#e2ded5; --hov:#efebe2;
+  --acc:#8a3b12; --ak:#1f5f8b; --dp:#5a6b1f; --sc:#7a4a8c; --warn:#b42318;
+  --chip:#ece6d8; --chip-on:#e3d3bd; --hl:#ffe49a; --mark:#f6d58a; --card:#fffdf8;
+  --sans:"Kohinoor Devanagari","Noto Sans Devanagari","Mangal",system-ui,-apple-system,sans-serif;
+  --serif:"Noto Serif Devanagari","Kohinoor Devanagari","Sanskrit Text",serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#191917; --panel:#201f1c; --fg:#ebe8e1; --mut:#9c998f; --line:#35332e; --hov:#272622;
+  --acc:#e8935c; --ak:#79b6e0; --dp:#b5c76a; --sc:#c9a2db; --warn:#ff8a7a;
+  --chip:#2d2b26; --chip-on:#4a3e2c; --hl:#5a4a12; --mark:#6b5310; --card:#1d1c1a;
+}}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--sans);display:flex;flex-direction:column;overflow:hidden}
+button{font:inherit;color:inherit}
+
+/* header */
+header{flex:none;display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--bg);z-index:10}
+header h1{font-size:17px;font-weight:600;margin:0 6px 0 0;white-space:nowrap}
+header>button,#reportlink{font-size:14px;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);cursor:pointer;color:var(--fg);text-decoration:none;white-space:nowrap}
+header>button:hover,#reportlink:hover{background:var(--hov)}
+.searchbox{position:relative;flex:1;min-width:0;max-width:640px}
+#q{width:100%;font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
+#results{position:absolute;top:calc(100% + 4px);left:0;right:0;max-height:60vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.res{display:flex;gap:8px;align-items:baseline;padding:6px 10px;cursor:pointer;border-bottom:1px solid var(--line)}
+.res:hover,.res.sel{background:var(--hov)}
+.res .kind{flex:none;font-size:11px;border:1px solid currentColor;border-radius:4px;padding:0 4px}
+.res small{color:var(--mut);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.res-more{padding:6px 10px;color:var(--mut);font-size:13px}
+
+/* layout */
+main{--left:30%;flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,var(--left)) 6px minmax(0,1fr)}
+#split{cursor:col-resize;background:var(--line);transition:background .15s}
+#split:hover,body.dragging #split{background:var(--acc)}
+body.dragging{user-select:none;cursor:col-resize}
+#tree{overflow:auto;padding:10px 12px 80px}
+#panel{overflow:auto;background:var(--panel);padding:14px 20px 80px;position:relative}
+#closepanel{display:none}
+
+/* tree */
+.row{display:flex;align-items:baseline;gap:8px;padding:3px 6px;border-radius:5px;cursor:pointer;min-width:0}
+.row:hover{background:var(--hov)}
+.row.cur{background:var(--chip-on)}
+.caret{width:14px;flex:none;color:var(--mut);font-size:12px}
+.kids{margin-left:14px;padding-left:10px;border-left:1px solid var(--line)}
+.node-row .name{font-weight:600}
+.lvl0>.node-row .name{font-size:18px;color:var(--acc)}
+.missing>.row .name{color:var(--warn)}
+.badge{font-size:12px;color:var(--mut);flex:none}
+.exb{font-size:11px;color:var(--acc);flex:none}
+.def{color:var(--mut);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.info{font-size:13px;color:var(--mut);padding:2px 6px 6px}
+.info b{font-weight:600;color:var(--mut)}
+.pathline{font-size:12px;color:var(--mut);padding:0 6px 4px}
+.concept-row .name::before{content:"◆ ";color:var(--acc);font-size:11px}
+.tag{font-size:11px;line-height:1.5;padding:0 5px;border-radius:4px;border:1px solid currentColor;flex:none}
+.t-ak{color:var(--ak)}.t-dp{color:var(--dp)}.t-sc{color:var(--sc)}.t-mut{color:var(--mut)}
+.flash>.row{animation:flash 1.6s ease-out}
+@keyframes flash{0%,40%{background:var(--hl)}100%{background:transparent}}
+.lnk{color:var(--acc);cursor:pointer;text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--acc) 35%,transparent);text-underline-offset:2px;background:none;border:0;padding:0}
+.lnk:hover{text-decoration-color:var(--acc)}
+
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:6px;padding:4px 6px 8px}
+.chip{background:var(--chip);padding:1px 9px;border-radius:12px;font-size:15px;border:0;cursor:pointer;line-height:1.7}
+.chip:hover{outline:1px solid var(--acc)}
+.chip.on{background:var(--chip-on);outline:2px solid var(--acc)}
+.chip small{color:var(--mut);font-size:11px;margin-left:4px}
+.grp{font-size:12px;color:var(--mut);padding:4px 6px 0}
+
+/* panel */
+#recent{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;font-size:13px}
+#recent:empty{display:none}
+#recent .lbl{color:var(--mut)}
+#recent button{background:none;border:1px solid var(--line);border-radius:12px;padding:0 8px;cursor:pointer;font-size:13px}
+#recent button:hover{background:var(--hov)}
+.crumbs{font-size:13px;color:var(--mut);margin-bottom:2px}
+.crumbs .lnk{font-size:13px}
+.card h2{font-size:24px;font-weight:600;margin:0 0 4px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.card h2 small{font-size:13px;color:var(--mut);font-weight:400}
+.meta{color:var(--mut);font-size:14px;margin-bottom:8px}
+.card section{margin-top:18px}
+.card h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);font-weight:600;margin:0 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
+.sense{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;padding:4px 0;border-bottom:1px dashed var(--line)}
+.sense:last-child{border-bottom:0}
+.sense.cur{background:var(--chip-on);border-radius:5px;padding:4px 6px}
+.sense .p{font-size:12px;color:var(--mut)}
+.arow{padding:6px 0 2px}
+.arow .head{display:flex;gap:8px;align-items:baseline}
+.note{font-size:14px;color:var(--mut);margin:4px 0}
+.warn{color:var(--warn)}
+.empty{color:var(--mut);font-size:14px}
+.help{color:var(--mut);font-size:15px;max-width:520px}
+.help h2{color:var(--fg)}
+
+/* examples */
+.ex{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:8px 0}
+.ex .v{font-family:var(--serif);font-size:18px;line-height:1.7}
+.ex mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 2px}
+.ex .src{font-size:12px;color:var(--mut);margin-top:2px}
+.ex .n{font-size:14px;margin-top:6px}
+.ex .n2{font-size:14px;color:var(--mut);margin-top:4px}
+
+/* shloka + verse strip */
+.verse{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.verse .nav{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--mut);margin-bottom:6px}
+.verse .nav button{border:1px solid var(--line);background:var(--bg);border-radius:5px;padding:0 8px;cursor:pointer}
+.verse .nav button:disabled{opacity:.35;cursor:default}
+.verse .txt{font-family:var(--serif);font-size:19px;line-height:1.75;white-space:pre-wrap;margin-bottom:8px}
+.vg{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px;padding:4px 0;border-top:1px dashed var(--line)}
+.vg .lab{display:flex;gap:6px;align-items:baseline;min-width:0}
+.vg .leaf{font-size:11px;color:var(--mut)}
+.vg .chips{padding:0}
+.nanartha{font-size:12px;color:var(--mut);font-style:italic;margin-bottom:6px}
+
+details.comm{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 12px;margin:8px 0}
+details.comm summary{cursor:pointer;font-weight:600;font-size:14px}
+details.comm .body{font-size:15px;line-height:1.7;margin-top:6px;white-space:pre-wrap}
+details.comm .w{color:var(--mut);font-size:13px}
+
+/* narrow screens: panel becomes a bottom sheet */
+@media (max-width:860px){
+  header{flex-wrap:wrap}
+  .searchbox{order:5;flex-basis:100%;max-width:none}
+  main{grid-template-columns:1fr}
+  #split{display:none}
+  #panel{position:fixed;left:0;right:0;bottom:0;height:72vh;border-left:0;border-top:1px solid var(--line);box-shadow:0 -10px 30px rgba(0,0,0,.18);transform:translateY(105%);transition:transform .2s;z-index:20;padding:14px 16px 60px}
+  body.panel-open #panel{transform:none}
+  #closepanel{display:block;position:sticky;top:0;margin-left:auto;font-size:22px;background:var(--panel);border:1px solid var(--line);border-radius:6px;width:34px;height:34px;cursor:pointer;z-index:2}
+}
+
+.leafinfo{font-size:14px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin:6px 0 4px}
+.leafinfo .ldef{color:var(--fg);margin-bottom:2px}
+.leafinfo b{font-weight:600}
