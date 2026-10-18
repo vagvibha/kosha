@@ -28,7 +28,11 @@ jobs:
 
       - name: Download tabs from Google Sheets
         if: github.event_name != 'push'
-        run: python scripts/sync_sheets.py
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          pip install --quiet google-auth requests
+          python scripts/sync_sheets.py
 
       - name: Commit changed data
         if: github.event_name != 'push'

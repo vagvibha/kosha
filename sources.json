@@ -1,14 +1,14 @@
 {
   "tabs": [
-    {"path": "data/wordconcepts/tree.csv",       "url": "PASTE the WordConcepts > tree tab URL (it ends in #gid=...)"},
-    {"path": "data/wordconcepts/concepts.csv",   "url": "PASTE the WordConcepts > concepts tab URL"},
-    {"path": "data/wordconcepts/artha_map.csv",  "url": "PASTE the WordConcepts > artha_map tab URL"},
-    {"path": "data/amarakosha/words.csv",        "url": "PASTE the AmaraKosha > words tab URL"},
-    {"path": "data/amarakosha/shlokas.csv",      "url": "PASTE the AmaraKosha > shlokas tab URL"},
-    {"path": "data/amarakosha/sudha.csv",        "url": "PASTE the AmaraKosha > sudha tab URL"},
-    {"path": "data/amarakosha/ks_words.csv",     "url": "PASTE the AmaraKosha > ks_words tab URL"},
-    {"path": "data/dhatukosha/dhatu.csv",        "url": "PASTE the DhatuKosha > dhatu tab URL"},
-    {"path": "data/dhatukosha/upasarga-dhatu.csv","url": "PASTE the DhatuKosha > upasarga-dhatu tab URL"},
-    {"path": "data/examples/vakyamuktavali.csv", "url": "PASTE the examples tab URL"}
+    {"path": "data/wordconcepts/tree.csv",       "url": "https://docs.google.com/spreadsheets/d/14iSEVYdpxaZpCPdVZZTIrSpwtj1vOLWLsiFkv1KMFrc/edit?gid=704639977#gid=704639977"},
+    {"path": "data/wordconcepts/concepts.csv",   "url": "https://docs.google.com/spreadsheets/d/14iSEVYdpxaZpCPdVZZTIrSpwtj1vOLWLsiFkv1KMFrc/edit?gid=2020893665#gid=2020893665"},
+    {"path": "data/wordconcepts/artha_map.csv",  "url": "https://docs.google.com/spreadsheets/d/14iSEVYdpxaZpCPdVZZTIrSpwtj1vOLWLsiFkv1KMFrc/edit?gid=747658264#gid=747658264"},
+    {"path": "data/amarakosha/words.csv",        "url": "https://docs.google.com/spreadsheets/d/1r7QoGKcQh6WCUPpLPZjDTUeFe2czP-VxW2JE_uEwvA0/edit?gid=2138498740#gid=2138498740"},
+    {"path": "data/amarakosha/shlokas.csv",      "url": "https://docs.google.com/spreadsheets/d/1r7QoGKcQh6WCUPpLPZjDTUeFe2czP-VxW2JE_uEwvA0/edit?gid=565664544#gid=565664544"},
+    {"path": "data/amarakosha/sudha.csv",        "url": "https://docs.google.com/spreadsheets/d/1r7QoGKcQh6WCUPpLPZjDTUeFe2czP-VxW2JE_uEwvA0/edit?gid=2110117788#gid=2110117788"},
+    {"path": "data/amarakosha/ks_words.csv",     "url": "https://docs.google.com/spreadsheets/d/1r7QoGKcQh6WCUPpLPZjDTUeFe2czP-VxW2JE_uEwvA0/edit?gid=617914553#gid=617914553"},
+    {"path": "data/dhatukosha/dhatu.csv",        "url": "https://docs.google.com/spreadsheets/d/1z_lwOZo-MShSutM-NFLp5Or88KQlDTWDYrk7LSRva7I/edit?gid=0#gid=0"},
+    {"path": "data/dhatukosha/upasarga-dhatu.csv","url": "https://docs.google.com/spreadsheets/d/1z_lwOZo-MShSutM-NFLp5Or88KQlDTWDYrk7LSRva7I/edit?gid=391517107#gid=391517107"},
+    {"path": "data/examples/vakyamuktavali.csv", "url": "https://docs.google.com/spreadsheets/d/1gxvYNLSC9LBwke8L7P2USHmLNvppKwDEkdX7lqtvze0/edit?gid=0#gid=0"}
   ]
 }
