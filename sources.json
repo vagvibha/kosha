@@ -9,6 +9,7 @@
     {"path": "data/amarakosha/ks_words.txt",        "url": "https://docs.google.com/spreadsheets/d/1r7QoGKcQh6WCUPpLPZjDTUeFe2czP-VxW2JE_uEwvA0/edit?gid=617914553#gid=617914553", "key": ["ks_id", "word"]},
     {"path": "data/dhatukosha/dhatu.txt",           "url": "https://docs.google.com/spreadsheets/d/1z_lwOZo-MShSutM-NFLp5Or88KQlDTWDYrk7LSRva7I/edit?gid=0#gid=0", "key": ["src_link", "dhatu"]},
     {"path": "data/dhatukosha/upasarga-dhatu.txt",  "url": "https://docs.google.com/spreadsheets/d/1z_lwOZo-MShSutM-NFLp5Or88KQlDTWDYrk7LSRva7I/edit?gid=391517107#gid=391517107", "key": ["src_link", "combined"]},
+    {"path": "data/dhatukosha/upasarga-udaharana.txt", "url": "https://docs.google.com/spreadsheets/d/1z_lwOZo-MShSutM-NFLp5Or88KQlDTWDYrk7LSRva7I/edit?gid=1262910543#gid=1262910543", "key": ["src_link", "combined", "uac_id"]},
     {"path": "data/examples/vakyamuktavali.txt",    "url": "https://docs.google.com/spreadsheets/d/1gxvYNLSC9LBwke8L7P2USHmLNvppKwDEkdX7lqtvze0/edit?gid=0#gid=0"}
   ]
 }

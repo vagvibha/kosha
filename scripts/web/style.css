@@ -133,3 +133,15 @@ details.comm .w{color:var(--mut);font-size:13px}
 .leafinfo{font-size:14px;color:var(--mut);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin:6px 0 4px}
 .leafinfo .ldef{color:var(--fg);margin-bottom:2px}
 .leafinfo b{font-weight:600}
+
+/* upasarga examples (upasarga-udaharana) */
+.chip small.exc{color:var(--acc)}
+details.uexg{padding:4px 12px}
+details.uexg>summary{font-weight:400;font-size:15px}
+details.uexg .ex{margin:6px 0}
+.ex.remark{border-style:dashed}
+.ex.remark .n{font-style:italic}
+.ex .uform{display:flex;gap:8px;align-items:baseline;font-size:14px;margin-bottom:2px}
+.ex small.same{color:var(--mut);font-size:12px}
+.unas{color:var(--mut);font-style:italic}
+.st-check,.st-new-artha{color:var(--warn)}

@@ -11,6 +11,7 @@ there is no .txt (handy for a quick local test). Writes:
     site/index.html, app.js, style.css   (copied from scripts/web/)
     site/data/core.js                    tree, concepts, Amarakosha, dhatus, examples
     site/data/comm.js                    Sudha + Kshirasvamin commentaries (loaded on demand)
+    site/data/uex.js                     upasarga examples (upasarga-udaharana, loaded on demand)
     site/report.txt                      data checks
 
 Joins (every table is a plain mapping; nothing is inferred from matching labels):
@@ -19,8 +20,11 @@ Joins (every table is a plain mapping; nothing is inferred from matching labels)
   artha_map      (source, artha) -> concept_id         source: ak | dp | sc
   ak words       column अर्थः == ak artha; संख्या -> shlokas; sudha_id / ks_id -> commentaries
   dhatu          dhatu_artha (';'-separated stems) == dp artha
-  upasarga-dhatu artha_draft (';'-separated, locative) -> stems == dp artha
-                 (an optional 'dhatu_artha' column of stems, if added, is used instead)
+  upasarga-dhatu artha (';'-separated bare stems) == dp artha
+                 (if the tab has no 'artha' column: artha_draft (';'-separated, locative) -> stems,
+                 or an optional 'dhatu_artha' column of stems)
+  upasarga-udaharana  combined + src_link -> upasarga-dhatu row; artha = one of that row's stems
+                 (blank = unassigned); concept cards reach examples via artha -> artha_map (dp)
   examples/*     concept_id, word, vakya, src, notes, additional notes
 """
 
@@ -48,6 +52,7 @@ AK_SUDHA = "amarakosha/sudha.txt"
 AK_KS = "amarakosha/ks_words.txt"
 DHATU = "dhatukosha/dhatu.txt"
 UPASARGA = "dhatukosha/upasarga-dhatu.txt"
+UDAHARANA = "dhatukosha/upasarga-udaharana.txt"   # optional
 EXAMPLES_DIR = "examples"          # every .txt in here (or .csv / .tsv), same columns
 TABLE_EXTS = (".txt", ".csv", ".tsv")
 
@@ -56,7 +61,9 @@ WEB_DIR = Path(__file__).parent / "web"
 SEP = "::"
 UNDECIDED = "अनिर्णीत"
 SOURCES = ("ak", "dp", "sc")
-LIST_SEP = ";"                     # inside dhatu_artha / artha_draft cells
+LIST_SEP = ";"                     # inside dhatu_artha / artha / artha_draft cells
+SAPTAMI_RE = re.compile("(?:े|ौ|ायाम्|्याम्)$")   # a stem should not end like this
+UEX_STATUSES = ("", "auto", "new-artha", "check", "ok", "note")
 
 # locative ending -> stem ending, tried in order (upasarga artha_draft)
 LOCATIVE_RULES = [("ायाम्", "ा"), ("्याम्", "ी"), ("तौ", "ति"), ("ौ", "ि"),
@@ -304,13 +311,24 @@ def build(folder):
     dids = {d["id"] for d in dhatus}
 
     upas, ukeys = [], Counter()
-    for r in read_rows(find(folder, UPASARGA)):
+    ud_rows = read_rows(find(folder, UPASARGA))
+    has_artha = bool(ud_rows) and "artha" in ud_rows[0]
+    if ud_rows and not has_artha:
+        rep.add("upasarga-dhatu has no 'artha' column (meanings read from artha_draft, saptamī → stem)",
+                "rename artha_draft → artha and write bare stems (decision D1)")
+    for r in ud_rows:
         form, base = g(r, "combined"), g(r, "src_link")
         if not form:
             continue
         explicit = split_list(g(r, "dhatu_artha"))
         raw = split_list(g(r, "artha_draft"))
-        if explicit:
+        if has_artha:
+            stems = split_list(g(r, "artha"))
+            for x in stems:
+                if SAPTAMI_RE.search(x):
+                    rep.add("upasarga artha values that still look saptamī (artha holds bare stems)",
+                            f"{form} ({base}): {x}")
+        elif explicit:
             stems = explicit
         else:
             stems = []
@@ -328,10 +346,56 @@ def build(folder):
         if base not in dids:
             rep.add("upasarga rows whose src_link is not in dhatu", f"{form} ({base})")
         upas.append({"key": key, "f": form, "b": base, "u": g(r, "upasarga"), "bd": g(r, "aupadeshika", "dhatu"),
-                     "hi": g(r, "artha_hindi"), "raw": g(r, "artha_draft"), "nt": g(r, "draft_note"),
+                     "hi": g(r, "artha_hindi"), "raw": g(r, "artha") if has_artha else g(r, "artha_draft"),
+                     "nt": g(r, "draft_note"),
                      "fl": g(r, "combined_flag"), "ar": stems})
     for a in sorted(mapped["dp"] - dp_stems):
         rep.add("dp arthas in artha_map with no dhatu or upasarga", a)
+
+    # ---- upasarga examples (upasarga-udaharana): one row per example, keyed by combined + src_link
+    first_row, form_stems = {}, defaultdict(set)
+    for i, u in enumerate(upas):
+        first_row.setdefault((u["f"], u["b"]), i)
+        form_stems[(u["f"], u["b"])].update(u["ar"])
+    uex, uids, ucount, ust, sst = [], set(), defaultdict(Counter), Counter(), Counter()
+    ux_path = find(folder, UDAHARANA, required=False)
+    for r in read_rows(ux_path):
+        form, base = g(r, "combined"), g(r, "src_link")
+        example, gloss, uid = g(r, "example"), g(r, "gloss"), g(r, "uac_id")
+        artha, status = g(r, "artha"), g(r, "status").lower()
+        if not (form or example or gloss):
+            continue
+        label = f"{form}|{base}" + (f" {uid}" if uid else "") + f" — {(example or gloss)[:40]}"
+        i = first_row.get((form, base))
+        if i is None:
+            rep.add("Upasarga examples whose combined|src_link is not in upasarga-dhatu", label)
+            continue
+        if uid:
+            if uid in uids:
+                rep.add("Upasarga examples with a duplicate uac_id", label)
+            uids.add(uid)
+        if artha:
+            if LIST_SEP in artha:
+                rep.add("Upasarga examples with more than one artha (one per row)", f"{artha} · {label}")
+            elif artha not in form_stems[(form, base)]:
+                rep.add("Upasarga examples whose artha is not among the form's meanings", f"{artha} · {label}")
+            if SAPTAMI_RE.search(artha):
+                rep.add("upasarga artha values that still look saptamī (artha holds bare stems)",
+                        f"{artha} · {label}")
+        if status not in UEX_STATUSES:
+            rep.add("Upasarga examples with an unknown status", f"{status} · {label}")
+        if status == "new-artha":
+            rep.add("Upasarga examples with status new-artha (pending review)", f"{artha} · {label}")
+        ust["assigned" if artha else ("note" if status == "note" else "unassigned")] += 1
+        sst[status or "(blank)"] += 1
+        ucount[(form, base)][artha] += 1
+        uex.append([i, artha, example, g(r, "ref"), gloss, g(r, "note"), g(r, "source"), uid, status,
+                    g(r, "same_as")])
+    for u in upas:                      # every row of a key shows the key's count
+        c = ucount.get((u["f"], u["b"]))
+        if c:
+            u["xn"] = sum(c.values())
+            u["xc"] = {a: n for a, n in c.items() if a}
     for a in sorted(dp_stems - mapped["dp"]):
         rep.add("New dp arthas: in dhatu / upasarga but not yet in artha_map", a)
 
@@ -376,11 +440,15 @@ def build(folder):
         "Commentary entries": f"sudha={len(sudha)}, ks={len(ks)}",
         "Dhatus": len(dhatus), "Upasarga+dhatu rows": len(upas),
         "Examples": f"{len(examples)} from {len(files)} file(s): {', '.join(files) or '-'}",
+        "Upasarga examples": (f"{len(uex)} from {ux_path.name} — {ust['assigned']} with artha, "
+                              f"{ust['unassigned']} unassigned, {ust['note']} remarks; status: "
+                              + ", ".join(f"{k}={v}" for k, v in sorted(sst.items())))
+                             if ux_path else "-",
     }
     core = {"nodes": nodes, "concepts": out_c, "words": words, "shlokas": shlokas,
             "dhatus": dhatus, "upas": upas, "examples": examples}
     comm = {"s": sudha, "k": ks}
-    return core, comm, rep.render(stats)
+    return core, comm, {"x": uex}, rep.render(stats)
 
 
 class Report:
@@ -412,10 +480,11 @@ def main():
     args = ap.parse_args()
 
     folder, out = Path(args.data), Path(args.out)
-    core, comm, report = build(folder)
+    core, comm, uex, report = build(folder)
 
     (out / "data").mkdir(parents=True, exist_ok=True)
-    files = {"data/core.js": js_payload("CT", core), "data/comm.js": js_payload("CT_COMM", comm)}
+    files = {"data/core.js": js_payload("CT", core), "data/comm.js": js_payload("CT_COMM", comm),
+             "data/uex.js": js_payload("CT_UEX", uex)}
     for name, text in files.items():
         (out / name).write_text(text, encoding="utf-8")
     for name in ("app.js", "style.css"):

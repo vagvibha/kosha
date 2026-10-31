@@ -4,6 +4,8 @@ const D = window.CT;
 const N = D.nodes, C = D.concepts, W = D.words, SH = D.shlokas, DH = D.dhatus, UP = D.upas, EX = D.examples;
 // W row: [word, linga, sankhya, artha, id, sudha_id, [ks_id...]]
 // EX row: [conceptIdx|-1, word, vakya, src, notes, notes2, file]
+// UP row: {key, f, b, u, bd, hi, raw, nt, fl, ar, xn?, xc?}  xn = upasarga examples, xc = {artha: n}
+// CT_UEX.x row (data/uex.js, loaded on demand): [upaIdx, artha, example, ref, gloss, note, source, uac_id, status, same_as]
 
 // ---------------------------------------------------------------- helpers
 function h(tag, cls, ...kids){
@@ -47,6 +49,7 @@ const upaByKey = new Map(UP.map((u, i) => [u.key, i]));
 const dhatusByStem = group(DH, d => d.ar);
 const upasByStem = group(UP, u => u.ar);
 const upasByBase = group(UP, u => u.b);
+const formKey = u => u.f + '|' + u.b;
 const exByWord = group(EX, e => e[1]);
 
 function pathParts(ni){ const out = []; for (let i = ni; i >= 0; i = N[i].pi) out.unshift(i); return out; }
@@ -159,8 +162,8 @@ function dhatuChip(di){
 }
 function upaChip(ui){
   const u = UP[ui];
-  const b = h('button', 'chip', u.f, h('small', null, u.u + '+' + (u.bd || '')));
-  b.title = (u.raw || '') + (u.hi ? ' · ' + u.hi : '');
+  const b = h('button', 'chip', u.f, h('small', null, u.u + '+' + (u.bd || '')), u.xn ? h('small', 'exc', '✎' + u.xn) : null);
+  b.title = u.ar.join('; ') + (u.hi ? ' · ' + u.hi : '') + (u.xn ? ' · ' + u.xn + ' examples' : '');
   b.onclick = e => { e.stopPropagation(); show({t: 'u', k: u.key}); };
   return b;
 }
@@ -300,7 +303,8 @@ function cardConcept(id){
     return h('div', 'arow', h('div', 'head', h('span', 'tag t-' + s, s), h('b', null, a), n ? h('span', 'badge', n) : null), arthaChips(s, a));
   });
   card.append(section('Arthas', ...(ar.length ? ar : [h('div', 'empty', 'No arthas mapped yet.')])));
-  if (c.ex.length) card.append(section('Examples (' + c.ex.length + ')', ...c.ex.map(e => exampleBlock(e, true))));
+  const cu = conceptUex(c);
+  if (c.ex.length || cu) card.append(section('Examples' + (c.ex.length ? ' (' + c.ex.length + ')' : ''), ...c.ex.map(e => exampleBlock(e, true)), cu));
   card._label = '◆ ' + c.id;
   card._reveal = () => revealConcept(k);
   return card;
@@ -369,17 +373,115 @@ function verseStrip(sankhya, curRow){
   return box;
 }
 
-let commState = 0; const commWait = [];
-function loadComm(cb){
-  if (window.CT_COMM) return cb();
-  commWait.push(cb);
-  if (commState) return;
-  commState = 1;
+// load a data script once (comm.js, uex.js); callbacks run when it is there (or failed)
+const loaders = {};
+function loadData(globalName, url, cb){
+  if (window[globalName]) return cb();
+  const L = loaders[globalName] || (loaders[globalName] = {state: 0, wait: []});
+  L.wait.push(cb);
+  if (L.state) return;
+  L.state = 1;
   const s = document.createElement('script');
-  s.src = window.CT_COMM_URL || 'data/comm.js';
-  s.onload = () => commWait.splice(0).forEach(f => f());
-  s.onerror = () => { commState = 0; commWait.splice(0).forEach(f => f()); };
+  s.src = url;
+  s.onload = () => L.wait.splice(0).forEach(f => f());
+  s.onerror = () => { L.state = 0; L.wait.splice(0).forEach(f => f()); };
   document.head.append(s);
+}
+function loadComm(cb){ loadData('CT_COMM', window.CT_COMM_URL || 'data/comm.js', cb); }
+
+// ---- upasarga examples (data/uex.js)
+let UEX = null, uexByForm = null;
+function loadUex(cb){
+  loadData('CT_UEX', window.CT_UEX_URL || 'data/uex.js', () => {
+    if (window.CT_UEX && !UEX){
+      UEX = window.CT_UEX.x;
+      uexByForm = new Map();
+      UEX.forEach((x, j) => { const k = formKey(UP[x[0]]); if (!uexByForm.has(k)) uexByForm.set(k, []); uexByForm.get(k).push(j); });
+    }
+    cb();
+  });
+}
+function uexBlock(j, form){
+  const [ui, artha, ex, ref, gloss, note, source, uid, status, same] = UEX[j];
+  const remark = !ex;
+  const b = h('div', 'ex' + (remark ? ' remark' : ''));
+  if (form){
+    const u = UP[ui];
+    b.append(h('div', 'uform', link(u.f, () => show({t: 'u', k: u.key}), 'Open ' + u.f), artha ? h('span', 'tag t-dp', artha) : null));
+  }
+  if (ex) b.append(h('div', 'v', ex));
+  const src = h('div', 'src', [remark ? 'remark' : '', ref, source, uid].filter(Boolean).join(' · '));
+  if (status && status !== 'note') src.append(' ', h('span', 'tag ' + (status === 'ok' ? 't-dp' : 't-mut st-' + status), status));
+  b.append(src);
+  if (gloss){
+    const g = h('div', 'n', gloss);
+    if (same) g.append(' ', h('small', 'same', '(= ' + same + ')'));
+    b.append(g);
+  }
+  if (note) b.append(h('div', 'n2', note));
+  return b;
+}
+// a collapsible group of examples, built when first opened
+function uexGroup(title, js, open, form){
+  const d = h('details', 'comm uexg');
+  const sum = h('summary', null);
+  [].concat(title).forEach(t => sum.append(t));
+  sum.append(' ', h('span', 'badge', '(' + js.length + ')'));
+  d.append(sum);
+  let built = false;
+  const build = () => { if (!built){ built = true; js.forEach(j => d.append(uexBlock(j, form))); } };
+  d.addEventListener('toggle', () => { if (d.open) build(); });
+  if (open){ d.open = true; build(); }
+  return d;
+}
+function upaExamples(u){
+  const box = h('div', null, h('div', 'empty', 'Loading examples…'));
+  loadUex(() => {
+    box.replaceChildren();
+    if (!UEX){ box.append(h('div', 'empty', 'Could not load the examples.')); return; }
+    const js = uexByForm.get(formKey(u)) || [];
+    const by = new Map();
+    js.forEach(j => { const a = UEX[j][1]; if (!by.has(a)) by.set(a, []); by.get(a).push(j); });
+    const groups = [];
+    u.ar.forEach(a => { if (by.has(a)) groups.push([[h('span', 'tag t-dp', 'dp'), ' ', h('b', null, a)], by.get(a)]); });
+    for (const [a, list] of by) if (a && !u.ar.includes(a)) groups.push([[h('b', 'warn', a), ' ', h('small', 'warn', 'not among this form’s arthas')], list]);
+    if (by.has('')) groups.push([h('span', 'unas', 'unassigned'), by.get('')]);
+    const few = js.length <= 40;
+    groups.forEach(([t, list]) => box.append(uexGroup(t, list, few || groups.length === 1)));
+  });
+  return box;
+}
+// concept card: examples of upasarga forms whose artha maps to this concept (dp)
+function conceptUex(c){
+  const parts = [], seen = new Set();
+  let n = 0;
+  c.ar.forEach(([s, a]) => {
+    if (s !== 'dp') return;
+    (upasByStem.get(a) || []).forEach(ui => {
+      const u = UP[ui], k = formKey(u) + '|' + a;
+      if (seen.has(k) || !(u.xc && u.xc[a])) return;
+      seen.add(k); parts.push([u, a]); n += u.xc[a];
+    });
+  });
+  if (!n) return null;
+  const d = h('details', 'comm uexg');
+  d.append(h('summary', null, 'from upasarga forms ', h('span', 'badge', '(' + n + ')')));
+  let built = false;
+  d.addEventListener('toggle', () => {
+    if (!d.open || built) return;
+    built = true;
+    const box = h('div', null, h('div', 'empty', 'Loading examples…'));
+    d.append(box);
+    loadUex(() => {
+      box.replaceChildren();
+      if (!UEX){ box.append(h('div', 'empty', 'Could not load the examples.')); return; }
+      parts.forEach(([u, a]) => {
+        const js = (uexByForm.get(formKey(u)) || []).filter(j => UEX[j][1] === a);
+        box.append(uexGroup([upaChip(UP.indexOf(u)), ' ', h('span', 'tag t-dp', a)], js, parts.length === 1 && js.length <= 20));
+      });
+    });
+  });
+  return d;
 }
 function fillComm(box, r){
   box.replaceChildren();
@@ -458,19 +560,22 @@ function cardUpa(key){
   meta.append(bi != null ? dhatuChip(bi) : u.b);
   if (u.fl) meta.append(' · ', h('span', 'warn', u.fl));
   card.append(meta);
-  if (u.raw || u.hi) card.append(h('div', 'note', [u.raw.split(';').join('; '), u.hi].filter(Boolean).join(' — ')));
+  const raw = u.raw && u.raw !== u.ar.join(';') ? u.raw.split(';').join('; ') : '';
+  if (raw || u.hi) card.append(h('div', 'note', [raw, u.hi].filter(Boolean).join(' — ')));
   if (u.nt) card.append(h('div', 'note', u.nt));
   card.append(section('Arthas', ...stemLines(u.ar)));
+  if (u.xn) card.append(section('Examples (' + u.xn + ')', upaExamples(u)));
   card._label = u.f;
   card._reveal = () => { const a = u.ar.find(x => dpConcepts.has(x)); if (a) revealConcept(dpConcepts.get(a)[0], ['dp', a]); };
   return card;
 }
 
+const uexTotal = (() => { const seen = new Set(); let n = 0; UP.forEach(u => { if (u.xn && !seen.has(formKey(u))){ seen.add(formKey(u)); n += u.xn; } }); return n; })();
 function helpCard(){
   const card = h('div', 'card help');
   card.append(h('h2', null, 'Concept Tree'));
   card.append(h('p', null, 'Open a branch on the left and click a concept, an Amarakosha word or a dhātu to see its details here: every sense of a word, its shloka with the neighbouring synsets, the commentaries, and your examples.'));
-  card.append(h('p', null, N.length + ' nodes · ' + C.length + ' concepts · ' + W.length + ' Amarakosha rows · ' + DH.length + ' dhātus · ' + UP.length + ' upasarga forms · ' + EX.length + ' examples'));
+  card.append(h('p', null, N.length + ' nodes · ' + C.length + ' concepts · ' + W.length + ' Amarakosha rows · ' + DH.length + ' dhātus · ' + UP.length + ' upasarga forms · ' + EX.length + ' examples · ' + uexTotal + ' upasarga examples'));
   return card;
 }
 
