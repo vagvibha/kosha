@@ -4,7 +4,7 @@
 # Tab: upasarga-dhatu
 HEADER:type=record
 HEADER:key=src_link|combined
-HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|combined_flag|artha_hindi|artha|draft_note|(notes)prev-artha
+HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|draft_note|combined_flag|(notes)prev-artha
 
 .--- 01.0001 अधिभू
 .dhatu: भू
@@ -970,9 +970,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|combined_flag|artha_
 .src_link: 01.0956
 .upasarga: निर्
 .combined: नीराज्
-.combined_flag: check
 .artha_hindi: आरती करना
 .artha: नीराजन
+.combined_flag: check
 .(notes)prev-artha: नीराजने
 
 .--- 01.0956 विराज्
@@ -2022,9 +2022,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|combined_flag|artha_
 .src_link: 01.1077
 .upasarga: उद्
 .combined: उत्था
-.combined_flag: check
 .artha_hindi: खड़ा होना, आसन से उठाना
 .artha: उत्थान
+.combined_flag: check
 .(notes)prev-artha: उत्थाने
 
 .--- 01.1077 उपस्था
@@ -2073,9 +2073,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|combined_flag|artha_
 .src_link: 01.1077
 .upasarga: प्र+उद्
 .combined: प्रोत्था
-.combined_flag: check
 .artha_hindi: आसन पर से उठना, खड़ा रहना
 .artha: उत्थान
+.combined_flag: check
 .(notes)prev-artha: उत्थाने
 
 .--- 01.1077 प्रतिस्था
