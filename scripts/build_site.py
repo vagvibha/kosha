@@ -4,8 +4,9 @@ Build the Concept Tree site from the exported sheets.
 
     python3 scripts/build_site.py data -o site
 
-Reads CSV or TSV (by extension; if a configured file is missing, the other
-extension is tried). Writes:
+Reads the record text files written by scripts/sync_sheets.py (format:
+scripts/records.py). A .csv or .tsv with the same name is read instead if
+there is no .txt (handy for a quick local test). Writes:
 
     site/index.html, app.js, style.css   (copied from scripts/web/)
     site/data/core.js                    tree, concepts, Amarakosha, dhatus, examples
@@ -34,17 +35,21 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import records  # noqa: E402
+
 # ---------------------------------------------------------------- file layout (relative to the data folder)
-TREE = "wordconcepts/tree.csv"
-CONCEPTS = "wordconcepts/concepts.csv"
-ARTHA_MAP = "wordconcepts/artha_map.csv"
-AK_WORDS = "amarakosha/words.csv"
-AK_SHLOKAS = "amarakosha/shlokas.csv"
-AK_SUDHA = "amarakosha/sudha.csv"
-AK_KS = "amarakosha/ks_words.csv"
-DHATU = "dhatukosha/dhatu.csv"
-UPASARGA = "dhatukosha/upasarga-dhatu.csv"
-EXAMPLES_DIR = "examples"          # every .csv / .tsv in here, same columns
+TREE = "wordconcepts/tree.txt"
+CONCEPTS = "wordconcepts/concepts.txt"
+ARTHA_MAP = "wordconcepts/artha_map.txt"
+AK_WORDS = "amarakosha/words.txt"
+AK_SHLOKAS = "amarakosha/shlokas.txt"
+AK_SUDHA = "amarakosha/sudha.txt"
+AK_KS = "amarakosha/ks_words.txt"
+DHATU = "dhatukosha/dhatu.txt"
+UPASARGA = "dhatukosha/upasarga-dhatu.txt"
+EXAMPLES_DIR = "examples"          # every .txt in here (or .csv / .tsv), same columns
+TABLE_EXTS = (".txt", ".csv", ".tsv")
 
 WEB_DIR = Path(__file__).parent / "web"
 
@@ -65,11 +70,9 @@ def nfc(s):
 
 def find(folder, rel, required=True):
     p = folder / rel
-    if p.exists():
-        return p
-    alt = p.with_suffix(".tsv" if p.suffix == ".csv" else ".csv")
-    if alt.exists():
-        return alt
+    for ext in TABLE_EXTS:
+        if p.with_suffix(ext).exists():
+            return p.with_suffix(ext)
     if required:
         sys.exit(f"Missing file: {p}")
     return None
@@ -79,10 +82,15 @@ def read_rows(path):
     """Rows as dicts keyed by normalised header (lowercase, spaces -> _)."""
     if path is None:
         return []
-    delim = "\t" if path.suffix.lower() == ".tsv" else ","
-    with path.open(encoding="utf-8-sig", newline="") as f:
-        rdr = csv.reader(f, delimiter=delim)
-        rows = [[nfc(c) for c in r] for r in rdr]
+    if path.suffix.lower() == ".txt":
+        try:
+            rows = [[nfc(c) for c in r] for r in records.read(path)]
+        except records.FormatError as e:
+            sys.exit(f"Bad data file: {e}")
+    else:
+        delim = "\t" if path.suffix.lower() == ".tsv" else ","
+        with path.open(encoding="utf-8-sig", newline="") as f:
+            rows = [[nfc(c) for c in r] for r in csv.reader(f, delimiter=delim)]
     rows = [r for r in rows if any(r)]
     if not rows:
         return []
@@ -332,7 +340,12 @@ def build(folder):
     ex_dir = folder / EXAMPLES_DIR
     word_set = {w[0] for w in words}
     if ex_dir.is_dir():
-        for p in sorted(list(ex_dir.glob("*.csv")) + list(ex_dir.glob("*.tsv"))):
+        by_stem = {}
+        for p in sorted(ex_dir.iterdir()):          # one file per name, .txt first
+            if p.suffix.lower() in TABLE_EXTS:
+                by_stem.setdefault(p.stem, []).append(p)
+        picks = [min(ps, key=lambda q: TABLE_EXTS.index(q.suffix.lower())) for ps in by_stem.values()]
+        for p in sorted(picks):
             files.append(p.name)
             for r in read_rows(p):
                 cid, vakya = g(r, "concept_id"), g(r, "vakya")
