@@ -21856,6 +21856,11 @@ HEADER:columns=source|artha|concept id
 .artha: ऐश्वर्य
 .concept id: ऐश्वर्य
 
+.--- dp औचित्य
+.source: dp
+.artha: औचित्य
+.concept id: उचित
+
 .--- dp कत्थन
 .source: dp
 .artha: कत्थन
