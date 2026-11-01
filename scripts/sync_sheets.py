@@ -2,7 +2,9 @@
 """
 Download the source tabs listed in sources.json from Google Sheets into data/
 as record text files (format: scripts/records.py), one block per row and one
-line per cell, so git diffs show exactly which cells changed.
+line per cell, so git diffs show exactly which cells changed. Columns are
+written under short names (.A, .B, ...) listed at the top of each file; a
+sync keeps the short names already in the file.
 
     python3 scripts/sync_sheets.py                  # download all tabs
     python3 scripts/sync_sheets.py --normalize-only # no download: rewrite the .txt files
@@ -131,11 +133,12 @@ def comments_for(url=None, title=None, source=None):
     return [f"Converted from {source}; not in sources.json, so edit this file directly."]
 
 
-def to_text(rows, comments, key=None, name="?"):
+def to_text(rows, comments, key=None, name="?", previous=None):
     """Tidies `rows`, writes them as record text and checks the text reads
-    back to the same rows. -> (text, number of data rows)."""
+    back to the same rows. `previous`: the existing file's columns, whose
+    short names (.A, .B, ...) are kept. -> (text, number of data rows)."""
     rows = tidy(rows)
-    text = records.rows_to_text(rows, comments, key)
+    text = records.rows_to_text(rows, comments, key, previous)
     expect = [rows[0]] + [r for r in rows[1:] if any(r)]
     _, back = records.parse(text, name)
     if back != expect:
@@ -143,6 +146,17 @@ def to_text(rows, comments, key=None, name="?"):
         raise records.FormatError(f"text does not read back to the same rows (first difference "
                                   f"near data row {bad})")
     return text, len(expect) - 1
+
+
+def previous_columns(p):
+    """The existing file's columns, so a sync keeps their short names (None
+    if there is no file, or it is in the older format)."""
+    if not p.exists():
+        return None
+    try:
+        return records.columns_in(p.read_text(encoding="utf-8-sig"), str(p))
+    except records.FormatError:
+        return None
 
 
 def write(p, text):
@@ -174,11 +188,12 @@ def normalize(tabs):
         t = by_path.get(target.resolve())
         try:
             if p.suffix.lower() == ".txt":
-                head, rows = records.parse(p.read_text(encoding="utf-8-sig"), str(rel))
+                old = p.read_text(encoding="utf-8-sig")
+                head, rows = records.parse(old, str(rel))
                 comments = [ln[2:] if ln.startswith("# ") else ln[1:]
-                            for ln in p.read_text(encoding="utf-8-sig").split("\n") if ln.startswith("#")]
+                            for ln in old.split("\n") if ln.startswith("#")]
                 key = (t or {}).get("key") or (head["key"].split("|") if head.get("key") else None)
-                text, n = to_text(rows, comments, key, str(rel))
+                text, n = to_text(rows, comments, key, str(rel), records.columns_in(old, str(rel)))
                 print(f"{'tidied ' if write(p, text) else 'same   '} {rel} ({n} rows)")
             else:
                 if p.with_suffix("") in txts:
@@ -205,7 +220,8 @@ def sync(tabs):
     for t in tabs:
         try:
             rows, title = sheets.fetch(t["url"])
-            fetched.append((t["path"], *to_text(rows, comments_for(t["url"], title), t.get("key"), t["path"])))
+            fetched.append((t["path"], *to_text(rows, comments_for(t["url"], title), t.get("key"),
+                                                t["path"], previous_columns(ROOT / t["path"]))))
         except Exception as e:
             failed.append(f"{t['path']}: {e}")
     if failed:

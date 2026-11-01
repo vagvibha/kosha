@@ -4,952 +4,956 @@
 # Tab: tree
 HEADER:type=record
 HEADER:key=leaf
-HEADER:columns=leaf|definition|anchors|not_this|count
+HEADER:.A=leaf
+HEADER:.B=definition
+HEADER:.C=anchors
+HEADER:.D=not_this
+HEADER:.E=count
 
 .--- अनिर्णीत
-.leaf: अनिर्णीत
-.definition: Not yet placed; holding pen. A leaf is created only once 3+ concepts gather here.
+.A: अनिर्णीत
+.B: Not yet placed; holding pen. A leaf is created only once 3+ concepts gather here.
 
 .--- शरीर
-.leaf: शरीर
-.definition: Body, bodily functions and physical states of living beings
-.anchors: शरीर, देह
-.not_this: Body parts as things → here (शरीर::अङ्ग), not लोक
+.A: शरीर
+.B: Body, bodily functions and physical states of living beings
+.C: शरीर, देह
+.D: Body parts as things → here (शरीर::अङ्ग), not लोक
 
 .--- शरीर::अङ्ग
-.leaf: शरीर::अङ्ग
-.definition: Parts of the body (nouns)
-.anchors: हस्त, प्रकोष्ठ, कूर्पर
-.not_this: —
+.A: शरीर::अङ्ग
+.B: Parts of the body (nouns)
+.C: हस्त, प्रकोष्ठ, कूर्पर
+.D: —
 
 .--- शरीर::आहार
-.leaf: शरीर::आहार
-.definition: Acts of eating and drinking; hunger, thirst
-.anchors: भुङ्क्ते, पिबति, क्षुधा, तृष्णा
-.not_this: Foods as things → लोक::अन्न
+.A: शरीर::आहार
+.B: Acts of eating and drinking; hunger, thirst
+.C: भुङ्क्ते, पिबति, क्षुधा, तृष्णा
+.D: Foods as things → लोक::अन्न
 
 .--- शरीर::निद्रा
-.leaf: शरीर::निद्रा
-.definition: Sleep, waking, rest, fatigue
-.anchors: स्वपिति, जागर्ति, श्राम्यति, क्लाम्यति
-.not_this: —
+.A: शरीर::निद्रा
+.B: Sleep, waking, rest, fatigue
+.C: स्वपिति, जागर्ति, श्राम्यति, क्लाम्यति
+.D: —
 
 .--- शरीर::आरोग्य
-.leaf: शरीर::आरोग्य
-.definition: Health, illness, wound, healing
-.anchors: रुजा, व्रण, स्वस्थ
-.not_this: Emotional pain → भाव::शोक
+.A: शरीर::आरोग्य
+.B: Health, illness, wound, healing
+.C: रुजा, व्रण, स्वस्थ
+.D: Emotional pain → भाव::शोक
 
 .--- शरीर::जीवन
-.leaf: शरीर::जीवन
-.definition: Birth, stages of life, ageing, death
-.anchors: जायते, म्रियते, जरा, यौवन
-.not_this: Things coming into being → परिवर्तन::उत्पत्ति; killing → व्यवहार::हिंसा
+.A: शरीर::जीवन
+.B: Birth, stages of life, ageing, death
+.C: जायते, म्रियते, जरा, यौवन
+.D: Things coming into being → परिवर्तन::उत्पत्ति; killing → व्यवहार::हिंसा
 
 .--- शरीर::शरीरक्रिया
-.leaf: शरीर::शरीरक्रिया
-.definition: Involuntary bodily acts: breathe, tremble, sweat, shiver, horripilation
-.anchors: श्वसिति, वेपते, स्विद्यति, रोमाञ्च
-.not_this: The emotion behind it → भाव
+.A: शरीर::शरीरक्रिया
+.B: Involuntary bodily acts: breathe, tremble, sweat, shiver, horripilation
+.C: श्वसिति, वेपते, स्विद्यति, रोमाञ्च
+.D: The emotion behind it → भाव
 
 .--- शरीर::प्रसाधन
-.leaf: शरीर::प्रसाधन
-.definition: Bathing, dressing, adorning
-.anchors: स्नाति, परिदधाति, अलङ्करोति
-.not_this: Ornaments as things → लोक::वस्तु
+.A: शरीर::प्रसाधन
+.B: Bathing, dressing, adorning
+.C: स्नाति, परिदधाति, अलङ्करोति
+.D: Ornaments as things → लोक::वस्तु
 
 .--- शरीर::बल
-.leaf: शरीर::बल
-.definition: Bodily strength, weakness, emaciation
-.anchors: बलवत्, कृश, दुर्बल
-.not_this: Strength of character → गुण::स्वभाव
+.A: शरीर::बल
+.B: Bodily strength, weakness, emaciation
+.C: बलवत्, कृश, दुर्बल
+.D: Strength of character → गुण::स्वभाव
 
 .--- गति
-.leaf: गति
-.definition: Motion, position and spatial relations
+.A: गति
+.B: Motion, position and spatial relations
 
 .--- गति::गमन
-.leaf: गति::गमन
-.definition: Going and coming in general
-.anchors: गच्छति, याति, एति, आगच्छति
-.not_this: Departure/return specifically → गति::प्रस्थान
+.A: गति::गमन
+.B: Going and coming in general
+.C: गच्छति, याति, एति, आगच्छति
+.D: Departure/return specifically → गति::प्रस्थान
 
 .--- गति::प्रस्थान
-.leaf: गति::प्रस्थान
-.definition: Setting out, arriving, returning
-.anchors: प्रतिष्ठते, निवर्तते, प्रत्यागच्छति
-.not_this: —
+.A: गति::प्रस्थान
+.B: Setting out, arriving, returning
+.C: प्रतिष्ठते, निवर्तते, प्रत्यागच्छति
+.D: —
 
 .--- गति::वेग
-.leaf: गति::वेग
-.definition: Speed: hurry, run, slowness
-.anchors: धावति, त्वरते, मन्दम्
-.not_this: —
+.A: गति::वेग
+.B: Speed: hurry, run, slowness
+.C: धावति, त्वरते, मन्दम्
+.D: —
 
 .--- गति::आरोहावरोह
-.leaf: गति::आरोहावरोह
-.definition: Rising, climbing, falling, descending
-.anchors: आरोहति, पतति, अवतरति
-.not_this: Decline in amount → परिवर्तन::वृद्धि
+.A: गति::आरोहावरोह
+.B: Rising, climbing, falling, descending
+.C: आरोहति, पतति, अवतरति
+.D: Decline in amount → परिवर्तन::वृद्धि
 
 .--- गति::प्रवेश
-.leaf: गति::प्रवेश
-.definition: Entering, exiting, plunging into (physical)
-.anchors: प्रविशति, निष्क्रामति, अवगाहते (physical)
-.not_this: Immersion in study → बुद्धि::विद्या
+.A: गति::प्रवेश
+.B: Entering, exiting, plunging into (physical)
+.C: प्रविशति, निष्क्रामति, अवगाहते (physical)
+.D: Immersion in study → बुद्धि::विद्या
 
 .--- गति::अवस्थान
-.leaf: गति::अवस्थान
-.definition: Posture: stand, sit, lie
-.anchors: तिष्ठति, आस्ते, शेते
-.not_this: Enduring/lasting → काल::स्थैर्य
+.A: गति::अवस्थान
+.B: Posture: stand, sit, lie
+.C: तिष्ठति, आस्ते, शेते
+.D: Enduring/lasting → काल::स्थैर्य
 
 .--- गति::चालन
-.leaf: गति::चालन
-.definition: Causing motion: throw, push, pull, carry, lead
-.anchors: क्षिपति, नयति, वहति, कर्षति
-.not_this: नी + abstract noun ("make into") → परिवर्तन::विकार
+.A: गति::चालन
+.B: Causing motion: throw, push, pull, carry, lead
+.C: क्षिपति, नयति, वहति, कर्षति
+.D: नी + abstract noun ("make into") → परिवर्तन::विकार
 
 .--- गति::भ्रमण
-.leaf: गति::भ्रमण
-.definition: Wandering, roaming, circling
-.anchors: भ्रमति, अटति, परिक्रामति
-.not_this: Mental confusion → बुद्धि::भ्रम
+.A: गति::भ्रमण
+.B: Wandering, roaming, circling
+.C: भ्रमति, अटति, परिक्रामति
+.D: Mental confusion → बुद्धि::भ्रम
 
 .--- गति::स्थान
-.leaf: गति::स्थान
-.definition: Spatial relations: near, far, around, before, between
-.anchors: समीपे, अभितः, पुरतः, अन्तरा
-.not_this: Temporal before/after → काल::क्रम
+.A: गति::स्थान
+.B: Spatial relations: near, far, around, before, between
+.C: समीपे, अभितः, पुरतः, अन्तरा
+.D: Temporal before/after → काल::क्रम
 
 .--- इन्द्रियानुभव
-.leaf: इन्द्रियानुभव
-.definition: Perception through the senses
+.A: इन्द्रियानुभव
+.B: Perception through the senses
 
 .--- इन्द्रियानुभव::दर्शन
-.leaf: इन्द्रियानुभव::दर्शन
-.definition: Seeing, looking, observing, glancing
-.anchors: पश्यति, ईक्षते, अवलोकयति, वीक्षते
-.not_this: Understanding ("see the point") → बुद्धि::ज्ञान
+.A: इन्द्रियानुभव::दर्शन
+.B: Seeing, looking, observing, glancing
+.C: पश्यति, ईक्षते, अवलोकयति, वीक्षते
+.D: Understanding ("see the point") → बुद्धि::ज्ञान
 
 .--- इन्द्रियानुभव::श्रवण
-.leaf: इन्द्रियानुभव::श्रवण
-.definition: Hearing, listening
-.anchors: शृणोति, आकर्णयति
-.not_this: Obeying → व्यवहार::सेवा
+.A: इन्द्रियानुभव::श्रवण
+.B: Hearing, listening
+.C: शृणोति, आकर्णयति
+.D: Obeying → व्यवहार::सेवा
 
 .--- इन्द्रियानुभव::स्पर्श
-.leaf: इन्द्रियानुभव::स्पर्श
-.definition: Touching, feeling
-.anchors: स्पृशति, परामृशति
-.not_this: Qualities felt (hard, soft) → गुण::स्पर्शगुण
+.A: इन्द्रियानुभव::स्पर्श
+.B: Touching, feeling
+.C: स्पृशति, परामृशति
+.D: Qualities felt (hard, soft) → गुण::स्पर्शगुण
 
 .--- इन्द्रियानुभव::रसगन्ध
-.leaf: इन्द्रियानुभव::रसगन्ध
-.definition: Tasting, smelling
-.anchors: आस्वादयति, जिघ्रति
-.not_this: —
+.A: इन्द्रियानुभव::रसगन्ध
+.B: Tasting, smelling
+.C: आस्वादयति, जिघ्रति
+.D: —
 
 .--- इन्द्रियानुभव::प्रकाश
-.leaf: इन्द्रियानुभव::प्रकाश
-.definition: Light, shining, darkness
-.anchors: भाति, दीप्यते, प्रकाशते, तमस्
-.not_this: —
+.A: इन्द्रियानुभव::प्रकाश
+.B: Light, shining, darkness
+.C: भाति, दीप्यते, प्रकाशते, तमस्
+.D: —
 
 .--- इन्द्रियानुभव::ध्वनि
-.leaf: इन्द्रियानुभव::ध्वनि
-.definition: Non-speech sounds and noise
-.anchors: क्वणति, गर्जति, रौति
-.not_this: Speech and its manner → वाच्
+.A: इन्द्रियानुभव::ध्वनि
+.B: Non-speech sounds and noise
+.C: क्वणति, गर्जति, रौति
+.D: Speech and its manner → वाच्
 
 .--- इन्द्रियानुभव::दृश्यता
-.leaf: इन्द्रियानुभव::दृश्यता
-.definition: Visible or hidden; coming into or out of view
-.anchors: दृश्यते, अन्तर्धीयते, प्रच्छन्न
-.not_this: Coming into existence → परिवर्तन::उत्पत्ति; keeping a secret → व्यवहार::वञ्चना
+.A: इन्द्रियानुभव::दृश्यता
+.B: Visible or hidden; coming into or out of view
+.C: दृश्यते, अन्तर्धीयते, प्रच्छन्न
+.D: Coming into existence → परिवर्तन::उत्पत्ति; keeping a secret → व्यवहार::वञ्चना
 
 .--- बुद्धि
-.leaf: बुद्धि
-.definition: Cognition: knowing, thinking, deciding, remembering
+.A: बुद्धि
+.B: Cognition: knowing, thinking, deciding, remembering
 
 .--- बुद्धि::ज्ञान
-.leaf: बुद्धि::ज्ञान
-.definition: Knowing, understanding, realizing
-.anchors: जानाति, अवगच्छति, बुध्यते, अवैति
-.not_this: Learning/study as activity → बुद्धि::विद्या
+.A: बुद्धि::ज्ञान
+.B: Knowing, understanding, realizing
+.C: जानाति, अवगच्छति, बुध्यते, अवैति
+.D: Learning/study as activity → बुद्धि::विद्या
 
 .--- बुद्धि::भ्रम
-.leaf: बुद्धि::भ्रम
-.definition: Ignorance, error, confusion, delusion
-.anchors: मुह्यति, भ्राम्यति, विपर्यय
-.not_this: Doubt (two options open) → बुद्धि::संशय
+.A: बुद्धि::भ्रम
+.B: Ignorance, error, confusion, delusion
+.C: मुह्यति, भ्राम्यति, विपर्यय
+.D: Doubt (two options open) → बुद्धि::संशय
 
 .--- बुद्धि::ऊह
-.leaf: बुद्धि::ऊह
-.definition: Conjecture, fancy, imagining
-.anchors: तर्कयति, उत्प्रेक्षते, ऊहते, उत्पश्यति
-.not_this: Careful deliberation → बुद्धि::चिन्तन
+.A: बुद्धि::ऊह
+.B: Conjecture, fancy, imagining
+.C: तर्कयति, उत्प्रेक्षते, ऊहते, उत्पश्यति
+.D: Careful deliberation → बुद्धि::चिन्तन
 
 .--- बुद्धि::चिन्तन
-.leaf: बुद्धि::चिन्तन
-.definition: Pondering, reflecting, deliberating
-.anchors: चिन्तयति, विमृशति, परिभावयति
-.not_this: Reaching a conclusion → बुद्धि::निश्चय
+.A: बुद्धि::चिन्तन
+.B: Pondering, reflecting, deliberating
+.C: चिन्तयति, विमृशति, परिभावयति
+.D: Reaching a conclusion → बुद्धि::निश्चय
 
 .--- बुद्धि::निश्चय
-.leaf: बुद्धि::निश्चय
-.definition: Ascertaining, deciding, resolving
-.anchors: निश्चिनोति, अध्यवस्यति, व्यवस्यति
-.not_this: Intending/planning → बुद्धि::सङ्कल्प
+.A: बुद्धि::निश्चय
+.B: Ascertaining, deciding, resolving
+.C: निश्चिनोति, अध्यवस्यति, व्यवस्यति
+.D: Intending/planning → बुद्धि::सङ्कल्प
 
 .--- बुद्धि::संशय
-.leaf: बुद्धि::संशय
-.definition: Doubt, hesitation, suspicion
-.anchors: शङ्कते, विचिकित्सति, दोलायते
-.not_this: Fear of something → भाव::भय
+.A: बुद्धि::संशय
+.B: Doubt, hesitation, suspicion
+.C: शङ्कते, विचिकित्सति, दोलायते
+.D: Fear of something → भाव::भय
 
 .--- बुद्धि::स्मृति
-.leaf: बुद्धि::स्मृति
-.definition: Remembering, forgetting
-.anchors: स्मरति, अनुस्मरति, विस्मरति
-.not_this: —
+.A: बुद्धि::स्मृति
+.B: Remembering, forgetting
+.C: स्मरति, अनुस्मरति, विस्मरति
+.D: —
 
 .--- बुद्धि::विद्या
-.leaf: बुद्धि::विद्या
-.definition: Learning, study, teaching, scholarship, mastering a subject
-.anchors: अधीते, अभ्यस्यति, अवगाहते (शास्त्रम्)
-.not_this: Practical skill → कर्मन्::कौशल
+.A: बुद्धि::विद्या
+.B: Learning, study, teaching, scholarship, mastering a subject
+.C: अधीते, अभ्यस्यति, अवगाहते (शास्त्रम्)
+.D: Practical skill → कर्मन्::कौशल
 
 .--- बुद्धि::सङ्कल्प
-.leaf: बुद्धि::सङ्कल्प
-.definition: Intending, planning, purpose
-.anchors: सङ्कल्पयति, अभिप्रैति, उद्दिश्य
-.not_this: Longing/wishing → भाव::उत्कण्ठा
+.A: बुद्धि::सङ्कल्प
+.B: Intending, planning, purpose
+.C: सङ्कल्पयति, अभिप्रैति, उद्दिश्य
+.D: Longing/wishing → भाव::उत्कण्ठा
 
 .--- बुद्धि::अवधान
-.leaf: बुद्धि::अवधान
-.definition: Attention, heed, neglect, carelessness
-.anchors: अवधत्ते, उपेक्षते, प्रमाद्यति
-.not_this: Idleness/delay → कर्मन्::आलस्य
+.A: बुद्धि::अवधान
+.B: Attention, heed, neglect, carelessness
+.C: अवधत्ते, उपेक्षते, प्रमाद्यति
+.D: Idleness/delay → कर्मन्::आलस्य
 
 .--- बुद्धि::मत
-.leaf: बुद्धि::मत
-.definition: Opinion, belief, regarding as
-.anchors: मन्यते, गणयति, प्रत्येति
-.not_this: Agreeing with someone → व्यवहार::अनुमति
+.A: बुद्धि::मत
+.B: Opinion, belief, regarding as
+.C: मन्यते, गणयति, प्रत्येति
+.D: Agreeing with someone → व्यवहार::अनुमति
 
 .--- भाव
-.leaf: भाव
-.definition: Emotions and inner states
+.A: भाव
+.B: Emotions and inner states
 
 .--- भाव::हर्ष
-.leaf: भाव::हर्ष
-.definition: Joy, delight, contentment
-.anchors: हृष्यति, मोदते, तुष्यति, नन्दति
-.not_this: —
+.A: भाव::हर्ष
+.B: Joy, delight, contentment
+.C: हृष्यति, मोदते, तुष्यति, नन्दति
+.D: —
 
 .--- भाव::शोक
-.leaf: भाव::शोक
-.definition: Sorrow, grief, distress, causing sorrow
-.anchors: शोचति, सीदति, सन्तप्यते, दुःखयति, पीडयति
-.not_this: Regret over own act → भाव::पश्चात्ताप; bodily pain → शरीर::आरोग्य
+.A: भाव::शोक
+.B: Sorrow, grief, distress, causing sorrow
+.C: शोचति, सीदति, सन्तप्यते, दुःखयति, पीडयति
+.D: Regret over own act → भाव::पश्चात्ताप; bodily pain → शरीर::आरोग्य
 
 .--- भाव::पश्चात्ताप
-.leaf: भाव::पश्चात्ताप
-.definition: Remorse, regret
-.anchors: अनुशेते, अनुतप्यते
-.not_this: General grief → भाव::शोक
+.A: भाव::पश्चात्ताप
+.B: Remorse, regret
+.C: अनुशेते, अनुतप्यते
+.D: General grief → भाव::शोक
 
 .--- भाव::भय
-.leaf: भाव::भय
-.definition: Fear, alarm, anxiety
-.anchors: बिभेति, त्रस्यति, उद्विजते
-.not_this: Doubt → बुद्धि::संशय
+.A: भाव::भय
+.B: Fear, alarm, anxiety
+.C: बिभेति, त्रस्यति, उद्विजते
+.D: Doubt → बुद्धि::संशय
 
 .--- भाव::क्रोध
-.leaf: भाव::क्रोध
-.definition: Anger, irritation, indignation
-.anchors: कुप्यति, क्रुध्यति, रुष्यति, अमर्ष
-.not_this: Quarrel as act → व्यवहार::विरोध
+.A: भाव::क्रोध
+.B: Anger, irritation, indignation
+.C: कुप्यति, क्रुध्यति, रुष्यति, अमर्ष
+.D: Quarrel as act → व्यवहार::विरोध
 
 .--- भाव::स्नेह
-.leaf: भाव::स्नेह
-.definition: Love, affection, attachment
-.anchors: स्निह्यति, अनुरज्यते
-.not_this: Friendship as relation → व्यवहार::सङ्ग
+.A: भाव::स्नेह
+.B: Love, affection, attachment
+.C: स्निह्यति, अनुरज्यते
+.D: Friendship as relation → व्यवहार::सङ्ग
 
 .--- भाव::द्वेष
-.leaf: भाव::द्वेष
-.definition: Hatred, envy, contempt felt
-.anchors: द्वेष्टि, असूयति, ईर्ष्यति
-.not_this: Insulting someone → व्यवहार::आदर
+.A: भाव::द्वेष
+.B: Hatred, envy, contempt felt
+.C: द्वेष्टि, असूयति, ईर्ष्यति
+.D: Insulting someone → व्यवहार::आदर
 
 .--- भाव::उत्कण्ठा
-.leaf: भाव::उत्कण्ठा
-.definition: Longing, yearning, eagerness
-.anchors: उत्कण्ठते, उत्सुक, लालायित
-.not_this: Intending → बुद्धि::सङ्कल्प
+.A: भाव::उत्कण्ठा
+.B: Longing, yearning, eagerness
+.C: उत्कण्ठते, उत्सुक, लालायित
+.D: Intending → बुद्धि::सङ्कल्प
 
 .--- भाव::लज्जा
-.leaf: भाव::लज्जा
-.definition: Shame, shyness, embarrassment
-.anchors: लज्जते, ह्रीण, त्रपते
-.not_this: —
+.A: भाव::लज्जा
+.B: Shame, shyness, embarrassment
+.C: लज्जते, ह्रीण, त्रपते
+.D: —
 
 .--- भाव::विस्मय
-.leaf: भाव::विस्मय
-.definition: Wonder, surprise, astonishment
-.anchors: विस्मयते, विस्मित
-.not_this: —
+.A: भाव::विस्मय
+.B: Wonder, surprise, astonishment
+.C: विस्मयते, विस्मित
+.D: —
 
 .--- भाव::धैर्य
-.leaf: भाव::धैर्य
-.definition: Composure vs. agitation
-.anchors: धीर, व्याकुल, क्षुभ्यति
-.not_this: Forgiving → व्यवहार::क्षमादण्ड
+.A: भाव::धैर्य
+.B: Composure vs. agitation
+.C: धीर, व्याकुल, क्षुभ्यति
+.D: Forgiving → व्यवहार::क्षमादण्ड
 
 .--- भाव::निर्वेद
-.leaf: भाव::निर्वेद
-.definition: Weariness, disgust, aversion
-.anchors: निर्विद्यते, जुगुप्सते
-.not_this: Fatigue of body → शरीर::निद्रा
+.A: भाव::निर्वेद
+.B: Weariness, disgust, aversion
+.C: निर्विद्यते, जुगुप्सते
+.D: Fatigue of body → शरीर::निद्रा
 
 .--- भाव::आशा
-.leaf: भाव::आशा
-.definition: Hope, despair
-.anchors: आशास्ते, आशंसते, निराश
-.not_this: —
+.A: भाव::आशा
+.B: Hope, despair
+.C: आशास्ते, आशंसते, निराश
+.D: —
 
 .--- वाच्
-.leaf: वाच्
-.definition: Speech and communication
+.A: वाच्
+.B: Speech and communication
 
 .--- वाच्::कथन
-.leaf: वाच्::कथन
-.definition: Saying, telling, speaking in general
-.anchors: वदति, ब्रवीति, कथयति, आह
-.not_this: Narrating at length → वाच्::वर्णन
+.A: वाच्::कथन
+.B: Saying, telling, speaking in general
+.C: वदति, ब्रवीति, कथयति, आह
+.D: Narrating at length → वाच्::वर्णन
 
 .--- वाच्::प्रश्न
-.leaf: वाच्::प्रश्न
-.definition: Asking, answering
-.anchors: पृच्छति, प्रत्याह, उत्तरयति
-.not_this: —
+.A: वाच्::प्रश्न
+.B: Asking, answering
+.C: पृच्छति, प्रत्याह, उत्तरयति
+.D: —
 
 .--- वाच्::सम्बोधन
-.leaf: वाच्::सम्बोधन
-.definition: Calling, addressing, summoning, greeting
-.anchors: आह्वयति, आमन्त्रयते, अभिवादयते
-.not_this: Hosting/welcome → व्यवहार::आतिथ्य
+.A: वाच्::सम्बोधन
+.B: Calling, addressing, summoning, greeting
+.C: आह्वयति, आमन्त्रयते, अभिवादयते
+.D: Hosting/welcome → व्यवहार::आतिथ्य
 
 .--- वाच्::वर्णन
-.leaf: वाच्::वर्णन
-.definition: Narrating, describing, explaining
-.anchors: आख्याति, वर्णयति, व्याचष्टे
-.not_this: —
+.A: वाच्::वर्णन
+.B: Narrating, describing, explaining
+.C: आख्याति, वर्णयति, व्याचष्टे
+.D: —
 
 .--- वाच्::स्तुतिनिन्दा
-.leaf: वाच्::स्तुतिनिन्दा
-.definition: Praising, blaming, censuring
-.anchors: स्तौति, श्लाघते, निन्दति, गर्हते
-.not_this: Honouring by act → व्यवहार::आदर
+.A: वाच्::स्तुतिनिन्दा
+.B: Praising, blaming, censuring
+.C: स्तौति, श्लाघते, निन्दति, गर्हते
+.D: Honouring by act → व्यवहार::आदर
 
 .--- वाच्::प्रतिज्ञा
-.leaf: वाच्::प्रतिज्ञा
-.definition: Promising, assuring, swearing
-.anchors: प्रतिजानीते, आश्वासयति, शपते
-.not_this: —
+.A: वाच्::प्रतिज्ञा
+.B: Promising, assuring, swearing
+.C: प्रतिजानीते, आश्वासयति, शपते
+.D: —
 
 .--- वाच्::आदेश
-.leaf: वाच्::आदेश
-.definition: Commanding, requesting, entreating
-.anchors: आदिशति, प्रार्थयते, याचते
-.not_this: Permitting → व्यवहार::अनुमति
+.A: वाच्::आदेश
+.B: Commanding, requesting, entreating
+.C: आदिशति, प्रार्थयते, याचते
+.D: Permitting → व्यवहार::अनुमति
 
 .--- वाच्::विवाद
-.leaf: वाच्::विवाद
-.definition: Arguing, disputing, refuting
-.anchors: विवदते, निराकरोति, खण्डयति
-.not_this: Hostility/fighting → व्यवहार::विरोध
+.A: वाच्::विवाद
+.B: Arguing, disputing, refuting
+.C: विवदते, निराकरोति, खण्डयति
+.D: Hostility/fighting → व्यवहार::विरोध
 
 .--- वाच्::अनृत
-.leaf: वाच्::अनृत
-.definition: Lying, flattery, prattle
-.anchors: अनृतं वदति, चाटु, प्रलपति
-.not_this: Deception by act → व्यवहार::वञ्चना
+.A: वाच्::अनृत
+.B: Lying, flattery, prattle
+.C: अनृतं वदति, चाटु, प्रलपति
+.D: Deception by act → व्यवहार::वञ्चना
 
 .--- वाच्::उच्चारण
-.leaf: वाच्::उच्चारण
-.definition: Manner of speech: aloud, softly, silence, muttering
-.anchors: उच्चैः, शनैः, तूष्णीम्, जल्पति
-.not_this: Non-speech noise → इन्द्रियानुभव::ध्वनि
+.A: वाच्::उच्चारण
+.B: Manner of speech: aloud, softly, silence, muttering
+.C: उच्चैः, शनैः, तूष्णीम्, जल्पति
+.D: Non-speech noise → इन्द्रियानुभव::ध्वनि
 
 .--- वाच्::लेखन
-.leaf: वाच्::लेखन
-.definition: Writing, reading, reciting
-.anchors: लिखति, पठति, उच्चारयति
-.not_this: —
+.A: वाच्::लेखन
+.B: Writing, reading, reciting
+.C: लिखति, पठति, उच्चारयति
+.D: —
 
 .--- व्यवहार
-.leaf: व्यवहार
-.definition: Social interaction between people
+.A: व्यवहार
+.B: Social interaction between people
 
 .--- व्यवहार::अनुमति
-.leaf: व्यवहार::अनुमति
-.definition: Agreeing, permitting, consenting
-.anchors: अनुजानाति, अभ्युपैति, अभ्युपगच्छति, अनुमन्यते
-.not_this: Holding an opinion → बुद्धि::मत
+.A: व्यवहार::अनुमति
+.B: Agreeing, permitting, consenting
+.C: अनुजानाति, अभ्युपैति, अभ्युपगच्छति, अनुमन्यते
+.D: Holding an opinion → बुद्धि::मत
 
 .--- व्यवहार::निषेध
-.leaf: व्यवहार::निषेध
-.definition: Refusing, forbidding, rejecting
-.anchors: प्रत्याचष्टे, निषेधति, वारयति
-.not_this: —
+.A: व्यवहार::निषेध
+.B: Refusing, forbidding, rejecting
+.C: प्रत्याचष्टे, निषेधति, वारयति
+.D: —
 
 .--- व्यवहार::साहाय्य
-.leaf: व्यवहार::साहाय्य
-.definition: Helping, supporting, protecting, rescuing
-.anchors: अनुगृह्णाति, रक्षति, त्रायते
-.not_this: Guarding property → स्वत्व::सञ्चय
+.A: व्यवहार::साहाय्य
+.B: Helping, supporting, protecting, rescuing
+.C: अनुगृह्णाति, रक्षति, त्रायते
+.D: Guarding property → स्वत्व::सञ्चय
 
 .--- व्यवहार::विरोध
-.leaf: व्यवहार::विरोध
-.definition: Opposing, obstructing, quarrelling
-.anchors: विरुध्यते, बाधते, कलहायते
-.not_this: Verbal dispute → वाच्::विवाद
+.A: व्यवहार::विरोध
+.B: Opposing, obstructing, quarrelling
+.C: विरुध्यते, बाधते, कलहायते
+.D: Verbal dispute → वाच्::विवाद
 
 .--- व्यवहार::हिंसा
-.leaf: व्यवहार::हिंसा
-.definition: Fighting, attacking, harming, killing
-.anchors: युध्यते, प्रहरति, हन्ति, हिनस्ति
-.not_this: Destroying things → परिवर्तन::विनाश
+.A: व्यवहार::हिंसा
+.B: Fighting, attacking, harming, killing
+.C: युध्यते, प्रहरति, हन्ति, हिनस्ति
+.D: Destroying things → परिवर्तन::विनाश
 
 .--- व्यवहार::आदर
-.leaf: व्यवहार::आदर
-.definition: Honouring, respecting, insulting, slighting
-.anchors: सत्करोति, मानयति, अवमन्यते, तिरस्करोति
-.not_this: Praise in words → वाच्::स्तुतिनिन्दा
+.A: व्यवहार::आदर
+.B: Honouring, respecting, insulting, slighting
+.C: सत्करोति, मानयति, अवमन्यते, तिरस्करोति
+.D: Praise in words → वाच्::स्तुतिनिन्दा
 
 .--- व्यवहार::सेवा
-.leaf: व्यवहार::सेवा
-.definition: Serving, obeying, attending upon
-.anchors: सेवते, उपास्ते, अनुवर्तते
-.not_this: —
+.A: व्यवहार::सेवा
+.B: Serving, obeying, attending upon
+.C: सेवते, उपास्ते, अनुवर्तते
+.D: —
 
 .--- व्यवहार::वञ्चना
-.leaf: व्यवहार::वञ्चना
-.definition: Deceiving, cheating, betraying, concealing from
-.anchors: वञ्चयति, प्रतारयति, गूहति
-.not_this: Lying in words → वाच्::अनृत
+.A: व्यवहार::वञ्चना
+.B: Deceiving, cheating, betraying, concealing from
+.C: वञ्चयति, प्रतारयति, गूहति
+.D: Lying in words → वाच्::अनृत
 
 .--- व्यवहार::सङ्ग
-.leaf: व्यवहार::सङ्ग
-.definition: Meeting, joining, friendship, separation from people
-.anchors: सङ्गच्छते, वियुज्यते, सख्य
-.not_this: Physical joining of things → परिवर्तन::संयोग
+.A: व्यवहार::सङ्ग
+.B: Meeting, joining, friendship, separation from people
+.C: सङ्गच्छते, वियुज्यते, सख्य
+.D: Physical joining of things → परिवर्तन::संयोग
 
 .--- व्यवहार::क्षमादण्ड
-.leaf: व्यवहार::क्षमादण्ड
-.definition: Forgiving, punishing, rewarding
-.anchors: क्षमते, दण्डयति, पुरस्करोति
-.not_this: —
+.A: व्यवहार::क्षमादण्ड
+.B: Forgiving, punishing, rewarding
+.C: क्षमते, दण्डयति, पुरस्करोति
+.D: —
 
 .--- व्यवहार::शासन
-.leaf: व्यवहार::शासन
-.definition: Ruling, governing, controlling, depending on
-.anchors: शास्ति, अधितिष्ठति, आयत्त
-.not_this: —
+.A: व्यवहार::शासन
+.B: Ruling, governing, controlling, depending on
+.C: शास्ति, अधितिष्ठति, आयत्त
+.D: —
 
 .--- व्यवहार::आतिथ्य
-.leaf: व्यवहार::आतिथ्य
-.definition: Hospitality, courtesy, making time for someone
-.anchors: स्वागत, आतिथ्य, सुहृदे क्रियते क्षणः
-.not_this: Greeting in words → वाच्::सम्बोधन
+.A: व्यवहार::आतिथ्य
+.B: Hospitality, courtesy, making time for someone
+.C: स्वागत, आतिथ्य, सुहृदे क्रियते क्षणः
+.D: Greeting in words → वाच्::सम्बोधन
 
 .--- कर्मन्
-.leaf: कर्मन्
-.definition: Doing, effort, success and failure
+.A: कर्मन्
+.B: Doing, effort, success and failure
 
 .--- कर्मन्::करण
-.leaf: कर्मन्::करण
-.definition: Doing, performing in general
-.anchors: करोति, विदधाति, अनुतिष्ठति
-.not_this: —
+.A: कर्मन्::करण
+.B: Doing, performing in general
+.C: करोति, विदधाति, अनुतिष्ठति
+.D: —
 
 .--- कर्मन्::निर्माण
-.leaf: कर्मन्::निर्माण
-.definition: Creating, composing, building
-.anchors: रचयति, निर्मिमीते, सृजति
-.not_this: Arising by itself → परिवर्तन::उत्पत्ति
+.A: कर्मन्::निर्माण
+.B: Creating, composing, building
+.C: रचयति, निर्मिमीते, सृजति
+.D: Arising by itself → परिवर्तन::उत्पत्ति
 
 .--- कर्मन्::प्रयत्न
-.leaf: कर्मन्::प्रयत्न
-.definition: Striving, exerting, persevering
-.anchors: यतते, प्रयतते, उद्यच्छति
-.not_this: —
+.A: कर्मन्::प्रयत्न
+.B: Striving, exerting, persevering
+.C: यतते, प्रयतते, उद्यच्छति
+.D: —
 
 .--- कर्मन्::आरम्भ
-.leaf: कर्मन्::आरम्भ
-.definition: Beginning, continuing, finishing, stopping an action
-.anchors: आरभते, प्रक्रमते, समापयति, विरमति
-.not_this: Points/sequence in time → काल
+.A: कर्मन्::आरम्भ
+.B: Beginning, continuing, finishing, stopping an action
+.C: आरभते, प्रक्रमते, समापयति, विरमति
+.D: Points/sequence in time → काल
 
 .--- कर्मन्::सिद्धि
-.leaf: कर्मन्::सिद्धि
-.definition: Succeeding, failing, accomplishing
-.anchors: सिध्यति, साधयति, विफल
-.not_this: Acquiring things → स्वत्व::प्राप्ति
+.A: कर्मन्::सिद्धि
+.B: Succeeding, failing, accomplishing
+.C: सिध्यति, साधयति, विफल
+.D: Acquiring things → स्वत्व::प्राप्ति
 
 .--- कर्मन्::उपाय
-.leaf: कर्मन्::उपाय
-.definition: Means, method, preparation, materials
-.anchors: उपाय, सज्जीकरोति, सम्भार (पाकसम्भार)
-.not_this: —
+.A: कर्मन्::उपाय
+.B: Means, method, preparation, materials
+.C: उपाय, सज्जीकरोति, सम्भार (पाकसम्भार)
+.D: —
 
 .--- कर्मन्::उपयोग
-.leaf: कर्मन्::उपयोग
-.definition: Using, employing, applying
-.anchors: उपयुङ्क्ते, प्रयुङ्क्ते, विनियुङ्क्ते
-.not_this: —
+.A: कर्मन्::उपयोग
+.B: Using, employing, applying
+.C: उपयुङ्क्ते, प्रयुङ्क्ते, विनियुङ्क्ते
+.D: —
 
 .--- कर्मन्::आलस्य
-.leaf: कर्मन्::आलस्य
-.definition: Idleness, delay, procrastination
-.anchors: अलस, विलम्बते, कालं क्षिपति
-.not_this: Inattention → बुद्धि::अवधान
+.A: कर्मन्::आलस्य
+.B: Idleness, delay, procrastination
+.C: अलस, विलम्बते, कालं क्षिपति
+.D: Inattention → बुद्धि::अवधान
 
 .--- कर्मन्::कौशल
-.leaf: कर्मन्::कौशल
-.definition: Skill, expertise, practice
-.anchors: निपुण, कुशल, अभ्यास
-.not_this: Intelligence as trait → गुण::प्रज्ञा
+.A: कर्मन्::कौशल
+.B: Skill, expertise, practice
+.C: निपुण, कुशल, अभ्यास
+.D: Intelligence as trait → गुण::प्रज्ञा
 
 .--- कर्मन्::कार्य
-.leaf: कर्मन्::कार्य
-.definition: Work, labour, task, duty
-.anchors: श्रम, कार्य, कर्तव्य
-.not_this: —
+.A: कर्मन्::कार्य
+.B: Work, labour, task, duty
+.C: श्रम, कार्य, कर्तव्य
+.D: —
 
 .--- परिवर्तन
-.leaf: परिवर्तन
-.definition: Becoming, change, growth, destruction
+.A: परिवर्तन
+.B: Becoming, change, growth, destruction
 
 .--- परिवर्तन::उत्पत्ति
-.leaf: परिवर्तन::उत्पत्ति
-.definition: Arising, originating, being produced
-.anchors: उत्पद्यते, सम्भवति, प्रादुर्भवति
-.not_this: Birth of beings → शरीर::जीवन; deliberate making → कर्मन्::निर्माण
+.A: परिवर्तन::उत्पत्ति
+.B: Arising, originating, being produced
+.C: उत्पद्यते, सम्भवति, प्रादुर्भवति
+.D: Birth of beings → शरीर::जीवन; deliberate making → कर्मन्::निर्माण
 
 .--- परिवर्तन::वृद्धि
-.leaf: परिवर्तन::वृद्धि
-.definition: Growing, increasing, decreasing, waning
-.anchors: वर्धते, एधते, क्षीयते, ह्रसति
-.not_this: —
+.A: परिवर्तन::वृद्धि
+.B: Growing, increasing, decreasing, waning
+.C: वर्धते, एधते, क्षीयते, ह्रसति
+.D: —
 
 .--- परिवर्तन::विनाश
-.leaf: परिवर्तन::विनाश
-.definition: Destroying, perishing, ruin
-.anchors: नश्यति, नाशयति, ध्वंसते, उन्मूलयति
-.not_this: Killing a person → व्यवहार::हिंसा; losing a possession → स्वत्व::त्याग
+.A: परिवर्तन::विनाश
+.B: Destroying, perishing, ruin
+.C: नश्यति, नाशयति, ध्वंसते, उन्मूलयति
+.D: Killing a person → व्यवहार::हिंसा; losing a possession → स्वत्व::त्याग
 
 .--- परिवर्तन::विकार
-.leaf: परिवर्तन::विकार
-.definition: Changing, transforming, becoming other; making into
-.anchors: परिणमति, विक्रियते, शिष्यतां नीतः
-.not_this: —
+.A: परिवर्तन::विकार
+.B: Changing, transforming, becoming other; making into
+.C: परिणमति, विक्रियते, शिष्यतां नीतः
+.D: —
 
 .--- परिवर्तन::संयोग
-.leaf: परिवर्तन::संयोग
-.definition: Joining, mixing, splitting, breaking (things)
-.anchors: संयोजयति, मिश्रयति, भिनत्ति, विभजति
-.not_this: Meeting people → व्यवहार::सङ्ग
+.A: परिवर्तन::संयोग
+.B: Joining, mixing, splitting, breaking (things)
+.C: संयोजयति, मिश्रयति, भिनत्ति, विभजति
+.D: Meeting people → व्यवहार::सङ्ग
 
 .--- परिवर्तन::पूर्ति
-.leaf: परिवर्तन::पूर्ति
-.definition: Filling, emptying
-.anchors: पूरयति, रिक्त
-.not_this: —
+.A: परिवर्तन::पूर्ति
+.B: Filling, emptying
+.C: पूरयति, रिक्त
+.D: —
 
 .--- परिवर्तन::शुद्धि
-.leaf: परिवर्तन::शुद्धि
-.definition: Purifying, cleaning, spoiling, staining
-.anchors: शोधयति, दूषयति, मलिन
-.not_this: —
+.A: परिवर्तन::शुद्धि
+.B: Purifying, cleaning, spoiling, staining
+.C: शोधयति, दूषयति, मलिन
+.D: —
 
 .--- परिवर्तन::पाक
-.leaf: परिवर्तन::पाक
-.definition: Cooking, burning, heating, cooling
-.anchors: पचति, दहति, शीतीभवति
-.not_this: —
+.A: परिवर्तन::पाक
+.B: Cooking, burning, heating, cooling
+.C: पचति, दहति, शीतीभवति
+.D: —
 
 .--- स्वत्व
-.leaf: स्वत्व
-.definition: Possession, giving, taking
+.A: स्वत्व
+.B: Possession, giving, taking
 
 .--- स्वत्व::प्राप्ति
-.leaf: स्वत्व::प्राप्ति
-.definition: Getting, obtaining, gaining
-.anchors: लभते, प्राप्नोति, अधिगच्छति
-.not_this: Accomplishing a goal → कर्मन्::सिद्धि
+.A: स्वत्व::प्राप्ति
+.B: Getting, obtaining, gaining
+.C: लभते, प्राप्नोति, अधिगच्छति
+.D: Accomplishing a goal → कर्मन्::सिद्धि
 
 .--- स्वत्व::दान
-.leaf: स्वत्व::दान
-.definition: Giving, bestowing, offering
-.anchors: ददाति, यच्छति, अर्पयति, वितरति
-.not_this: —
+.A: स्वत्व::दान
+.B: Giving, bestowing, offering
+.C: ददाति, यच्छति, अर्पयति, वितरति
+.D: —
 
 .--- स्वत्व::ग्रहण
-.leaf: स्वत्व::ग्रहण
-.definition: Taking, accepting, receiving
-.anchors: गृह्णाति, आदत्ते, प्रतिगृह्णाति, स्वीकरोति
-.not_this: Agreeing to a proposal → व्यवहार::अनुमति
+.A: स्वत्व::ग्रहण
+.B: Taking, accepting, receiving
+.C: गृह्णाति, आदत्ते, प्रतिगृह्णाति, स्वीकरोति
+.D: Agreeing to a proposal → व्यवहार::अनुमति
 
 .--- स्वत्व::त्याग
-.leaf: स्वत्व::त्याग
-.definition: Losing, abandoning, renouncing
-.anchors: त्यजति, जहाति, उत्सृजति
-.not_this: —
+.A: स्वत्व::त्याग
+.B: Losing, abandoning, renouncing
+.C: त्यजति, जहाति, उत्सृजति
+.D: —
 
 .--- स्वत्व::अपहरण
-.leaf: स्वत्व::अपहरण
-.definition: Stealing, seizing, robbing
-.anchors: हरति, अपहरति, मुष्णाति
-.not_this: —
+.A: स्वत्व::अपहरण
+.B: Stealing, seizing, robbing
+.C: हरति, अपहरति, मुष्णाति
+.D: —
 
 .--- स्वत्व::सञ्चय
-.leaf: स्वत्व::सञ्चय
-.definition: Keeping, storing, saving, hoarding
-.anchors: निदधाति, सञ्चिनोति, निधि
-.not_this: Protecting people → व्यवहार::साहाय्य
+.A: स्वत्व::सञ्चय
+.B: Keeping, storing, saving, hoarding
+.C: निदधाति, सञ्चिनोति, निधि
+.D: Protecting people → व्यवहार::साहाय्य
 
 .--- स्वत्व::विनिमय
-.leaf: स्वत्व::विनिमय
-.definition: Buying, selling, trade, payment, debt
-.anchors: क्रीणाति, विक्रीणीते, ऋण, मूल्य
-.not_this: —
+.A: स्वत्व::विनिमय
+.B: Buying, selling, trade, payment, debt
+.C: क्रीणाति, विक्रीणीते, ऋण, मूल्य
+.D: —
 
 .--- स्वत्व::धन
-.leaf: स्वत्व::धन
-.definition: Wealth, poverty, lack
-.anchors: धनिन्, दरिद्र, निर्धन
-.not_this: —
+.A: स्वत्व::धन
+.B: Wealth, poverty, lack
+.C: धनिन्, दरिद्र, निर्धन
+.D: —
 
 .--- स्वत्व::स्वामित्व
-.leaf: स्वत्व::स्वामित्व
-.definition: Owning, belonging
-.anchors: स्व, स्वामिन्, आत्मीय
-.not_this: —
+.A: स्वत्व::स्वामित्व
+.B: Owning, belonging
+.C: स्व, स्वामिन्, आत्मीय
+.D: —
 
 .--- काल
-.leaf: काल
-.definition: Existence and time
+.A: काल
+.B: Existence and time
 
 .--- काल::सत्ता
-.leaf: काल::सत्ता
-.definition: Being, existing, not existing
-.anchors: अस्ति, विद्यते, वर्तते, अभाव
-.not_this: —
+.A: काल::सत्ता
+.B: Being, existing, not existing
+.C: अस्ति, विद्यते, वर्तते, अभाव
+.D: —
 
 .--- काल::स्थैर्य
-.leaf: काल::स्थैर्य
-.definition: Enduring, lasting, transience
-.anchors: स्थिर, चिरस्थायिन्, अनित्य
-.not_this: Posture → गति::अवस्थान
+.A: काल::स्थैर्य
+.B: Enduring, lasting, transience
+.C: स्थिर, चिरस्थायिन्, अनित्य
+.D: Posture → गति::अवस्थान
 
 .--- काल::कालबिन्दु
-.leaf: काल::कालबिन्दु
-.definition: Points in time: now, then, at once
-.anchors: इदानीम्, तदा, सद्यः, अचिरात्
-.not_this: —
+.A: काल::कालबिन्दु
+.B: Points in time: now, then, at once
+.C: इदानीम्, तदा, सद्यः, अचिरात्
+.D: —
 
 .--- काल::अवधि
-.leaf: काल::अवधि
-.definition: Duration: long, short, until
-.anchors: चिरम्, क्षणम्, यावत्
-.not_this: —
+.A: काल::अवधि
+.B: Duration: long, short, until
+.C: चिरम्, क्षणम्, यावत्
+.D: —
 
 .--- काल::क्रम
-.leaf: काल::क्रम
-.definition: Sequence: before, after, first, finally
-.anchors: पूर्वम्, अनन्तरम्, ततः, अन्ते
-.not_this: Spatial before → गति::स्थान
+.A: काल::क्रम
+.B: Sequence: before, after, first, finally
+.C: पूर्वम्, अनन्तरम्, ततः, अन्ते
+.D: Spatial before → गति::स्थान
 
 .--- काल::आवृत्ति
-.leaf: काल::आवृत्ति
-.definition: Frequency: always, often, again, sometimes
-.anchors: सदा, मुहुः, पुनः, कदाचित्
-.not_this: —
+.A: काल::आवृत्ति
+.B: Frequency: always, often, again, sometimes
+.C: सदा, मुहुः, पुनः, कदाचित्
+.D: —
 
 .--- काल::कालविभाग
-.leaf: काल::कालविभाग
-.definition: Divisions of time (nouns): day, night, seasons, ages
-.anchors: दिवस, ऋतु, युग
-.not_this: —
+.A: काल::कालविभाग
+.B: Divisions of time (nouns): day, night, seasons, ages
+.C: दिवस, ऋतु, युग
+.D: —
 
 .--- काल::घटना
-.leaf: काल::घटना
-.definition: Happening, chance, fate
-.anchors: सम्पद्यते, घटते, दैवात्, अकस्मात्
-.not_this: —
+.A: काल::घटना
+.B: Happening, chance, fate
+.C: सम्पद्यते, घटते, दैवात्, अकस्मात्
+.D: —
 
 .--- काल::सम्भाव्यता
-.leaf: काल::सम्भाव्यता
-.definition: Possibility, certainty, necessity
-.anchors: सम्भवति (possible), अवश्यम्, नूनम्
-.not_this: Arising → परिवर्तन::उत्पत्ति
+.A: काल::सम्भाव्यता
+.B: Possibility, certainty, necessity
+.C: सम्भवति (possible), अवश्यम्, नूनम्
+.D: Arising → परिवर्तन::उत्पत्ति
 
 .--- गुण
-.leaf: गुण
-.definition: Qualities
+.A: गुण
+.B: Qualities
 
 .--- गुण::परिमाण
-.leaf: गुण::परिमाण
-.definition: Size, shape, quantity, number
-.anchors: महत्, अल्प, बहु, विपुल, कतिपय
-.not_this: —
+.A: गुण::परिमाण
+.B: Size, shape, quantity, number
+.C: महत्, अल्प, बहु, विपुल, कतिपय
+.D: —
 
 .--- गुण::वर्ण
-.leaf: गुण::वर्ण
-.definition: Colour
-.anchors: नील, शुक्ल, श्याम
-.not_this: —
+.A: गुण::वर्ण
+.B: Colour
+.C: नील, शुक्ल, श्याम
+.D: —
 
 .--- गुण::रूप
-.leaf: गुण::रूप
-.definition: Beauty, ugliness
-.anchors: सुन्दर, रमणीय, विरूप
-.not_this: —
+.A: गुण::रूप
+.B: Beauty, ugliness
+.C: सुन्दर, रमणीय, विरूप
+.D: —
 
 .--- गुण::स्पर्शगुण
-.leaf: गुण::स्पर्शगुण
-.definition: Felt qualities: hard, soft, heavy, light, hot, cold
-.anchors: कठिन, मृदु, गुरु, लघु
-.not_this: —
+.A: गुण::स्पर्शगुण
+.B: Felt qualities: hard, soft, heavy, light, hot, cold
+.C: कठिन, मृदु, गुरु, लघु
+.D: —
 
 .--- गुण::उत्कर्ष
-.leaf: गुण::उत्कर्ष
-.definition: Excellence, inferiority, comparison
-.anchors: श्रेष्ठ, उत्तम, अधम, अतिशय
-.not_this: —
+.A: गुण::उत्कर्ष
+.B: Excellence, inferiority, comparison
+.C: श्रेष्ठ, उत्तम, अधम, अतिशय
+.D: —
 
 .--- गुण::साम्य
-.leaf: गुण::साम्य
-.definition: Same, similar, different
-.anchors: सदृश, तुल्य, भिन्न, विलक्षण
-.not_this: Simile particles (इव, यथा) → सम्बन्ध::उपमा
+.A: गुण::साम्य
+.B: Same, similar, different
+.C: सदृश, तुल्य, भिन्न, विलक्षण
+.D: Simile particles (इव, यथा) → सम्बन्ध::उपमा
 
 .--- गुण::स्वभाव
-.leaf: गुण::स्वभाव
-.definition: Character of persons: good, wicked, gentle, arrogant
-.anchors: सज्जन, दुर्जन, विनीत, उद्धत
-.not_this: —
+.A: गुण::स्वभाव
+.B: Character of persons: good, wicked, gentle, arrogant
+.C: सज्जन, दुर्जन, विनीत, उद्धत
+.D: —
 
 .--- गुण::प्रज्ञा
-.leaf: गुण::प्रज्ञा
-.definition: Intelligence as a trait: clever, foolish, learned
-.anchors: प्राज्ञ, पण्डित, मूढ
-.not_this: Skill at a task → कर्मन्::कौशल
+.A: गुण::प्रज्ञा
+.B: Intelligence as a trait: clever, foolish, learned
+.C: प्राज्ञ, पण्डित, मूढ
+.D: Skill at a task → कर्मन्::कौशल
 
 .--- गुण::तीव्रता
-.leaf: गुण::तीव्रता
-.definition: Degree: very, slightly, entirely
-.anchors: अतीव, ईषत्, नितान्तम्, सर्वथा
-.not_this: —
+.A: गुण::तीव्रता
+.B: Degree: very, slightly, entirely
+.C: अतीव, ईषत्, नितान्तम्, सर्वथा
+.D: —
 
 .--- गुण::औचित्य
-.leaf: गुण::औचित्य
-.definition: Propriety, fitness, truth
-.anchors: उचित, योग्य, अनुचित, यथार्थ
-.not_this: —
+.A: गुण::औचित्य
+.B: Propriety, fitness, truth
+.C: उचित, योग्य, अनुचित, यथार्थ
+.D: —
 
 .--- सम्बन्ध
-.leaf: सम्बन्ध
-.definition: Logical and discourse relations (particles, connectives)
+.A: सम्बन्ध
+.B: Logical and discourse relations (particles, connectives)
 
 .--- सम्बन्ध::कारण
-.leaf: सम्बन्ध::कारण
-.definition: Cause, reason
-.anchors: हि, यतः, यस्मात्, कारणात्
-.not_this: —
+.A: सम्बन्ध::कारण
+.B: Cause, reason
+.C: हि, यतः, यस्मात्, कारणात्
+.D: —
 
 .--- सम्बन्ध::परिणाम
-.leaf: सम्बन्ध::परिणाम
-.definition: Consequence, therefore
-.anchors: अतः, तस्मात्, ततः (logical)
-.not_this: Temporal "then" → काल::क्रम
+.A: सम्बन्ध::परिणाम
+.B: Consequence, therefore
+.C: अतः, तस्मात्, ततः (logical)
+.D: Temporal "then" → काल::क्रम
 
 .--- सम्बन्ध::प्रतिपक्ष
-.leaf: सम्बन्ध::प्रतिपक्ष
-.definition: Contrast, concession: but, although
-.anchors: तु, किन्तु, अपि तु, यद्यपि
-.not_this: —
+.A: सम्बन्ध::प्रतिपक्ष
+.B: Contrast, concession: but, although
+.C: तु, किन्तु, अपि तु, यद्यपि
+.D: —
 
 .--- सम्बन्ध::समुच्चय
-.leaf: सम्बन्ध::समुच्चय
-.definition: Addition: and, also, moreover
-.anchors: च, अपि, किं च
-.not_this: —
+.A: सम्बन्ध::समुच्चय
+.B: Addition: and, also, moreover
+.C: च, अपि, किं च
+.D: —
 
 .--- सम्बन्ध::सीमा
-.leaf: सम्बन्ध::सीमा
-.definition: Restriction: only, merely, just
-.anchors: एव, मात्र, केवलम्
-.not_this: —
+.A: सम्बन्ध::सीमा
+.B: Restriction: only, merely, just
+.C: एव, मात्र, केवलम्
+.D: —
 
 .--- सम्बन्ध::बलाधान
-.leaf: सम्बन्ध::बलाधान
-.definition: Emphasis, assertion
-.anchors: खलु, नाम, हि (emphatic)
-.not_this: —
+.A: सम्बन्ध::बलाधान
+.B: Emphasis, assertion
+.C: खलु, नाम, हि (emphatic)
+.D: —
 
 .--- सम्बन्ध::आक्षेप
-.leaf: सम्बन्ध::आक्षेप
-.definition: Objection, rhetorical question
-.anchors: ननु, किम्, कथम्
-.not_this: Asking for information → वाच्::प्रश्न
+.A: सम्बन्ध::आक्षेप
+.B: Objection, rhetorical question
+.C: ननु, किम्, कथम्
+.D: Asking for information → वाच्::प्रश्न
 
 .--- सम्बन्ध::उपमा
-.leaf: सम्बन्ध::उपमा
-.definition: Likeness, simile
-.anchors: इव, यथा, वत्
-.not_this: Similarity as a quality → गुण::साम्य
+.A: सम्बन्ध::उपमा
+.B: Likeness, simile
+.C: इव, यथा, वत्
+.D: Similarity as a quality → गुण::साम्य
 
 .--- सम्बन्ध::सङ्केत
-.leaf: सम्बन्ध::सङ्केत
-.definition: Condition: if, in case
-.anchors: यदि, चेत्
-.not_this: —
+.A: सम्बन्ध::सङ्केत
+.B: Condition: if, in case
+.C: यदि, चेत्
+.D: —
 
 .--- सम्बन्ध::नञ्
-.leaf: सम्बन्ध::नञ्
-.definition: Negation, prohibition
-.anchors: न, मा, नो
-.not_this: Forbidding someone → व्यवहार::निषेध
+.A: सम्बन्ध::नञ्
+.B: Negation, prohibition
+.C: न, मा, नो
+.D: Forbidding someone → व्यवहार::निषेध
 
 .--- लोक
-.leaf: लोक
-.definition: The concrete world: nature, beings, places, things, people. Mostly nouns; most varga defaults land here.
+.A: लोक
+.B: The concrete world: nature, beings, places, things, people. Mostly nouns; most varga defaults land here.
 
 .--- लोक::प्रकृति
-.leaf: लोक::प्रकृति
-.definition: Sky, weather, water, earth, mountains
-.not_this: —
+.A: लोक::प्रकृति
+.B: Sky, weather, water, earth, mountains
+.D: —
 
 .--- लोक::वनस्पति
-.leaf: लोक::वनस्पति
-.definition: Plants
-.not_this: —
+.A: लोक::वनस्पति
+.B: Plants
+.D: —
 
 .--- लोक::प्राणिन्
-.leaf: लोक::प्राणिन्
-.definition: Animals, birds, snakes, insects
-.not_this: —
+.A: लोक::प्राणिन्
+.B: Animals, birds, snakes, insects
+.D: —
 
 .--- लोक::निवास
-.leaf: लोक::निवास
-.definition: Cities, villages, houses, buildings
-.not_this: —
+.A: लोक::निवास
+.B: Cities, villages, houses, buildings
+.D: —
 
 .--- लोक::वस्तु
-.leaf: लोक::वस्तु
-.definition: Artefacts: tools, clothing, ornaments, vessels
-.not_this: —
+.A: लोक::वस्तु
+.B: Artefacts: tools, clothing, ornaments, vessels
+.D: —
 
 .--- लोक::अन्न
-.leaf: लोक::अन्न
-.definition: Foods as things
-.anchors: अन्न, ओदन
-.not_this: Eating/drinking → शरीर::आहार
+.A: लोक::अन्न
+.B: Foods as things
+.C: अन्न, ओदन
+.D: Eating/drinking → शरीर::आहार
 
 .--- लोक::जन
-.leaf: लोक::जन
-.definition: Kinship, roles, occupations, groups
-.anchors: पितृ, अमात्य, वणिज्
-.not_this: —
+.A: लोक::जन
+.B: Kinship, roles, occupations, groups
+.C: पितृ, अमात्य, वणिज्
+.D: —
 
 .--- लोक::देवधर्म
-.leaf: लोक::देवधर्म
-.definition: Deities, ritual, religious life, heavens and hells
-.not_this: —
+.A: लोक::देवधर्म
+.B: Deities, ritual, religious life, heavens and hells
+.D: —
 
 .--- कला
-.leaf: कला
-.definition: The arts: music, drama, literature, crafts
+.A: कला
+.B: The arts: music, drama, literature, crafts
 
 .--- कला::सङ्गीत
-.leaf: कला::सङ्गीत
-.definition: Music: notes, instruments, singing, dance
-.anchors: गायति, वादयति, नृत्यति, वीणा, स्वर
-.not_this: Non-musical noise → इन्द्रियानुभव::ध्वनि
+.A: कला::सङ्गीत
+.B: Music: notes, instruments, singing, dance
+.C: गायति, वादयति, नृत्यति, वीणा, स्वर
+.D: Non-musical noise → इन्द्रियानुभव::ध्वनि
 
 .--- कला::नाट्य
-.leaf: कला::नाट्य
-.definition: Drama and its theory: rasa, abhinaya, stage conventions
-.anchors: अभिनय, रस, अनुभाव, नेपथ्य
-.not_this: The emotion itself → भाव
+.A: कला::नाट्य
+.B: Drama and its theory: rasa, abhinaya, stage conventions
+.C: अभिनय, रस, अनुभाव, नेपथ्य
+.D: The emotion itself → भाव
 
 .--- कला::साहित्य
-.leaf: कला::साहित्य
-.definition: Literary composition: verse, metre, chapters, kinds of composition
-.anchors: पद्य, छन्दस्, सर्ग, प्रबन्ध
-.not_this: Narrating in speech → वाच्::वर्णन
+.A: कला::साहित्य
+.B: Literary composition: verse, metre, chapters, kinds of composition
+.C: पद्य, छन्दस्, सर्ग, प्रबन्ध
+.D: Narrating in speech → वाच्::वर्णन
 
 .--- कला::शिल्प
-.leaf: कला::शिल्प
-.definition: Crafts, painting, sculpture
-.anchors: चित्र, आलेख्य, शिल्प, तक्षति
-.not_this: Practical skill in general → कर्मन्::कौशल
+.A: कला::शिल्प
+.B: Crafts, painting, sculpture
+.C: चित्र, आलेख्य, शिल्प, तक्षति
+.D: Practical skill in general → कर्मन्::कौशल
 
 .--- वाच्::भाषा
-.leaf: वाच्::भाषा
-.definition: Language itself: sounds, letters, words, meaning, grammatical terms
-.anchors: अक्षर, वर्ण, पद, वाक्य, अर्थ, धातु
-.not_this: Act of speaking → वाच्::कथन
+.A: वाच्::भाषा
+.B: Language itself: sounds, letters, words, meaning, grammatical terms
+.C: अक्षर, वर्ण, पद, वाक्य, अर्थ, धातु
+.D: Act of speaking → वाच्::कथन
 
 .--- इन्द्रियानुभव::इन्द्रिय
-.leaf: इन्द्रियानुभव::इन्द्रिय
-.definition: Sense organs and sense-objects in general
-.anchors: इन्द्रिय, विषय, रूपरसगन्धादि
-.not_this: A specific sense act → its own leaf (दर्शन, श्रवण …)
+.A: इन्द्रियानुभव::इन्द्रिय
+.B: Sense organs and sense-objects in general
+.C: इन्द्रिय, विषय, रूपरसगन्धादि
+.D: A specific sense act → its own leaf (दर्शन, श्रवण …)
 
 .--- बुद्धि::तत्त्व
-.leaf: बुद्धि::तत्त्व
-.definition: Philosophical categories: self, mind, matter, substance, universal, guṇas
-.anchors: आत्मन्, मनस्, द्रव्य, जाति, महाभूत
-.not_this: Knowing in general → बुद्धि::ज्ञान
+.A: बुद्धि::तत्त्व
+.B: Philosophical categories: self, mind, matter, substance, universal, guṇas
+.C: आत्मन्, मनस्, द्रव्य, जाति, महाभूत
+.D: Knowing in general → बुद्धि::ज्ञान
 
 .--- भाव::हास
-.leaf: भाव::हास
-.definition: Laughter, smiling, mockery
-.anchors: हसति, स्मयते, उपहसति
-.not_this: Joy → भाव::हर्ष
+.A: भाव::हास
+.B: Laughter, smiling, mockery
+.C: हसति, स्मयते, उपहसति
+.D: Joy → भाव::हर्ष
 
 .--- भाव::करुणा
-.leaf: भाव::करुणा
-.definition: Compassion, pity, mercy
-.anchors: दयते, अनुकम्पते, करुणा
-.not_this: Affection → भाव::स्नेह
+.A: भाव::करुणा
+.B: Compassion, pity, mercy
+.C: दयते, अनुकम्पते, करुणा
+.D: Affection → भाव::स्नेह
 
 .--- व्यवहार::क्रीडा
-.leaf: व्यवहार::क्रीडा
-.definition: Play, games, gambling, festivity
-.anchors: क्रीडति, दीव्यति, उत्सव
-.not_this: Amorous dalliance → भाव::स्नेह
+.A: व्यवहार::क्रीडा
+.B: Play, games, gambling, festivity
+.C: क्रीडति, दीव्यति, उत्सव
+.D: Amorous dalliance → भाव::स्नेह
 
 .--- सम्बन्ध::विकल्प
-.leaf: सम्बन्ध::विकल्प
-.definition: Alternative: or, either
-.anchors: वा, उत, आहो, अथवा
-.not_this: —
+.A: सम्बन्ध::विकल्प
+.B: Alternative: or, either
+.C: वा, उत, आहो, अथवा
+.D: —
 
 .--- सम्बन्ध::पूरण
-.leaf: सम्बन्ध::पूरण
-.definition: Expletives, verse-fillers, discourse openers
-.anchors: तु (पादपूरणे), हन्त, खलु (वाक्यालङ्कारे)
-.not_this: Emphasis → सम्बन्ध::बलाधान
+.A: सम्बन्ध::पूरण
+.B: Expletives, verse-fillers, discourse openers
+.C: तु (पादपूरणे), हन्त, खलु (वाक्यालङ्कारे)
+.D: Emphasis → सम्बन्ध::बलाधान
 
 .--- कर्मन्::अन्वेषण
-.leaf: कर्मन्::अन्वेषण
-.definition: Searching, seeking, investigating
-.anchors: अन्विष्यति, मृगयते, गवेषयति, मार्गति
-.not_this: Examining closely → बुद्धि::चिन्तन
+.A: कर्मन्::अन्वेषण
+.B: Searching, seeking, investigating
+.C: अन्विष्यति, मृगयते, गवेषयति, मार्गति
+.D: Examining closely → बुद्धि::चिन्तन
