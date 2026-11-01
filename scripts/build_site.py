@@ -19,7 +19,8 @@ Joins (every table is a plain mapping; nothing is inferred from matching labels)
   concepts       concept_id -> leaf; merged_into -> concept_id (shown under the target)
   artha_map      (source, artha) -> concept_id         source: ak | dp | sc
   ak words       column अर्थः == ak artha; संख्या -> shlokas; sudha_id / ks_id -> commentaries
-  dhatu          dhatu_artha (';'-separated stems) == dp artha
+  dhatu          artha (';'-separated bare stems) == dp artha; dp_artha = the Dhātupāṭha's own (saptamī)
+                 wording, shown only (older layout: dhatu_artha = stems, artha = saptamī)
   upasarga-dhatu artha (';'-separated bare stems) == dp artha
                  (if the tab has no 'artha' column: artha_draft (';'-separated, locative) -> stems,
                  or an optional 'dhatu_artha' column of stems)
@@ -61,7 +62,7 @@ WEB_DIR = Path(__file__).parent / "web"
 SEP = "::"
 UNDECIDED = "अनिर्णीत"
 SOURCES = ("ak", "dp", "sc")
-LIST_SEP = ";"                     # inside dhatu_artha / artha / artha_draft cells
+LIST_SEP = ";"                     # inside artha / dhatu_artha / artha_draft cells
 SAPTAMI_RE = re.compile("(?:े|ौ|ायाम्|्याम्)$")   # a stem should not end like this
 UEX_STATUSES = ("", "auto", "new-artha", "check", "ok", "note")
 
@@ -297,16 +298,22 @@ def build(folder):
 
     # ---- dhatus
     dhatus, dp_stems = [], set()
-    for r in read_rows(find(folder, DHATU)):
+    dh_rows = read_rows(find(folder, DHATU))
+    old_layout = bool(dh_rows) and "dhatu_artha" in dh_rows[0]   # before: dhatu_artha = stems, artha = saptamī
+    stem_col, raw_col = ("dhatu_artha", "artha") if old_layout else ("artha", "dp_artha")
+    for r in dh_rows:
         did = g(r, "src_link")
         if not did:
             continue
-        stems = split_list(g(r, "dhatu_artha"))
+        stems = split_list(g(r, stem_col))
+        for x in stems:
+            if SAPTAMI_RE.search(x):
+                rep.add("dhatu artha values that look saptamī (artha holds bare stems)", f"{g(r, 'dhatu')} ({did}): {x}")
         dp_stems.update(stems)
         dhatus.append({"id": did, "d": g(r, "dhatu"), "au": g(r, "aupadeshika"),
                        "gn": g(r, "gana_name"), "gi": g(r, "gana_index"), "pd": g(r, "pada"),
                        "st": g(r, "settva"), "km": g(r, "karma"), "cm": g(r, "common"),
-                       "raw": g(r, "artha"), "hi": g(r, "artha_hindi"), "nt": g(r, "artha_note"),
+                       "raw": g(r, raw_col), "hi": g(r, "artha_hindi"), "nt": g(r, "artha_note"),
                        "ar": stems})
     dids = {d["id"] for d in dhatus}
 
