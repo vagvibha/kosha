@@ -114,7 +114,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संभू
 .artha_hindi: उत्पन्न होना, हो सकना
-.artha: उत्पत्ति;सम्भाव्यता
+.artha: उत्पत्ति;सम्भाव्यता;सङ्गम;मैथुन;वृद्धि;सम्मान;समावेश;प्राप्ति;जीवन
+.draft_note: UAC: सम्भूय=सङ्गत्य; सम्भवतु=संसृज्यताम्; समभावयत्=समगच्छत् | UAC: सम्भवनं मिथुनीभावः | UAC: सम्भवति=समृध्यति; सम्भावयति=संवर्धयति | UAC: सम्भावितः सम्मानितः सत्कृतः; सम्भावना=गौरवम् | UAC: सम्भवतिराधारादाधेयस्यानतिरेके वर्तते (प्रस्थं सम्भवति स्थाली) | UAC: सम्बभूविम=प्राप्ताः; सम्भवन्ति=प्राप्नुवन्ति | UAC: सम्बभूव=सञ्जिजीव; समभवत्=समजीवत्
 .(notes)prev-artha: उत्पत्तौ;सम्भाव्यतायाम्
 
 .--- 01.0005 प्रबाध्
@@ -157,32 +158,32 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: अतिहर्ष
 .(notes)prev-artha: अतिहर्षे
 
-.--- 01.0049 निसिध्
+.--- 01.0049 निषिध्
 .dhatu: सिध्
 .aupadeshika: षिधँ
 .src_link: 01.0049
 .upasarga: नि
-.combined: निसिध्
+.combined: निषिध्
 .artha_hindi: रोकना
 .artha: निवारण
 .(notes)prev-artha: निवारणे
 
-.--- 01.0050 निसिध्
+.--- 01.0050 निषिध्
 .dhatu: सिध्
 .aupadeshika: षिधूँ
 .src_link: 01.0050
 .upasarga: नि
-.combined: निसिध्
+.combined: निषिध्
 .artha_hindi: निषेध करना, मना करना
 .artha: निषेध
 .(notes)prev-artha: निषेधे
 
-.--- 01.0050 प्रतिसिध्
+.--- 01.0050 प्रतिषिध्
 .dhatu: सिध्
 .aupadeshika: षिधूँ
 .src_link: 01.0050
 .upasarga: प्रति
-.combined: प्रतिसिध्
+.combined: प्रतिषिध्
 .artha_hindi: निषेध करना, मना करना
 .artha: निषेध
 .(notes)prev-artha: निषेधे
@@ -196,6 +197,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: प्रसिद्ध होना, कीर्तिमान होना
 .artha: प्रसिद्धि
 .(notes)prev-artha: प्रसिद्धौ
+
+.--- 04.0089 प्रसिध्
+.dhatu: सिध्
+.aupadeshika: षिधुँ
+.src_link: 04.0089
+.upasarga: प्र
+.combined: प्रसिध्
+.draft_note: UAC: षिधु-संराद्धौ — added S3: UAC's root differs from row प्रसिध्|01.0050
 
 .--- 01.0051 संखाद्
 .dhatu: खाद्
@@ -217,12 +226,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: कथन;घोषणा;आह्वान;सूचन
 .(notes)prev-artha: कथने;घोषणायाम्;आह्वाने;सूचने
 
-.--- 01.0056 प्रनद्
+.--- 01.0056 प्रणद्
 .dhatu: नद्
 .aupadeshika: णदँ
 .src_link: 01.0056
 .upasarga: प्र
-.combined: प्रनद्
+.combined: प्रणद्
 .artha_hindi: घण्टा या पशु के समान शब्द करना
 .artha: घण्टानाद
 .draft_note: Hindi: bell- or animal-like sound
@@ -409,6 +418,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: आधारदान
 .(notes)prev-artha: आधारदाने
 
+.--- 01.0436 आलम्ब्
+.dhatu: रम्ब्
+.aupadeshika: रबिँ
+.src_link: 01.0436
+.upasarga: आ
+.combined: आलम्ब्
+.draft_note: UAC: अबि रबि लबि शब्दे, लबि अवस्रंसने च — added S3: UAC's root differs from row आलम्ब्|01.0439
+
 .--- 01.0439 अवलम्ब्
 .dhatu: लम्ब्
 .aupadeshika: लबिँ
@@ -477,7 +494,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संक्रम्
 .artha_hindi: घूमना, चक्कर लगाना, सङ्क्रमण करना, राशी में प्रवेश करना,
-.artha: भ्रमण;सङ्क्रमण;राशिप्रवेश
+.artha: भ्रमण;सङ्क्रमण;राशिप्रवेश;सङ्घर्ष;सङ्गम
+.draft_note: UAC: सङ्क्रमते=सङ्घट्टते=विरोधमुपैति=सङ्घर्षति | UAC: सङ्क्रामतम्=सम्बद्धौ भवतम्; सम्=सङ्गच्छेरन्; सङ्क्रान्ताः=सङ्गताः
 .(notes)prev-artha: भ्रमणे;सङ्क्रमणे;राशिप्रवेशे
 
 .--- 01.0595 उन्मील्
@@ -682,6 +700,15 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: सम्प्रेषण
 .(notes)prev-artha: सम्प्रेषणे
 
+.--- 04.0022 संप्रेष्
+.dhatu: इष्
+.aupadeshika: इषँ
+.src_link: 04.0022
+.upasarga: सम्
+.combined: संप्रेष्
+.artha: सम्प्रेषण;आदेश;विसर्जन
+.draft_note: UAC: इष गतौ — added S3: UAC's root differs from row संप्रेष्|01.0706 | UAC: सम्प्रैषीत्=प्राजीत्; सम्प्रेषयामि=नियोजयामि | UAC: सम्प्रेष्यति=प्रेष्यति=आदिशति=आज्ञापयति | UAC: सम्प्रेष्य=विसृज्य; सम्प्रेषितास्थानः=विसृष्टसदाः
+
 .--- 01.0719 समीह्
 .dhatu: ईह्
 .aupadeshika: ईहँ
@@ -709,7 +736,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: समूह्
 .artha_hindi: इकठ्ठा होना, संघटित होना
-.artha: सङ्घात
+.artha: सङ्घात;शोधन
+.draft_note: UAC: समूहन्ति=सम्मृजन्ति; समूहनी=सम्मार्जनी
 .(notes)prev-artha: सङ्घाते
 
 .--- 01.0736 अवगाह्
@@ -761,6 +789,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: चमकना, आनन्दित होना
 .artha: दीप्ति;हर्ष
 .(notes)prev-artha: दीप्तौ;हर्षे
+
+.--- 10.0253 उल्लस्
+.dhatu: लस्
+.aupadeshika: लसँ
+.src_link: 10.0253
+.upasarga: उद्
+.combined: उल्लस्
+.draft_note: UAC: लस शब्दे, शिल्पयोगे च — added S3: UAC's root differs from row उल्लस्|01.0811
 
 .--- 01.0811 विलस्
 .dhatu: लस्
@@ -931,7 +967,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+अभि
 .combined: समभिवृत्
 .artha_hindi: कूद कर जाना, उड़ जाना
-.artha: उत्प्लवन
+.artha: उत्प्लवन;आगमन
+.draft_note: UAC: समभिवर्तते=प्रत्यासीदति; समभिवर्तन्ताम्=समागच्छन्तु
 .(notes)prev-artha: उत्प्लवने
 
 .--- 01.0865 अनुस्यन्द्
@@ -1065,12 +1102,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: शीघ्रगमन
 .(notes)prev-artha: शीघ्रगमने
 
-.--- 01.0979 प्रनिपत्
+.--- 01.0979 प्रणिपत्
 .dhatu: पत्
 .aupadeshika: पतॢँ
 .src_link: 01.0979
 .upasarga: प्र+नि
-.combined: प्रनिपत्
+.combined: प्रणिपत्
 .artha_hindi: साष्टांग नमस्कार करना
 .artha: साष्टाङ्गप्रणाम
 .(notes)prev-artha: साष्टाङ्गप्रणामे
@@ -1093,7 +1130,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संपत्
 .artha_hindi: साथ जाना, मिलना, प्राप्त होना
-.artha: सहगमन;सङ्गम;प्राप्ति
+.artha: सहगमन;सङ्गम;प्राप्ति;आक्रमण;सञ्चरण;सङ्घर्ष;मिश्रण;उत्पतन
+.draft_note: UAC: सम्पतन्तु=रिपून् आपतन्तु=आस्कन्दन्तु; न सम्पतेत्=नास्कन्देत् | UAC: सम्पतन्ति=सञ्चरन्ति; सम्पतद्भिः=सञ्चरद्भिः, गमागमौ कुर्वद्भिः | UAC: सम्पातः=सङ्घर्षः=सङ्घट्टः | UAC: सम्पातयाम=सम्मिश्रणेऽर्थे; सम्पातः=सम्मिश्रीभावः | UAC: सम्पतेत्=उत्पतेत्
 .(notes)prev-artha: सहगमने;सङ्गमे;प्राप्तौ
 
 .--- 01.0979 समापत्
@@ -1103,8 +1141,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समापत्
 .artha_hindi: शुद्ध करना, स्वच्छ करना
-.artha: शोधन
-.draft_note: doubtful
+.artha: शोधन;सङ्गम;आक्रमण;मैथुन;अधःपतन
+.draft_note: doubtful | UAC: समापेतुः=समाजग्मुः; समापततः=सन्निपततः=समागच्छतः | UAC: समापेतुः=अवचस्कन्दुः | UAC: समापेतुः=मिथुनी बभूवुः | UAC: समापतति=अधो याति=अवपतति=निपतति
 .(notes)prev-artha: शोधने
 
 .--- 01.0979 समुत्पत्
@@ -1124,7 +1162,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+नि
 .combined: संनिपत्
 .artha_hindi: आगे या बाहर जाना
-.artha: निर्गम
+.artha: निर्गम;सङ्गम;सङ्घर्ष;मैथुन;अधःपतन;प्राप्ति;सङ्ग्रह
+.draft_note: UAC: संनिपतन्तः=समागच्छन्तः; सन्निपातः=समुदायः, सङ्गमः, संसर्गः, संयोगः, सम्बन्धः | UAC: सन्निपातः=सङ्घर्षः, समागमः सङ्ग्रामः, प्रहारः | UAC: संनिपतेत्=संविशेत्, मिथुनी भवेत्; संनिपातः=व्यवायः | UAC: संन्यपातयत्=अवापातयत्, प्राभ्रंशयत् | UAC: सन्निपाते=युगपत् प्राप्तौ; संनिपतितम्=उपनतम् | UAC: संनिपात्य=एकीकृत्य समानाय्य; संनिपातिताः=समानायिताः
 .(notes)prev-artha: निर्गमे
 
 .--- 01.0986 संक्षर्
@@ -1137,12 +1176,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: प्रवाह
 .(notes)prev-artha: प्रवाहे
 
-.--- 01.0989 आोपविरम्
+.--- 01.0989 ओपविरम्
 .dhatu: रम्
 .aupadeshika: रमुँ
 .src_link: 01.0989
 .upasarga: आ+उप+वि
-.combined: आोपविरम्
+.combined: ओपविरम्
 .artha_hindi: विराम करना, स्थिर रहना, आराम करना
 .artha: विराम;विश्राम
 .(notes)prev-artha: विरामे;विश्रामे
@@ -1164,7 +1203,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समासद्
 .artha_hindi: प्राप्त होना
-.artha: प्राप्ति
+.artha: प्राप्ति;सङ्घर्ष
+.draft_note: UAC: समासाद्य=सङ्घर्षं प्राप्य; समासेदुः=संयेतिरे युयुधिरे
 .(notes)prev-artha: प्राप्तौ
 
 .--- 01.0990 उत्सद्
@@ -1214,7 +1254,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संसद्
 .artha_hindi: इच्छितार्थ की प्राप्ति होना
-.artha: इष्टप्राप्ति
+.artha: इष्टप्राप्ति;विषाद;स्थापन;सङ्गम
+.draft_note: UAC: संसीदति=दीनमनस्को भवति=विषीदति | UAC: संसादयति=सहैव निदधाति, संगताः स्थापयति | UAC: संसादय=संगच्छ
 .(notes)prev-artha: इष्टप्राप्तौ
 
 .--- 01.0992 अनुक्रुश्
@@ -1284,7 +1325,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संबुध्
 .artha_hindi: अच्छी प्रकार से जानना
-.artha: सम्यग्ज्ञान
+.artha: सम्यग्ज्ञान;प्रबोधन
+.draft_note: UAC: सम्बोधयेत्=जागरयेत्; सम्बोधयामः=प्रबोधयामः
 .(notes)prev-artha: सम्यग्ज्ञाने
 
 .--- 01.0995 अतिरुह्
@@ -1414,9 +1456,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.1046
 .upasarga: अनु
 .combined: अनुहृ
-.artha_hindi: अनुसरण करना, अनुगमन करना
-.artha: अनुसरण
-.(notes)prev-artha: अनुसरणे
+.artha_hindi: अनुसरण करना, अनुगमन करना; परम्परागत व्यवहार का सेवन करना
+.artha: अनुसरण;परम्परानुवर्तन
+.(notes)prev-artha: अनुसरणे;परम्परानुवर्तने
 
 .--- 01.1046 अपहृ
 .dhatu: हृ
@@ -1464,9 +1506,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.1046
 .upasarga: अभि+वि+आ
 .combined: अभिव्याहृ
-.artha_hindi: उच्चारण करना
-.artha: उच्चारण
-.(notes)prev-artha: उच्चारणे
+.artha_hindi: उच्चारण करना; योजना करना या रचना, युक्ति निकालना, संयोजन करना
+.artha: उच्चारण;योजना;रचना
+.(notes)prev-artha: उच्चारणे;योजनायाम्;रचनायाम्
 
 .--- 01.1046 अवहृ
 .dhatu: हृ
@@ -1640,7 +1682,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संहृ
 .artha_hindi: मार डालना, संहार करना
-.artha: संहार
+.artha: संहार;सङ्ग्रह
+.draft_note: UAC: संहरेत=गृह्णीयात्; सञ्जहार=सञ्जग्राह; संहृत्य=समाहृत्य, एकीकृत्य; संहारः=समाहारः
 .(notes)prev-artha: संहारे
 
 .--- 01.1046 समाहृ
@@ -1650,18 +1693,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समाहृ
 .artha_hindi: एकत्र करना
-.artha: सङ्ग्रह
+.artha: सङ्ग्रह;अनुष्ठान
+.draft_note: UAC: समाहर्तुम्=आहर्तुम् अनुष्ठातुम्; समाजह्रे=संबभार, वितेने
 .(notes)prev-artha: सङ्ग्रहे
-
-.--- 01.1046 अभिव्याहृ
-.dhatu: हृ
-.aupadeshika: हृञ्
-.src_link: 01.1046
-.upasarga: अभि+वि+आ
-.combined: अभिव्याहृ
-.artha_hindi: योजना करना या रचना, युक्ति निकालना, संयोजन करना
-.artha: योजना;रचना
-.(notes)prev-artha: योजनायाम्;रचनायाम्
 
 .--- 01.1046 समुदाहृ
 .dhatu: हृ
@@ -1692,16 +1726,6 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: शुद्ध करना, लड़ाई करना
 .artha: शोधन;युद्ध
 .(notes)prev-artha: शोधने;युद्धे
-
-.--- 01.1046 अनुहृ
-.dhatu: हृ
-.aupadeshika: हृञ्
-.src_link: 01.1046
-.upasarga: अनु
-.combined: अनुहृ
-.artha_hindi: परम्परागत व्यवहार का सेवन करना
-.artha: परम्परानुवर्तन
-.(notes)prev-artha: परम्परानुवर्तने
 
 .--- 01.1047 उद्धृ
 .dhatu: धृ
@@ -1765,6 +1789,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: अभिनय
 .(notes)prev-artha: अभिनये
 
+.--- 02.0040 अभिनी
+.dhatu: इ
+.aupadeshika: इण्
+.src_link: 02.0040
+.upasarga: अभि
+.combined: अभिनी
+.draft_note: UAC: इण् गतौ — added S3: UAC's root differs from row अभिनी|01.1049
+
 .--- 01.1049 आनी
 .dhatu: नी
 .aupadeshika: णीञ्
@@ -1805,12 +1837,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: दुर्व्यवहार
 .(notes)prev-artha: दुर्व्यवहारे
 
-.--- 01.1049 निर्नी
+.--- 01.1049 निर्णी
 .dhatu: नी
 .aupadeshika: णीञ्
 .src_link: 01.1049
 .upasarga: निर्
-.combined: निर्नी
+.combined: निर्णी
 .artha_hindi: निश्चय करना
 .artha: निर्णय
 .(notes)prev-artha: निर्णये
@@ -1825,12 +1857,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विवाह;अन्वेषण
 .(notes)prev-artha: विवाहे;अन्वेषणे
 
-.--- 01.1049 प्रनी
+.--- 01.1049 प्रणी
 .dhatu: नी
 .aupadeshika: णीञ्
 .src_link: 01.1049
 .upasarga: प्र
-.combined: प्रनी
+.combined: प्रणी
 .artha_hindi: शिक्षा करना, प्रीती करना
 .artha: शिक्षण;प्रीति
 .draft_note: doubtful; प्रणयति = lead forward, compose
@@ -1873,7 +1905,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संनी
 .artha_hindi: एकत्र करना, बटोरना
-.artha: सङ्ग्रह
+.artha: सङ्ग्रह;प्रापण;संयोजन;मिश्रण;शोधन
+.draft_note: UAC: सन्नयतम्=मत्समीपं प्रापयतम्; श्रेयः समनैष्ट=कल्याणं प्रापयत | UAC: सन्नय=सङ्गमय; सन्नेषि=संयुङ्ग्धि; संनयति=संयोजयति | UAC: सन्नयेत्=मिश्रयेत्, सम्मिश्रयेत्; सन्नीय=सम्मिश्र्य | UAC: ऋणं सन्नयति=ऋणं शोधयति (सम्प्रदानेन गमयति)
 .(notes)prev-artha: सङ्ग्रहे
 
 .--- 01.1049 समनुनी
@@ -1893,7 +1926,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समानी
 .artha_hindi: एकत्र करना, बटोरना
-.artha: सङ्ग्रह
+.artha: सङ्ग्रह;संयोजन;मिश्रण
+.draft_note: UAC: समानयस्व=मेलय, संयोजय; समानेष्यति=संयोक्ष्यति, संगमयिष्यति | UAC: समानीय=संमिश्र्य
 .(notes)prev-artha: सङ्ग्रहे
 
 .--- 01.1056 निध्यै
@@ -1922,9 +1956,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.1065
 .upasarga: प्र
 .combined: प्रगै
-.artha_hindi: जोर से गाना, जोर से कहना
-.artha: उच्चैर्गान
-.(notes)prev-artha: उच्चैर्गाने
+.artha_hindi: जोर से गाना, जोर से कहना; प्रशंसा करना, स्तुती करना, जोर से गाना
+.artha: उच्चैर्गान;प्रशंसा
+.(notes)prev-artha: उच्चैर्गाने;प्रशंसायाम्
 
 .--- 01.1065 विगै
 .dhatu: गै
@@ -1946,16 +1980,6 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: निन्दन
 .(notes)prev-artha: निन्दने
 
-.--- 01.1065 प्रगै
-.dhatu: गै
-.aupadeshika: गै
-.src_link: 01.1065
-.upasarga: प्र
-.combined: प्रगै
-.artha_hindi: प्रशंसा करना, स्तुती करना, जोर से गाना
-.artha: प्रशंसा;उच्चैर्गान
-.(notes)prev-artha: प्रशंसायाम्;उच्चैर्गाने
-
 .--- 01.1074 संपा
 .dhatu: पा
 .aupadeshika: पा
@@ -1976,12 +2000,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: सम्पूर्णपान
 .(notes)prev-artha: सम्पूर्णपाने
 
-.--- 01.1077 अधिस्था
+.--- 01.1077 अधिष्ठा
 .dhatu: स्था
 .aupadeshika: ष्ठा
 .src_link: 01.1077
 .upasarga: अधि
-.combined: अधिस्था
+.combined: अधिष्ठा
 .artha_hindi: पदारूढ़ होना, अधिकाररूढ़ होना, ऊपर रहना, ऊपर बैठना
 .artha: अधिकार;उपरिस्थिति
 .(notes)prev-artha: अधिकारे;उपरिस्थितौ
@@ -2037,12 +2061,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: उपस्थान;लिप्सा
 .(notes)prev-artha: उपस्थाने;लिप्सायाम्
 
-.--- 01.1077 निस्था
+.--- 01.1077 निष्ठा
 .dhatu: स्था
 .aupadeshika: ष्ठा
 .src_link: 01.1077
 .upasarga: नि
-.combined: निस्था
+.combined: निष्ठा
 .artha_hindi: रखना, स्थपित करना
 .artha: स्थापन
 .(notes)prev-artha: स्थापने
@@ -2078,23 +2102,23 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .combined_flag: check
 .(notes)prev-artha: उत्थाने
 
-.--- 01.1077 प्रतिस्था
+.--- 01.1077 प्रतिष्ठा
 .dhatu: स्था
 .aupadeshika: ष्ठा
 .src_link: 01.1077
 .upasarga: प्रति
-.combined: प्रतिस्था
+.combined: प्रतिष्ठा
 .artha_hindi: देव के समान हाथ जोड़कर खड़ा रहना, परमेश्वरार्पित होना
 .artha: प्रतिष्ठा
 .draft_note: Hindi: stand with folded hands as before a deity
 .(notes)prev-artha: प्रतिष्ठायाम्
 
-.--- 01.1077 विस्था
+.--- 01.1077 विष्ठा
 .dhatu: स्था
 .aupadeshika: ष्ठा
 .src_link: 01.1077
 .upasarga: वि
-.combined: विस्था
+.combined: विष्ठा
 .artha_hindi: अलग खड़ा होना, दूर खड़ा रहना, बात जोहना
 .artha: पृथक्स्थिति;प्रतीक्षा
 .(notes)prev-artha: पृथक्स्थितौ;प्रतीक्षायाम्
@@ -2117,7 +2141,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संस्था
 .artha_hindi: करना, आचरण करना, वर्तना
-.artha: आचरण
+.artha: आचरण;समापन;अवस्थान;स्थापन;मरण;सान्त्वन;आकृति
+.draft_note: UAC: सन्तिष्ठते=समाप्तिमेति; संस्थापयाम=समाप्तं करवाम; संस्था=समाप्तिः, निष्ठा | UAC: सन्तिष्ठस्व=तिष्ठ; सन्तिष्ठते=अवतिष्ठते; संस्थानं=स्थितम् | UAC: संस्थापनं=प्रतिष्ठापनम्; संस्थापयेत्=अचलान्कुर्यात् | UAC: संस्थितिः=मृत्युः; संस्था=मृतिः; संस्थाप्य=हत्वा | UAC: संस्थापनाः=सान्त्वनाः | UAC: संस्थानं=अवयवसन्निवेशः; स्त्रीसंस्थानं=स्त्र्याकृतिः; संस्था=रूपम्
 .(notes)prev-artha: आचरणे
 
 .--- 01.1077 संप्रस्था
@@ -2127,7 +2152,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+प्र
 .combined: संप्रस्था
 .artha_hindi: प्रवास करना, परदेस जाना, आगे जाना
-.artha: प्रवास
+.artha: प्रवास;चलन
+.draft_note: UAC: सम्प्रस्थितम्=चलितम्=क्षुभितम्; सम्प्रस्थितं=चलम्
 .(notes)prev-artha: प्रवासे
 
 .--- 01.1079 आदा
@@ -2178,7 +2204,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समादा
 .artha_hindi: पसन्द करके लेना
-.artha: वरणपूर्वकग्रहण
+.artha: वरणपूर्वकग्रहण;ग्रहण
+.draft_note: UAC: समादत्ते=गृह्णाति=अधिकुरुते=प्रसहते; समादाय=उद्धृत्य
 .(notes)prev-artha: वरणपूर्वकग्रहणे
 
 .--- 01.1081 संस्वृ
@@ -2291,6 +2318,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: प्रसव;गर्भधारण
 .(notes)prev-artha: प्रसवे;गर्भधारणे
 
+.--- 05.0001 प्रसु
+.dhatu: सु
+.aupadeshika: षुञ्
+.src_link: 05.0001
+.upasarga: प्र
+.combined: प्रसु
+.draft_note: UAC: षुञ्-अभिषवे, अभिषवः स्नपनं पीडनं स्नानं सुरासन्धानं च — added S3: UAC's root differs from row प्रसु|01.1091
+
 .--- 01.1092 प्रतिश्रु
 .dhatu: श्रु
 .aupadeshika: श्रु
@@ -2341,6 +2376,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विजय
 .(notes)prev-artha: विजये
 
+.--- 01.0642 विजि
+.dhatu: जि
+.aupadeshika: जि
+.src_link: 01.0642
+.upasarga: वि
+.combined: विजि
+.draft_note: UAC: जि जये, जि अभिभवे — added S3: UAC's root differs from row विजि|01.1096
+
 .--- 01.1096 पराजि
 .dhatu: जि
 .aupadeshika: जि
@@ -2350,6 +2393,15 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: पराजय करना, तंग आ जाना, मन उड जाना, सहन न होना
 .artha: पराजय;असहन
 .(notes)prev-artha: पराजये;असहने
+
+.--- 01.0642 पराजि
+.dhatu: जि
+.aupadeshika: जि
+.src_link: 01.0642
+.upasarga: परा
+.combined: पराजि
+.artha: पराजय
+.draft_note: UAC: जि जये अभिभवे च — added S3: UAC's root differs from row पराजि|01.1096 | UAC: पराजयं न लभते; पराजितः=हारितः; पराजिताम्=अभिभूताम् (DP: जि जये अभिभवे च)
 
 .--- 01.1123 अवडी
 .dhatu: डी
@@ -2643,7 +2695,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समागम्
 .artha_hindi: मिलना, एकत्र होना
-.artha: समागम
+.artha: समागम;मैथुन;सङ्घर्ष;प्राप्ति;संयोजन
+.draft_note: UAC: समागच्छ=संविश, संभव; समागम्य=संभूय=मिथुनीभूय | UAC: समाजग्मुः=युयुत्सयाऽभिमुखाः संगताः; समागमः=संग्रामः; समागतः=युयुधे | UAC: समागच्छेम=विन्देमहि, लभेमहि | UAC: समागमय=संगमं कारय
 .(notes)prev-artha: समागमे
 
 .--- 01.1137 समुपगम्
@@ -2673,7 +2726,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संगम्
 .artha_hindi: साथ जाना, मिलना, एकत्र होना, जाना
-.artha: सहगमन;सङ्गम
+.artha: सहगमन;सङ्गम;मैथुन;सङ्घर्ष
+.draft_note: UAC: सङ्गच्छते=मिथुनी भवति=संविशति; सङ्गम्य=सम्भूय=मिथुनीभूय | UAC: सङ्गच्छस्व=सङ्ग्रामयस्व; सङ्गमः=सङ्ग्रामः, सङ्घट्टः; सङ्गताः=युयुत्सयाऽभिमुखं गताः
 .(notes)prev-artha: सहगमने;सङ्गमे
 
 .--- 01.1138 अपसृप्
@@ -2733,8 +2787,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संयम्
 .artha_hindi: एकत्र करना, मेल करना
-.artha: सङ्ग्रह;सम्मेलन
-.draft_note: Hindi; संयमति usually = restrain
+.artha: सङ्ग्रह;सम्मेलन;संयमन;बन्धन;संहार
+.draft_note: Hindi; संयमति usually = restrain | UAC: संयताः=सङ्कुचिताः; संयच्छताम्=विधारयताम्; संयमः=नियमनम् | UAC: संयम्य=बद्ध्वा, परिवार्य, उपरुध्य | UAC: संयमः=प्रलयः, जगन्निरोधः
 .(notes)prev-artha: सङ्ग्रहे;सम्मेलने
 
 .--- 01.1139 उपयम्
@@ -2845,7 +2899,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संकृष्
 .artha_hindi: आकुंचित करना, समेटना
-.artha: सङ्कोचन
+.artha: सङ्कोचन;सङ्ग्रह
+.draft_note: UAC: सञ्चकर्ष=साकं कृष्टवान्; समकर्षत=सहानयत्
 .(notes)prev-artha: सङ्कोचने
 
 .--- 01.1145 संनिकृष्
@@ -3133,6 +3188,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: source gloss garbled ('अध्ययन काटना, उप')
 .(notes)prev-artha: अभ्यासे
 
+.--- 04.0106 अभ्यास्
+.dhatu: अस्
+.aupadeshika: असुँ
+.src_link: 04.0106
+.upasarga: अभि
+.combined: अभ्यास्
+.draft_note: UAC: असु क्षेपे — added S3: UAC's root differs from row अभ्यास्|02.0011
+
 .--- 02.0011 निरास्
 .dhatu: आस्
 .aupadeshika: आसँ
@@ -3213,6 +3276,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: ज्ञान
 .(notes)prev-artha: ज्ञाने
 
+.--- 04.0038 अवे
+.dhatu: ई
+.aupadeshika: ईङ्
+.src_link: 04.0038
+.upasarga: अव
+.combined: अवे
+.draft_note: UAC: ईङ् गतौ — added S3: UAC's root differs from row अवे|02.0040
+
 .--- 02.0040 उदि
 .dhatu: इ
 .aupadeshika: इण्
@@ -3260,7 +3331,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: परा
 .combined: परे
 .artha_hindi: पीछे लौटना
-.artha: प्रत्यागमन
+.artha: प्रत्यागमन;अपसरण;प्राप्ति;मरण
+.draft_note: UAC: परायन्ति=अपगच्छन्ति=अपसरन्ति; परैतु=अपयातु; परायणम्=पराङ्मुखगमनम्, दूरगमनम् | UAC: परैति=प्राप्नोति=आसादयति; परेत्य=प्राप्य=उपगम्य | UAC: परेयुः=परेताः स्युः, म्रियेरन्; परेतकल्पाः=मृतप्रायाः
 .(notes)prev-artha: प्रत्यागमने
 
 .--- 02.0040 समि
@@ -3270,7 +3342,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: समि
 .artha_hindi: संगत होना, मिलना
-.artha: सङ्गम
+.artha: सङ्गम;मैथुन;सङ्घर्ष;प्राप्ति
+.draft_note: UAC: समेष्ये=मिथुनीभविष्यामि; समियात्=मैथुन्यमाचरेत् | UAC: समीयतुः=सङ्ग्रामयाञ्चक्राते, युयुधाते (समित्=युद्) | UAC: समगात्=प्रापत्; समेति=प्राप्तो भवति
 .(notes)prev-artha: सङ्गमे
 
 .--- 02.0040 समुपे
@@ -3293,6 +3366,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: व्यय;विध्वंस
 .(notes)prev-artha: व्यये;विध्वंसे
 
+.--- 04.0038 वी
+.dhatu: ई
+.aupadeshika: ईङ्
+.src_link: 04.0038
+.upasarga: वि
+.combined: वी
+.draft_note: UAC: ईङ् गतौ — added S3: UAC's root differs from row वी|02.0040
+
 .--- 02.0040 प्रती
 .dhatu: इ
 .aupadeshika: इण्
@@ -3302,6 +3383,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: स्पष्ट होना, विश्वास रखना
 .artha: स्पष्टता;विश्वास
 .(notes)prev-artha: स्पष्टतायाम्;विश्वासे
+
+.--- 04.0038 प्रती
+.dhatu: ई
+.aupadeshika: ईङ्
+.src_link: 04.0038
+.upasarga: प्रति
+.combined: प्रती
+.draft_note: UAC: ईङ् गतौ — added S3: UAC's root differs from row प्रती|02.0040
 
 .--- 02.0044 अनुया
 .dhatu: या
@@ -3503,7 +3592,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संख्या
 .artha_hindi: गिनना
-.artha: गणन
+.artha: गणन;विचार
+.draft_note: UAC: सङ्ख्यातुम्=विमर्ष्टुम्; सङ्ख्यानम्=परीक्षा (गुणदोषतः परीक्षते)
 .(notes)prev-artha: गणने
 
 .--- 02.0055 समाख्या
@@ -3513,7 +3603,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समाख्या
 .artha_hindi: संज्ञा देना, नाम रखना
-.artha: नामकरण
+.artha: नामकरण;कथन
+.draft_note: UAC: समाख्यातम्=प्रोक्तम्; समाख्याय=आख्याय=उक्त्वा
 .(notes)prev-artha: नामकरणे
 
 .--- 02.0057 अनुमा
@@ -3573,7 +3664,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संमा
 .artha_hindi: समान बनाना, आदर करना, तुलना करना
-.artha: समीकरण;सम्मान;तुलना
+.artha: समीकरण;सम्मान;तुलना;समावेश
+.draft_note: UAC: न सम्माति=अवकाशं न लभते; संमातु=समाविशतु
 .(notes)prev-artha: समीकरणे;सम्माने;तुलनायाम्
 
 .--- 02.0061 अपमृज्
@@ -3667,6 +3759,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: उपमान
 .draft_note: doubtful: अप+मा, gloss 'उपमा देना'
 .(notes)prev-artha: उपमाने
+
+.--- 04.0037 अपमा
+.dhatu: मा
+.aupadeshika: माङ्
+.src_link: 04.0037
+.upasarga: अप
+.combined: अपमा
+.draft_note: UAC: माङ्-माने — added S3: UAC's root differs from row अपमा|03.0007
 
 .--- 03.0007 अनुमा
 .dhatu: मा
@@ -3765,9 +3865,10 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 03.0011
 .upasarga: सम्
 .combined: संधा
-.artha_hindi: सावधान रहना, ध्यान देना
-.artha: अवधान
-.(notes)prev-artha: अवधाने
+.artha_hindi: सावधान रहना, ध्यान देना; स्थापन करना, रखना, निशाना लगाना
+.artha: अवधान;स्थापन;लक्ष्यसन्धान;संयोजन;सन्धि
+.draft_note: UAC: सन्दधाति=संहितं करोति, पुनर्योजयति; सन्दध्यात्=संयोजयेत्, सम्पृञ्च्यात्; संहितम्=सम्बद्धम् | UAC: सन्दधते=सन्धिबन्धं बध्नन्ति; सन्धत्स्व=अनुकूलय; समदधाताम्=सन्धिमकुरुताम्
+.(notes)prev-artha: अवधाने;स्थापने;लक्ष्यसन्धाने
 
 .--- 03.0011 अवधा
 .dhatu: धा
@@ -3829,12 +3930,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: प्राधान्य;प्रेरण
 .(notes)prev-artha: प्राधान्ये;प्रेरणे
 
-.--- 03.0011 प्रनिधा
+.--- 03.0011 प्रणिधा
 .dhatu: धा
 .aupadeshika: डुधाञ्
 .src_link: 03.0011
 .upasarga: प्र+नि
-.combined: प्रनिधा
+.combined: प्रणिधा
 .artha_hindi: धारण करना, स्वीकार करना, गुप्त रखना
 .artha: धारण;स्वीकार;गोपन
 .(notes)prev-artha: धारणे;स्वीकारे;गोपने
@@ -3870,16 +3971,6 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: Hindi 'छिपाना'
 .(notes)prev-artha: व्यवधाने
 
-.--- 03.0011 संधा
-.dhatu: धा
-.aupadeshika: डुधाञ्
-.src_link: 03.0011
-.upasarga: सम्
-.combined: संधा
-.artha_hindi: स्थापन करना, रखना, निशाना लगाना
-.artha: स्थापन;लक्ष्यसन्धान
-.(notes)prev-artha: स्थापने;लक्ष्यसन्धाने
-
 .--- 03.0011 संप्रधा
 .dhatu: धा
 .aupadeshika: डुधाञ्
@@ -3907,7 +3998,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समाधा
 .artha_hindi: समाधान करना, सिखाना
-.artha: समाधान;शिक्षण
+.artha: समाधान;शिक्षण;स्थापन;अवधान;सङ्ग्रह;सान्त्वन;उत्पत्ति
+.draft_note: UAC: समाधत्ते=निक्षिपते, न्यस्यति; समादधुः=प्रतिष्ठापितवन्तः; समाहितम्=आरोपितम्, निहितम् | UAC: समाधाय मतिम्=मन ऐकाग्र्यं सम्पाद्य; समाहितात्मा=युक्तमनाः; समाधिः=चित्तस्थैर्यम् | UAC: समाहिताः=एकीकृताः; समाधाय=समाहृत्य; समाहिता लक्ष्मीः=संचिता | UAC: समाधाय=समाश्वास्य, सान्त्वयित्वा | UAC: समाधत्ते=जनयति; भयं समादधत्
 .(notes)prev-artha: समाधाने;शिक्षणे
 
 .--- 03.0011 संनिधा
@@ -3917,7 +4009,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+नि
 .combined: संनिधा
 .artha_hindi: समीप रखना, समीप आना
-.artha: सन्निधान
+.artha: सन्निधान;स्थापन;सङ्ग्रह
+.draft_note: UAC: सन्निधत्ते=आसञ्जयति; सन्निदध्यात्=निक्षिपेत् | UAC: सन्निधाय=संगृह्य=समाहृत्य; संनिधत्ते=संगृह्णाति संचिनोति; संनिधाता=संग्रहीता
 .(notes)prev-artha: सन्निधाने
 
 .--- 04.0010 परिनृत्
@@ -4030,16 +4123,6 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: निष्कासन
 .(notes)prev-artha: निष्कासने
 
-.--- 04.0058 निष्काश्
-.dhatu: काश्
-.aupadeshika: काशृँ
-.src_link: 04.0058
-.upasarga: निस्
-.combined: निष्काश्
-.artha_hindi: निकाल देना
-.artha: निष्कासन
-.(notes)prev-artha: निष्कासने
-
 .--- 04.0065 अनुपद्
 .dhatu: पद्
 .aupadeshika: पदँ
@@ -4097,7 +4180,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संपद्
 .artha_hindi: वृद्धि को प्राप्त होना
-.artha: वृद्धि
+.artha: वृद्धि;प्राप्ति;परिणाम;उत्पत्ति;सिद्धि;सङ्गम;शोभा;ऐकमत्य;संयोजन
+.draft_note: UAC: सम्पद्यते=आप्नोति; समपद्यत=प्राप्ता; सम्पद्येत=लभ्येत; सम्पत्तिः=प्राप्तिः | UAC: सम्पदिः परिणामार्थकः (वनरूपेण परिणमताम्); षट् समपद्यन्त | UAC: समपद्यत=अजायत, अभवत् | UAC: सम्पद्यताम्=सिध्यतु; सम्पत्स्यते=सेत्स्यति, फलिष्यति; सम्पादयेत्=पूरयेत्, समग्रं कुर्यात् | UAC: सम्पद्येते=एकीभवतः; सम्पद्यते=समाविशति, संयुज्यते; सम्पत्स्यसे=सङ्गंस्यसे | UAC: समपद्यत=अशोभत; सम्पादयति=शोभयति | UAC: न समपादयन्=एकमतयो नाभूवन्; न सम्पादयाञ्चक्रुः=निश्चयमधिगन्तुं न शेकुः | UAC: सम्पादय=संयोजय; रथेन सम्पादयामास=रथवन्तमकरोत्
 .(notes)prev-artha: वृद्धौ
 
 .--- 04.0065 उत्पद्
@@ -4177,7 +4261,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संमन्
 .artha_hindi: अनुमोदन करना, कबूल करना
-.artha: अनुमोदन;स्वीकार
+.artha: अनुमोदन;स्वीकार;सम्मान
+.draft_note: UAC: सम्मन्यसे=मानयसि=सम्भावयसि; सम्मन्तुम्=सम्मानयितुम्
 .(notes)prev-artha: अनुमोदने;स्वीकारे
 
 .--- 04.0073 अभिमन्
@@ -4280,6 +4365,15 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: प्रलोभन;आकर्षण
 .(notes)prev-artha: प्रलोभने;आकर्षणे
 
+.--- 06.0025 संलुभ्
+.dhatu: लुभ्
+.aupadeshika: लुभँ
+.src_link: 06.0025
+.upasarga: सम्
+.combined: संलुभ्
+.artha: विमोहन
+.draft_note: UAC: लुभ-विमोहने, विमोहनमाकुलीकरणम् — added S3: UAC's root differs from row संलुभ्|04.0153 | UAC: संलोभयितुम्=आकुलीकर्तुम्; संलुब्धे=आकुले व्यामिश्रे (DP: लुभ विमोहने, विमोहनमाकुलीकरणम्)
+
 .--- 05.0005 अपचि
 .dhatu: चि
 .aupadeshika: चिञ्
@@ -4296,9 +4390,9 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 05.0005
 .upasarga: सम्
 .combined: संचि
-.artha_hindi: संचय करना
-.artha: सञ्चय
-.(notes)prev-artha: सञ्चये
+.artha_hindi: संचय करना; पाना, प्राप्त करना
+.artha: सञ्चय;प्राप्ति
+.(notes)prev-artha: सञ्चये;प्राप्तौ
 
 .--- 05.0005 उपचि
 .dhatu: चि
@@ -4306,16 +4400,6 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 05.0005
 .upasarga: उप
 .combined: उपचि
-.artha_hindi: पाना, प्राप्त करना
-.artha: प्राप्ति
-.(notes)prev-artha: प्राप्तौ
-
-.--- 05.0005 संचि
-.dhatu: चि
-.aupadeshika: चिञ्
-.src_link: 05.0005
-.upasarga: सम्
-.combined: संचि
 .artha_hindi: पाना, प्राप्त करना
 .artha: प्राप्ति
 .(notes)prev-artha: प्राप्तौ
@@ -4357,7 +4441,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संवृ
 .artha_hindi: छिपाना
-.artha: गोपन
+.artha: गोपन;निवारण;संवेष्टन
+.draft_note: UAC: संवरिषीष्ठाः=उपरुध्याः; संवृत्य=निवार्य; संवारो विघ्नः | UAC: संवृतः=परिवृतः=परिवेष्टितः
 .(notes)prev-artha: गोपने
 
 .--- 05.0008 समावृ
@@ -4389,6 +4474,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: पूरा करना, समाप्त करना
 .artha: समापन
 .(notes)prev-artha: समापने
+
+.--- 09.0045 निवृ
+.dhatu: वृ
+.aupadeshika: वृङ्
+.src_link: 09.0045
+.upasarga: नि
+.combined: निवृ
+.draft_note: UAC: वृङ् संभक्तौ — added S3: UAC's root differs from row निवृ|05.0008
 
 .--- 05.0008 निर्वृ
 .dhatu: वृ
@@ -4528,7 +4621,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संराध्
 .artha_hindi: सिद्ध करना
-.artha: संसिद्धि
+.artha: संसिद्धि;ऐकमत्य
+.draft_note: UAC: संराधयन्तः=ऐकमत्यं गताः; न समराधयन्=न मतिसंवादमुपायन्
 .(notes)prev-artha: संसिद्धौ
 
 .--- 06.0002 अपनुद्
@@ -4541,12 +4635,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: अपनयन
 .(notes)prev-artha: अपनयने
 
-.--- 06.0002 निर्नुद्
+.--- 06.0002 निर्णुद्
 .dhatu: नुद्
 .aupadeshika: णुदँ
 .src_link: 06.0002
 .upasarga: निर्
-.combined: निर्नुद्
+.combined: निर्णुद्
 .artha_hindi: बाहर फेकना, त्यागना
 .artha: निरसन;त्याग
 .(notes)prev-artha: निरसने;त्यागे
@@ -4568,7 +4662,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संनुद्
 .artha_hindi: हांकना, चलाना
-.artha: प्रेरण;चालन
+.artha: प्रेरण;चालन;संयोजन
+.draft_note: UAC: सन्नुद=बलात्सङ्गमय
 .(notes)prev-artha: प्रेरणे;चालने
 
 .--- 06.0003 आदिश्
@@ -4649,8 +4744,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समादिश्
 .artha_hindi: मान्य करना
-.artha: स्वीकार
-.draft_note: doubtful; समादिशति = command
+.artha: स्वीकार;आदेश
+.draft_note: doubtful; समादिशति = command | UAC: समादेशः=सन्देशः
 .(notes)prev-artha: स्वीकारे
 
 .--- 06.0003 समुपदिश्
@@ -4760,7 +4855,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समाक्षिप्
 .artha_hindi: भेजना
-.artha: प्रेषण
+.artha: प्रेषण;अपहरण;पातन
+.draft_note: UAC: समाक्षिपत्=आक्षिप्य (हृत्वा), अपाहरत्; समाक्षिपन्=संहरन् | UAC: समाक्षिपत्=अवारोपयत्; समाक्षिप्य=अवपात्य
 .(notes)prev-artha: प्रेषणे
 
 .--- 06.0005 संक्षिप्
@@ -4770,7 +4866,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संक्षिप्
 .artha_hindi: संक्षेप करना, नष्ट करना, आकर्षण करना, खींचना
-.artha: सङ्क्षेप;नाशन;आकर्षण
+.artha: सङ्क्षेप;नाशन;आकर्षण;क्षेपण;सङ्ग्रह
+.draft_note: UAC: सङ्क्षिपन्ति=समं क्षिपन्ति, प्रक्षिपन्ति; संक्षिप्तानि=निक्षिप्तानि (UAC often: अस्थाने सम्शब्दः) | UAC: संक्षिप्ताः=सङ्ग्रहीताः, राशीकृताः; सङ्क्षिप्य=सङ्गृह्य, संहत्य
 .(notes)prev-artha: सङ्क्षेपे;नाशने;आकर्षणे
 
 .--- 06.0006 अपकृष्
@@ -4844,6 +4941,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: source gloss ends in stray 'प्रति'
 .(notes)prev-artha: अन्वेषणे
 
+.--- 04.0022 अन्विष्
+.dhatu: इष्
+.aupadeshika: इषँ
+.src_link: 04.0022
+.upasarga: अनु
+.combined: अन्विष्
+.draft_note: UAC: इष गतौ — added S3: UAC's root differs from row अन्विष्|06.0078
+
 .--- 06.0092 विलिख्
 .dhatu: लिख्
 .aupadeshika: लिखँ
@@ -4863,6 +4968,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: आकुंचित करना या होना
 .artha: आकुञ्चन
 .(notes)prev-artha: आकुञ्चने
+
+.--- 01.0993 आकुच्
+.dhatu: कुच्
+.aupadeshika: कुचँ
+.src_link: 01.0993
+.upasarga: आ
+.combined: आकुच्
+.draft_note: UAC: कुच सम्पर्चन कौटिल्य प्रतिष्टम्भविलेखनेषु — added S3: UAC's root differs from row आकुच्|06.0095
 
 .--- 06.0095 संकुच्
 .dhatu: कुच्
@@ -4932,7 +5045,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संकॄ
 .artha_hindi: एकत्र करना
-.artha: सङ्ग्रह
+.artha: सङ्ग्रह;दान;मिश्रण
+.draft_note: UAC: सङ्किर=भूरि क्षिप (धनवर्षं वर्ष) | UAC: सङ्कीर्यन्ते=सम्मिश्रिता भवन्ति=व्यतिकीर्यन्ते; न सङ्किरेत्=न मिश्रयेत्; सङ्करः=सङ्कीर्णता
 .(notes)prev-artha: सङ्ग्रहे
 
 .--- 06.0145 अभिकॄ
@@ -5065,7 +5179,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संविश्
 .artha_hindi: आराम करना
-.artha: शयन;विश्राम
+.artha: शयन;विश्राम;प्रवेश;मैथुन
+.draft_note: UAC: संविशन्ति=प्रविशन्ति, समाविशन्ति; संविशन्तु=प्राप्नुवन्तु | UAC: संविशेत् (स्त्रियम्)=गच्छेत्, मिथुनी भवेत्
 .(notes)prev-artha: शयने;विश्रामे
 
 .--- 06.0160 संनिविश्
@@ -5085,7 +5200,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समाविश्
 .artha_hindi: प्रचार में लाना, समाना
-.artha: समावेश;प्रचार
+.artha: समावेश;प्रचार;प्रवेश
+.draft_note: UAC: समाविशत्=प्राविशत् (UAC: नार्थः समाङ्भ्याम्)
 .(notes)prev-artha: समावेशे;प्रचारे
 
 .--- 06.0160 निविश्
@@ -5105,7 +5221,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: परा
 .combined: परामृश्
 .artha_hindi: सलाह देना
-.artha: परामर्श
+.artha: परामर्श;ग्रहण;स्पर्श;दूषण;सङ्घर्ष
+.draft_note: UAC: परामृशत्=अगृह्णात्; परामर्शः=केशेषु ग्रहणम्, बलाद् ग्रहणम्; परामृष्टः=गृहीतः | UAC: परामर्शः=स्पर्शः; अपरामृष्टः=अस्पृष्टः | UAC: परामृशेत्=दूषयेत्; परामृष्टां=दूषिताम् | UAC: परामर्शः=सङ्घर्षः=सङ्घट्टः
 .(notes)prev-artha: परामर्शे
 
 .--- 06.0161 विमृश्
@@ -5159,12 +5276,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: उपगमन;उपवेशन
 .(notes)prev-artha: उपगमने;उपवेशने
 
-.--- 06.0163 निसद्
+.--- 06.0163 निषद्
 .dhatu: सद्
 .aupadeshika: षदॢँ
 .src_link: 06.0163
 .upasarga: नि
-.combined: निसद्
+.combined: निषद्
 .artha_hindi: नीचे बैठना, लेटना
 .artha: उपवेशन;शयन
 .(notes)prev-artha: उपवेशने;शयने
@@ -5260,22 +5377,22 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: उच्छेद
 .(notes)prev-artha: उच्छेदे
 
-.--- 07.0003 आछिद्
+.--- 07.0003 आच्छिद्
 .dhatu: छिद्
 .aupadeshika: छिदिँर्
 .src_link: 07.0003
 .upasarga: आ
-.combined: आछिद्
+.combined: आच्छिद्
 .artha_hindi: बलपूर्वक टुकड़े करना
 .artha: बलात्खण्डन
 .(notes)prev-artha: बलात्खण्डने
 
-.--- 07.0003 विछिद्
+.--- 07.0003 विच्छिद्
 .dhatu: छिद्
 .aupadeshika: छिदिँर्
 .src_link: 07.0003
 .upasarga: वि
-.combined: विछिद्
+.combined: विच्छिद्
 .artha_hindi: अलग अलग करना या होना
 .artha: विच्छेद
 .(notes)prev-artha: विच्छेदे
@@ -5388,7 +5505,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संयुज्
 .artha_hindi: युक्त करना, मिलाप करना
-.artha: संयोजन
+.artha: संयोजन;सङ्घर्ष
+.draft_note: UAC: संयुगः=समागमः=सम्पातः=सन्निपातः (battle)
 .(notes)prev-artha: संयोजने
 
 .--- 07.0007 समायुज्
@@ -5398,8 +5516,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्+आ
 .combined: समायुज्
 .artha_hindi: बहुत विचार करना
-.artha: विचार
-.draft_note: doubtful
+.artha: विचार;संयोजन;सङ्घर्ष
+.draft_note: doubtful | UAC: समायुक्तः=संयुक्तः=युक्तः; समायोगे=शरेण योजने | UAC: समायुञ्ज्यात्=सङ्ग्रामं गच्छेत्; समायुक्तः=सङ्ग्रामयमाणः
 .(notes)prev-artha: विचारे
 
 .--- 07.0021 अभ्यञ्ज्
@@ -5433,12 +5551,12 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: Hindi 'मरना, संवारना' — मरना doubtful
 .(notes)prev-artha: प्रसाधने
 
-.--- 07.0021 आाञ्ज्
+.--- 07.0021 आञ्ज्
 .dhatu: अञ्ज्
 .aupadeshika: अन्जूँ
 .src_link: 07.0021
 .upasarga: आ
-.combined: आाञ्ज्
+.combined: आञ्ज्
 .artha_hindi: तेल मलना
 .artha: अभ्यञ्जन
 .(notes)prev-artha: अभ्यञ्जने
@@ -5541,20 +5659,10 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 08.0010
 .upasarga: उप
 .combined: उपकृ
-.artha_hindi: उपकार करना
-.artha: उपकार
-.(notes)prev-artha: उपकारे
-
-.--- 08.0010 उपकृ
-.dhatu: कृ
-.aupadeshika: डुकृञ्
-.src_link: 08.0010
-.upasarga: उप
-.combined: उपकृ
-.artha_hindi: पलटना, बदलना, स्वच्छ करना, जमा करना
-.artha: परिवर्तन;शोधन;सङ्ग्रह
+.artha_hindi: उपकार करना; पलटना, बदलना, स्वच्छ करना, जमा करना
+.artha: उपकार;परिवर्तन;शोधन;सङ्ग्रह
 .draft_note: second उप+कृ row; Hindi likely belongs to उपस्कार (सुट्)
-.(notes)prev-artha: परिवर्तने;शोधने;सङ्ग्रहे
+.(notes)prev-artha: उपकारे;परिवर्तने;शोधने;सङ्ग्रहे
 
 .--- 08.0010 निराकृ
 .dhatu: कृ
@@ -5643,8 +5751,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संकृ
 .artha_hindi: स्वच्छ करना, सुसंस्कृत करना
-.artha: संस्कार
-.draft_note: सुट् form संस्कृ
+.artha: संस्कार;निर्माण
+.draft_note: सुट् form संस्कृ | UAC: सञ्चक्रुः=निर्ममुः; सङ्क्रियताम्=निर्मीयताम्; सङ्क्रियमाणे=निर्वर्त्यमाने
 .(notes)prev-artha: संस्कारे
 
 .--- 08.0010 सुकृ
@@ -5725,7 +5833,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संज्ञा
 .artha_hindi: प्रतिज्ञा करना, वचन देना, उत्कंठा पूर्वक स्मरण करना, अच्छी तरह जानना
-.artha: प्रतिज्ञा;उत्कण्ठितस्मरण;सम्यग्ज्ञान
+.artha: प्रतिज्ञा;उत्कण्ठितस्मरण;सम्यग्ज्ञान;ऐकमत्य;मारण
+.draft_note: UAC: सञ्जानते=परस्परमानुकूल्येन ऐकमत्येन वर्तन्ते; सञ्ज्ञानम्=ऐकमत्यम्, अविसंवादः | UAC: सञ्ज्ञपयन्ति=आलमन्ते घ्नन्ति
 .(notes)prev-artha: प्रतिज्ञायाम्;उत्कण्ठितस्मरणे;सम्यग्ज्ञाने
 
 .--- 09.0043 प्रत्यभिज्ञा
@@ -5899,7 +6008,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: संग्रह्
 .artha_hindi: बटोरना, एकत्र करना
-.artha: सङ्ग्रह
+.artha: सङ्ग्रह;ग्रहण;संयमन;सङ्कोच;वशीकरण;पालन;सङ्क्षेप;मैथुन
+.draft_note: UAC: सङ्गृभ्णाः=समगृह्णाः; सङ्गृभ्य=हस्ते धृत्वा; सङ्गृह्य=प्रतिगृह्य; सङ्ग्रहः=सम्यग्ग्रहः, ग्रहणम् | UAC: सङ्गृहीताः (हयाः)=संयताः; सङ्गृह्यताम्=नियम्यताम्; सङ्ग्रहः=संयमः, निग्रहः | UAC: सङ्गृह्णाति=सङ्कोचयति (गात्राणि); सङ्गृहीतलाङ्गूलः=सङ्क्षिप्तपुच्छः | UAC: सङ्गृह्य=वशे कृत्वा; राजसङ्ग्रहः=सामन्तवशीकरणम्; सङ्ग्रहीता=वशे कर्ता | UAC: सङ्ग्रहेण=समर्थनेन, परिपोषणेन; सङ्ग्रहार्थम्=सम्यक् पालनार्थम् | UAC: सङ्ग्रहेण=सङ्क्षेपेण | UAC: सङ्ग्रहणम्=पारदार्यम्, स्त्रीपुंसयोर्मिथुनीभावः
 .(notes)prev-artha: सङ्ग्रहे
 
 .--- 10.0006 उपलक्ष्
@@ -6012,6 +6122,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विस्तार;पेषण
 .(notes)prev-artha: विस्तारे;पेषणे
 
+.--- 01.0867 परिघट्ट्
+.dhatu: घट्
+.aupadeshika: घटँ
+.src_link: 01.0867
+.upasarga: परि
+.combined: परिघट्ट्
+.draft_note: UAC: घट चेष्टायाम् — added S3: UAC's root differs from row परिघट्ट्|10.0125
+
 .--- 10.0125 विघट्ट्
 .dhatu: घट्ट्
 .aupadeshika: घट्टँ
@@ -6021,6 +6139,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: मांजना, धोना, बिगाड़ना
 .artha: मार्जन;विनाश
 .(notes)prev-artha: मार्जने;विनाशे
+
+.--- 01.0867 विघट्ट्
+.dhatu: घट्
+.aupadeshika: घटँ
+.src_link: 01.0867
+.upasarga: वि
+.combined: विघट्ट्
+.draft_note: UAC: घट चेष्टायाम् — added S3: UAC's root differs from row विघट्ट्|10.0125
 
 .--- 10.0143 संचूर्ण्
 .dhatu: चूर्ण्
@@ -6094,6 +6220,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: Hindi 'समझके रहना'; निवेदयति = inform
 .(notes)prev-artha: अवबोधे
 
+.--- 02.0059 निविद्
+.dhatu: विद्
+.aupadeshika: विदँ
+.src_link: 02.0059
+.upasarga: नि
+.combined: निविद्
+.draft_note: UAC: विद ज्ञाने — added S3: UAC's root differs from row निविद्|10.0232
+
 .--- 10.0232 विविद्
 .dhatu: विद्
 .aupadeshika: विदँ
@@ -6125,6 +6259,22 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: देना, अर्पण करना
 .artha: अर्पण
 .(notes)prev-artha: अर्पणे
+
+.--- 02.0059 प्रतिविद्
+.dhatu: विद्
+.aupadeshika: विदँ
+.src_link: 02.0059
+.upasarga: प्रति
+.combined: प्रतिविद्
+.draft_note: UAC: विद ज्ञाने — added S3: UAC's root differs from row प्रतिविद्|10.0232
+
+.--- 06.0168 प्रतिविद्
+.dhatu: विद्
+.aupadeshika: विदॢँ
+.src_link: 06.0168
+.upasarga: प्रति
+.combined: प्रतिविद्
+.draft_note: UAC: विद्लृ लाभे — added S3: UAC's root differs from row प्रतिविद्|10.0232
 
 .--- 10.0239 प्रतिशब्द्
 .dhatu: शब्द्
@@ -6175,6 +6325,22 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: उद्घाटन करना
 .artha: उद्घाटन
 .(notes)prev-artha: उद्घाटने
+
+.--- 01.0867 उद्घट्
+.dhatu: घट्
+.aupadeshika: घटँ
+.src_link: 01.0867
+.upasarga: उद्
+.combined: उद्घट्
+.draft_note: UAC: घट चेष्टायाम् — added S3: UAC's root differs from row उद्घट्|10.0248
+
+.--- 01.0292 उद्घट्
+.dhatu: घट्ट्
+.aupadeshika: घट्टँ
+.src_link: 01.0292
+.upasarga: उद्
+.combined: उद्घट्
+.draft_note: UAC: घट्ट चलने — added S3: UAC's root differs from row उद्घट्|10.0248
 
 .--- 10.0250 अत्यर्ज्
 .dhatu: अर्ज्
@@ -6236,6 +6402,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: धार्ष्ट्य
 .(notes)prev-artha: धार्ष्ट्ये
 
+.--- 01.0030 वियत्
+.dhatu: यत्
+.aupadeshika: यतीँ
+.src_link: 01.0030
+.upasarga: वि
+.combined: वियत्
+.draft_note: UAC: यती प्रयत्ने — added S3: UAC's root differs from row वियत्|10.0261
+
 .--- 10.0274 विचर्
 .dhatu: चर्
 .aupadeshika: चरँ
@@ -6246,6 +6420,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विचार
 .(notes)prev-artha: विचारे
 
+.--- 01.0640 विचर्
+.dhatu: चर्
+.aupadeshika: चरँ
+.src_link: 01.0640
+.upasarga: वि
+.combined: विचर्
+.draft_note: UAC: चर गतिभक्षणयोः — added S3: UAC's root differs from row विचर्|10.0274
+
 .--- 10.0274 उच्चर्
 .dhatu: चर्
 .aupadeshika: चरँ
@@ -6255,6 +6437,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: उच्चारण करना
 .artha: उच्चारण
 .(notes)prev-artha: उच्चारणे
+
+.--- 01.0640 उच्चर्
+.dhatu: चर्
+.aupadeshika: चरँ
+.src_link: 01.0640
+.upasarga: उद्
+.combined: उच्चर्
+.draft_note: UAC: चर गतिभक्षणयोः — added S3: UAC's root differs from row उच्चर्|10.0274
 
 .--- 10.0282 उत्पट्
 .dhatu: पट्
@@ -6316,6 +6506,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: प्रेरण
 .(notes)prev-artha: प्रेरणे
 
+.--- 02.0008 प्रेर्
+.dhatu: ईर्
+.aupadeshika: ईरँ
+.src_link: 02.0008
+.upasarga: प्र
+.combined: प्रेर्
+.draft_note: UAC: ईर-गतौ कम्पने च — added S3: UAC's root differs from row प्रेर्|10.0342
+
 .--- 10.0342 उदीर्
 .dhatu: ईर्
 .aupadeshika: ईरँ
@@ -6333,7 +6531,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: सम्
 .combined: समीर्
 .artha_hindi: वायु के समान जाना
-.artha: वायुवद्गमन
+.artha: वायुवद्गमन;संयोजन
+.draft_note: UAC: समैरयत्=सङ्गतावयवमकरोत्
 .(notes)prev-artha: वायुवद्गमने
 
 .--- 10.0343 आली
@@ -6346,6 +6545,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: व्यय
 .draft_note: doubtful
 .(notes)prev-artha: व्यये
+
+.--- 04.0034 आली
+.dhatu: ली
+.aupadeshika: लीङ्
+.src_link: 04.0034
+.upasarga: आ
+.combined: आली
+.draft_note: UAC: लीङ् श्लेषणे — added S3: UAC's root differs from row आली|10.0343
 
 .--- 10.0343 प्रविली
 .dhatu: ली
@@ -6364,9 +6571,10 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 10.0345
 .upasarga: अप
 .combined: अपवृ
-.artha_hindi: संरक्षण करना, दूर हटाना
-.artha: संरक्षण;अपसारण
-.(notes)prev-artha: संरक्षणे;अपसारणे
+.artha_hindi: संरक्षण करना, दूर हटाना; छोडना, दान देना
+.artha: संरक्षण;अपसारण;त्याग;दान
+.draft_note: second अप+वृ row
+.(notes)prev-artha: संरक्षणे;अपसारणे;त्यागे;दाने
 
 .--- 10.0345 आवृ
 .dhatu: वृ
@@ -6398,17 +6606,6 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: गोपन
 .(notes)prev-artha: गोपने
 
-.--- 10.0345 अपवृ
-.dhatu: वृ
-.aupadeshika: वृञ्
-.src_link: 10.0345
-.upasarga: अप
-.combined: अपवृ
-.artha_hindi: छोडना, दान देना
-.artha: त्याग;दान
-.draft_note: second अप+वृ row
-.(notes)prev-artha: त्यागे;दाने
-
 .--- 10.0349 विशिष्
 .dhatu: शिष्
 .aupadeshika: शिषँ
@@ -6418,6 +6615,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: अधिक होना, ज्यादा होना
 .artha: आधिक्य
 .(notes)prev-artha: आधिक्ये
+
+.--- 07.0014 विशिष्
+.dhatu: शिष्
+.aupadeshika: शिषॢँ
+.src_link: 07.0014
+.upasarga: वि
+.combined: विशिष्
+.draft_note: UAC: शिष्लृ विशेषणे — added S3: UAC's root differs from row विशिष्|10.0349
 
 .--- 10.0350 अनुतप्
 .dhatu: तप्
@@ -6470,6 +6675,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: सर्वतोव्याप्ति
 .(notes)prev-artha: सर्वतोव्याप्तौ
 
+.--- 05.0016 अभ्याप्
+.dhatu: आप्
+.aupadeshika: आपॢँ
+.src_link: 05.0016
+.upasarga: अभि
+.combined: अभ्याप्
+.draft_note: UAC: आप्लृ व्याप्तौ — added S3: UAC's root differs from row अभ्याप्|10.0376
+
 .--- 10.0376 अवाप्
 .dhatu: आप्
 .aupadeshika: आपॢँ
@@ -6500,6 +6713,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: समापन
 .(notes)prev-artha: समापने
 
+.--- 05.0016 परिसमाप्
+.dhatu: आप्
+.aupadeshika: आपॢँ
+.src_link: 05.0016
+.upasarga: परि+सम्
+.combined: परिसमाप्
+.draft_note: UAC: आप्लृ व्याप्तौ — added S3: UAC's root differs from row परिसमाप्|10.0376
+
 .--- 10.0377 वितन्
 .dhatu: तन्
 .aupadeshika: तनुँ
@@ -6510,6 +6731,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विस्तार
 .draft_note: source gloss is only 'सम्'; meaning supplied
 .(notes)prev-artha: विस्तारे
+
+.--- 08.0001 वितन्
+.dhatu: तन्
+.aupadeshika: तनुँ
+.src_link: 08.0001
+.upasarga: वि
+.combined: वितन्
+.draft_note: UAC: तनु विस्तारे — added S3: UAC's root differs from row वितन्|10.0377
 
 .--- 10.0379 अनुवद्
 .dhatu: वद्
@@ -6552,6 +6781,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: Hindi 'समझाकर कहना'
 .(notes)prev-artha: सान्त्वने
 
+.--- 01.1164 उपवद्
+.dhatu: वद्
+.aupadeshika: वदँ
+.src_link: 01.1164
+.upasarga: उप
+.combined: उपवद्
+.draft_note: UAC: वद व्यक्तायां वाचि — added S3: UAC's root differs from row उपवद्|10.0379
+
 .--- 10.0379 परिवद्
 .dhatu: वद्
 .aupadeshika: वदँ
@@ -6593,6 +6830,14 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विसंवाद
 .(notes)prev-artha: विसंवादे
 
+.--- 01.1164 विसंवद्
+.dhatu: वद्
+.aupadeshika: वदँ
+.src_link: 01.1164
+.upasarga: वि+सम्
+.combined: विसंवद्
+.draft_note: UAC: वद व्यक्तायां वाचि — added S3: UAC's root differs from row विसंवद्|10.0379
+
 .--- 10.0379 संप्रवद्
 .dhatu: वद्
 .aupadeshika: वदँ
@@ -6602,6 +6847,15 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha_hindi: एकत्र होकर स्पष्ट कहना
 .artha: सहस्पष्टकथन
 .(notes)prev-artha: सहस्पष्टकथने
+
+.--- 01.1164 संप्रवद्
+.dhatu: वद्
+.aupadeshika: वदँ
+.src_link: 01.1164
+.upasarga: सम्+प्र
+.combined: संप्रवद्
+.artha: सहस्पष्टकथन
+.draft_note: UAC: वद व्यक्तायां वाचि — added S3: UAC's root differs from row संप्रवद्|10.0379 | UAC: सम्प्रवदन्ति=सहोच्चारयन्ति शब्दान्, युगपत् प्रक्वणन्ति (DP: वद व्यक्तायां वाचि)
 
 .--- 10.0380 प्रवच्
 .dhatu: वच्
@@ -6634,62 +6888,62 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: source gloss is only 'अव'; meaning supplied
 .(notes)prev-artha: अपमाने
 
-.--- 10.0396 विरह
+.--- 10.0396 विरह्
 .dhatu: रह
 .aupadeshika: रह
 .src_link: 10.0396
 .upasarga: वि
-.combined: विरह
+.combined: विरह्
 .artha_hindi: अलग होना, भिन्न होना
 .artha: वियोग
 .(notes)prev-artha: वियोगे
 
-.--- 10.0404 आकल
+.--- 10.0404 आकल्
 .dhatu: कल
 .aupadeshika: कल
 .src_link: 10.0404
 .upasarga: आ
-.combined: आकल
+.combined: आकल्
 .artha_hindi: बांध लेना
 .artha: बन्धन
 .(notes)prev-artha: बन्धने
 
-.--- 10.0404 परिकल
+.--- 10.0404 परिकल्
 .dhatu: कल
 .aupadeshika: कल
 .src_link: 10.0404
 .upasarga: परि
-.combined: परिकल
+.combined: परिकल्
 .artha_hindi: याद करना
 .artha: स्मरण
 .(notes)prev-artha: स्मरणे
 
-.--- 10.0404 विकल
+.--- 10.0404 विकल्
 .dhatu: कल
 .aupadeshika: कल
 .src_link: 10.0404
 .upasarga: वि
-.combined: विकल
+.combined: विकल्
 .artha_hindi: व्याकुल होना
 .artha: व्याकुलता
 .(notes)prev-artha: व्याकुलतायाम्
 
-.--- 10.0404 संकल
+.--- 10.0404 संकल्
 .dhatu: कल
 .aupadeshika: कल
 .src_link: 10.0404
 .upasarga: सम्
-.combined: संकल
+.combined: संकल्
 .artha_hindi: सारांश निकाल कर कहना, तात्पर्य कहना, संकलन करना, मिलाना
 .artha: सङ्कलन;सारकथन
 .(notes)prev-artha: सङ्कलने;सारकथने
 
-.--- 10.0412 संसूच
+.--- 10.0412 संसूच्
 .dhatu: सूच
 .aupadeshika: सूच
 .src_link: 10.0412
 .upasarga: सम्
-.combined: संसूच
+.combined: संसूच्
 .artha_hindi: बताना, निर्देश करना, संकेत करना
 .artha: सूचन;निर्देश
 .(notes)prev-artha: सूचने;निर्देशे
@@ -6704,32 +6958,32 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: विभाजन
 .(notes)prev-artha: विभाजने
 
-.--- 10.0440 आपद
+.--- 10.0440 आपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: आ
-.combined: आपद
+.combined: आपद्
 .artha_hindi: होना, मिलना, दुर्दैव का अनुभव करना
 .artha: प्राप्ति;दुर्दैवानुभव
 .(notes)prev-artha: प्राप्तौ;दुर्दैवानुभवे
 
-.--- 10.0440 उपपद
+.--- 10.0440 उपपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: उप
-.combined: उपपद
+.combined: उपपद्
 .artha_hindi: उत्पन्न करना, समीप रहना, चिपक के रहना
 .artha: उत्पादन;सामीप्य
 .(notes)prev-artha: उत्पादने;सामीप्ये
 
-.--- 10.0440 प्रपद
+.--- 10.0440 प्रपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: प्र
-.combined: प्रपद
+.combined: प्रपद्
 .artha_hindi: प्राप्त करना, प्रारम्भ करना
 .artha: प्राप्ति;आरम्भ
 .(notes)prev-artha: प्राप्तौ;आरम्भे
@@ -6745,62 +6999,62 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .draft_note: doubtful
 .(notes)prev-artha: स्थापने
 
-.--- 10.0440 प्रतिपद
+.--- 10.0440 प्रतिपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: प्रति
-.combined: प्रतिपद
+.combined: प्रतिपद्
 .artha_hindi: पाना, अनुमोदन करना, मुक्त करना
 .artha: प्राप्ति;अनुमोदन;मोचन
 .(notes)prev-artha: प्राप्तौ;अनुमोदने;मोचने
 
-.--- 10.0440 विपद
+.--- 10.0440 विपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: वि
-.combined: विपद
+.combined: विपद्
 .artha_hindi: दुःख का अनुभव करना, विपत्तिग्रस्त होना
 .artha: विपत्ति
 .(notes)prev-artha: विपत्तौ
 
-.--- 10.0440 व्यापद
+.--- 10.0440 व्यापद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: वि+आ
-.combined: व्यापद
+.combined: व्यापद्
 .artha_hindi: मार डालना या दुःख होना
 .artha: मारण;दुःख
 .(notes)prev-artha: मारणे;दुःखे
 
-.--- 10.0440 संपद
+.--- 10.0440 संपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: सम्
-.combined: संपद
+.combined: संपद्
 .artha_hindi: वृद्धि को प्राप्त होना, बढ़ना
 .artha: वृद्धि
 .(notes)prev-artha: वृद्धौ
 
-.--- 10.0440 उत्पद
+.--- 10.0440 उत्पद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: उद्
-.combined: उत्पद
+.combined: उत्पद्
 .artha_hindi: उत्पन्न होना
 .artha: उत्पत्ति
 .(notes)prev-artha: उत्पत्तौ
 
-.--- 10.0440 अनुपद
+.--- 10.0440 अनुपद्
 .dhatu: पद
 .aupadeshika: पद
 .src_link: 10.0440
 .upasarga: अनु
-.combined: अनुपद
+.combined: अनुपद्
 .artha_hindi: अनुकरण करना
 .artha: अनुकरण
 .(notes)prev-artha: अनुकरणे
