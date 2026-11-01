@@ -21111,6 +21111,11 @@ HEADER:columns=source|artha|concept id
 .artha: आकुञ्चन
 .concept id: आकुञ्चन
 
+.--- dp आकृति
+.source: dp
+.artha: आकृति
+.concept id: आकृति
+
 .--- dp आक्रमण
 .source: dp
 .artha: आक्रमण
@@ -21840,6 +21845,11 @@ HEADER:columns=source|artha|concept id
 .source: dp
 .artha: एकचर्या
 .concept id: एकचर्या
+
+.--- dp ऐकमत्य
+.source: dp
+.artha: ऐकमत्य
+.concept id: अनुमति
 
 .--- dp ऐश्वर्य
 .source: dp
@@ -23139,6 +23149,11 @@ HEADER:columns=source|artha|concept id
 .--- dp परस्परमैत्रि
 .source: dp
 .artha: परस्परमैत्रि
+.concept id: परस्परमैत्रि
+
+.--- dp परस्परमैत्री
+.source: dp
+.artha: परस्परमैत्री
 .concept id: परस्परमैत्रि
 
 .--- dp पराजय
@@ -24506,6 +24521,11 @@ HEADER:columns=source|artha|concept id
 .artha: वर्ष
 .concept id: वर्ष
 
+.--- dp वशीकरण
+.source: dp
+.artha: वशीकरण
+.concept id: वश
+
 .--- dp वसन
 .source: dp
 .artha: वसन
@@ -25460,6 +25480,11 @@ HEADER:columns=source|artha|concept id
 .source: dp
 .artha: सन्देशवचन
 .concept id: सन्देशवचन
+
+.--- dp सन्धि
+.source: dp
+.artha: सन्धि
+.concept id: सन्धिविग्रहादि
 
 .--- dp सन्निकर्ष
 .source: dp

@@ -13,7 +13,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अधि
 .combined: अधिभू
 .artha_hindi: सत्ता चलाना
-.artha: आधिपत्य
+.artha: आधिपत्य;संस्कार
+.draft_note: UAC: भावयति संस्करोति (जन्मनोऽग्रे)
 .(notes)prev-artha: आधिपत्ये
 
 .--- 01.0001 अनुभू
@@ -94,7 +95,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विभू
 .artha_hindi: आश्रय देना, पालन करना
-.artha: आश्रयदान;पालन
+.artha: आश्रयदान;पालन;ज्ञान;सामर्थ्य;विभाग;प्रमाण;दर्शन;प्रकाशन;प्रादुर्भाव;व्याप्ति;ऐश्वर्य
+.draft_note: UAC: विभावय जानीहि; विभावयेत्=जानीयात्, अनुमिमीत; विभाव्यते ज्ञायते | UAC: न व्यभवत्=न समर्थमभूत्; विभवन्ति पर्याप्ता भवन्ति, अलंभवन्ति | UAC: त्रेधा व्यभवत्=त्रिधा विभक्तोऽभूत्; विभवनं नाना भवनम् | UAC: विभावयेत् प्रमाणैः प्रतिपादयेत्; विभावितं लेख्यादिप्रमाणप्रतिपादितम् | UAC: विभाव्य दृष्ट्वा, निभाल्य; विभावनं दर्शनम्; अविभावितोऽनुपलक्षितः | UAC: विभावयन्=भासयन्, प्रकाशयन्; विभाव्य प्रकाश्य; विभाविता प्रकटिता | UAC: विभूतम् आविर्भूतम् | UAC: विबुभूषुः=व्याप्तुमिच्छुः; विभवन्ती व्यश्नुवाना; विभवन्ति (शब्दाः आकाशे) व्याप्नुवन्ति | UAC: विभूतिर्महिमा, ऐश्वर्यम्, सम्पदः; विभूः=वैभवयुक्तः
 .(notes)prev-artha: आश्रयदाने;पालने
 
 .--- 01.0001 व्यतिभू
@@ -104,7 +106,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+अति
 .combined: व्यतिभू
 .artha_hindi: परस्पर मित्र होना
-.artha: परस्परमैत्री
+.artha: परस्परमैत्री;स्पर्धा
+.draft_note: UAC: व्यतिभवते (अर्कमिन्दुः)=स्पर्धते, अभिभवितुमीहते
 .(notes)prev-artha: परस्परमैत्र्याम्
 
 .--- 01.0001 संभू
@@ -484,7 +487,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विलप्
 .artha_hindi: रोना
-.artha: विलाप
+.artha: विलाप;कथन
+.draft_note: UAC: विलपतां व्याहरताम्
 .(notes)prev-artha: विलापे
 
 .--- 01.0545 संक्रम्
@@ -757,7 +761,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विगाह्
 .artha_hindi: स्नान करना, कांपना
-.artha: स्नान;कम्पन
+.artha: स्नान;कम्पन;प्रवेश;निमज्जन;अवतरण;अतिक्रम;विलोडन;वृद्धि;अनुभव
+.draft_note: UAC: विगाहते=प्रविशति; विगाह्यते=प्रविश्यते; अन्तर्भूमिं विगाहते | UAC: विगाढः=निमग्नः; विगाढाः=कृतावगाहाः | UAC: (निशा) व्यगाहत=अवातरत्; विगाढा (रजनी)=अवतीर्णा | UAC: विगाहमानः=अतिक्रामन्; विगाढे=अतिक्रान्ते | UAC: विगाह्यमाना=विलोड्यमाना, क्षोभमापाद्यमाना | UAC: विगाढमन्मथः=प्रौढमदनः; विगाढे (युधि)=वृद्धिमुपेयुषि | UAC: विगाहते=अनुभवति, अश्नुते, निर्विशति
 .(notes)prev-artha: स्नाने;कम्पने
 
 .--- 01.0743 अनुतक्ष्
@@ -805,7 +810,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विलस्
 .artha_hindi: विलास करना, रमण करना
-.artha: विलास
+.artha: विलास;शोभा;प्रादुर्भाव
+.draft_note: UAC: विललास शुशुभे, प्रचकाशे, बभासे | UAC: (खेदः) विलसति उद्भवति विजृम्भते
 .(notes)prev-artha: विलासे
 
 .--- 01.0829 अभिशंस्
@@ -865,7 +871,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अति
 .combined: अतिवृत्
 .artha_hindi: जीतना, अतिक्रमण करना, लांघना
-.artha: विजय;अतिक्रम
+.artha: विजय;अतिक्रम;अभिभव;त्याग;उपेक्षा;कालयापन;नाश;अपराध
+.draft_note: UAC: अतिवर्ततेऽभिभवति, बाधते; अतिवर्तितुम्=बाधितुम्, अभिभवितुम्; अतिवृत्ता=अतिशयिता | UAC: (अर्थः) अतिवर्तते त्यजति | UAC: अतिवर्तेत=उपेक्षेत, औदासीन्येन वर्तेत | UAC: कालोऽतिवर्तते=अतियाति; दिवसश्चातिवर्तते | UAC: (गुणाः) नातिवर्तते=न नश्यति | UAC: अतिवर्तनानि क्षम्याण्यागांसि
 .(notes)prev-artha: विजये;अतिक्रमे
 
 .--- 01.0862 अनुवृत्
@@ -937,7 +944,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विवृत्
 .artha_hindi: लौटना, चक्राकार घूमना
-.artha: प्रत्यागमन;चक्रभ्रमण
+.artha: प्रत्यागमन;चक्रभ्रमण;परिवर्तन;भ्रमण;वियोजन;प्रादुर्भाव;परिणाम;विलोडन;क्षेपण;चेष्टा;वृद्धि
+.draft_note: UAC: विवर्तते लुठति; विवृत्तवदना=साचिकृतमुखी; विवर्तनैः पार्श्वपरिवर्तनैः; विवर्तः परिवर्तः | UAC: (मेघाः) विवर्तन्ते इतस्ततो भ्रमन्ति; विवर्तते परिभ्रमति, संसरति | UAC: व्यवृतन्=व्ययूयुजन्; विवर्तते विभक्तो भवति, पृथग्भवति | UAC: विवर्तन्ते विनिश्चरन्ति जायन्ते; व्यवर्तयत् आविरभावयत् | UAC: विवर्तते वैविध्यं भजते, नानात्वमश्नुते; विवर्तः परिणामः; व्यवीवृतत् पर्यणमयत् | UAC: विवर्तयति विलोडयति | UAC: विवर्तय गमय क्षिप | UAC: शफरीविवृत्तयः=मत्सीनां विविधाश्चेष्टाः; विवर्तमानम्=विचेष्टमानम् | UAC: विवृत्तये स्फातये
 .(notes)prev-artha: प्रत्यागमने;चक्रभ्रमणे
 
 .--- 01.0862 विनिवृत्
@@ -947,7 +955,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+नि
 .combined: विनिवृत्
 .artha_hindi: पीछे लौटना
-.artha: प्रत्यागमन
+.artha: प्रत्यागमन;विराम;नाश
+.draft_note: UAC: (सपिण्डता) विनिवर्तते=निवर्तते, नानुवर्तते, विरमति | UAC: विनिवृत्तः=विनष्टः, निवृत्तसत्ताकः
 .(notes)prev-artha: प्रत्यागमने
 
 .--- 01.0862 विपरिवृत्
@@ -957,7 +966,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+परि
 .combined: विपरिवृत्
 .artha_hindi: मन में भ्रम होना
-.artha: चित्तभ्रम
+.artha: चित्तभ्रम;चक्रभ्रमण;परिवर्तन;भ्रमण
+.draft_note: UAC: (जगत्) विपरिवर्तते=चक्रवद् भ्रमति | UAC: भूमौ विपरिवर्तेत=लुठेत्; वेषं विपरिवर्त्य=परिवर्त्य | UAC: विपरिवर्तितुम्=परिक्रमितुम्
 .(notes)prev-artha: चित्तभ्रमे
 
 .--- 01.0862 समभिवृत्
@@ -1019,7 +1029,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विराज्
 .artha_hindi: शोभित होना, प्रकाशित होना
-.artha: शोभा;दीप्ति
+.artha: शोभा;दीप्ति;ऐश्वर्य
+.draft_note: UAC: विराजानि (वेदे राजतिरैश्वर्यकर्मा)=नियन्ता भवानि
 .(notes)prev-artha: शोभायाम्;दीप्तौ
 
 .--- 01.0979 अतिपत्
@@ -1029,7 +1040,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अति
 .combined: अतिपत्
 .artha_hindi: जीतना, श्रेष्ठ होना
-.artha: विजय;उत्कर्ष
+.artha: विजय;उत्कर्ष;उत्पतन;अवज्ञा;मारण;त्याग;भेदन;अतिक्रम
+.draft_note: UAC: (हंसाः) अतिपेतुः=उपर्युत्पेतुः | UAC: अतिपातयन्ति=अवमानयन्ति, अवजानन्ति | UAC: अतिपातयति=अत्ययं मृत्युमापादयति; प्राणातिपातः=प्राणविनाशः | UAC: अतिपत्य=परित्यज्य | UAC: अतिपातितं=निर्भिन्नम् | UAC: अनतिपात्यम्=अनतिलङ्घनीयम्; कार्यान्तरव्यतिक्रमः; अतिपतेत्=अतिक्रामेत्, अतीयात्
 .(notes)prev-artha: विजये;उत्कर्षे
 
 .--- 01.0979 अभिपत्
@@ -1119,8 +1131,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+नि
 .combined: विनिपत्
 .artha_hindi: पीछे लौटना
-.artha: प्रत्यागमन
-.draft_note: doubtful
+.artha: प्रत्यागमन;अधःपतन;आक्रमण;मारण;विपत्ति;प्रमाद
+.draft_note: doubtful | UAC: विनिपत्य=अवप्लुत्य; विनिपातः पातः, भ्रंशः; विनिपतितः पतितः | UAC: विनिपत्य=उपद्रुत्य, आक्रम्य | UAC: विनिपात्यमानं=हन्यमानम् | UAC: विनिपातगतं=कृच्छ्रमुपेतम्; विनिपातः विपत्, दैवमानुषोपद्रवः | UAC: विनिपातः प्रमादः; अविनिपातिनोऽप्रमादिनः
 .(notes)prev-artha: प्रत्यागमने
 
 .--- 01.0979 संपत्
@@ -1651,7 +1663,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विहृ
 .artha_hindi: क्रीड़ा करना, विलास करना, विहार करना, खेलना
-.artha: विहार;क्रीडा
+.artha: विहार;क्रीडा;विभाग;वियोजन;भ्रमण;अपहरण;छेदन;अपनयन;कालयापन;कथन;विक्षेप;चेष्टा;मैथुन;विस्तार
+.draft_note: UAC: विहर=विभज, वितर; षट् स्वरेषुभिर्विहृता विभक्ताः | UAC: विहरति पृथक्करोति; विहृता विकृष्य हृताः पृथक्कृताः; विहरणं पृथक्करणम् | UAC: विहरति गतिं करोति, क्रामति; विजह्रुः भ्रेमुः पर्याटुः; पार्श्वतो विहरिष्यामि=विचरिष्यामि | UAC: विहरन्ति अपहरन्ति, आच्छिन्दन्ति, विलुम्पन्ति; विजहार जहार जग्राह | UAC: विजहार (शिरः)=अपजहार, चिच्छेद | UAC: विहरति अपनयति, अपाकरोति; विहरेत् नाशयेत्; विहर्तारम् अपनेतारम् | UAC: विहरेयाताम्=नयेयातां विगमयेयाताम्; विहरन्तः कालं क्षिपन्तः | UAC: बहुधा विहरन्ति=व्याहरन्ति; विहरन्=व्याहरन् | UAC: विहृतानि विक्षिप्तानि; पादविहरणे विहरणं विक्षेपः | UAC: पाणिविहारैः=हस्तचेष्टाभिः; विहारोऽङ्गक्षेपणादिचेष्टा, कायवाङ्मनोव्यापारः | UAC: विहारो व्यवायो रतम् | UAC: विहरन्=व्यूहन् विस्तारयन्
 .(notes)prev-artha: विहारे;क्रीडायाम्
 
 .--- 01.1046 व्याहृ
@@ -1661,7 +1674,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+आ
 .combined: व्याहृ
 .artha_hindi: बोलना, कहना
-.artha: कथन
+.artha: कथन;उच्चारण;विहार;आह्वान;प्रत्युत्तर;भक्षण
+.draft_note: UAC: न व्याहरेत्=नोच्चारयेच्छब्दम्; व्याहृतमुच्चारितम् | UAC: व्याहरत्=व्यहरत्, विहारमकरोत् (आङधिकः) | UAC: (नामभिः) व्याहरन्तौ=आकारयन्तौ; व्याहार्य=आकार्य | UAC: व्याहरिष्यसि=प्रतिवक्ष्यसि; व्याहृतं प्रत्युक्तमुत्तरितम् | UAC: व्याहृतम्=अभ्यवहृतं खादितम्
 .(notes)prev-artha: कथने
 
 .--- 01.1046 व्यवहृ
@@ -1671,8 +1685,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+अव
 .combined: व्यवहृ
 .artha_hindi: उद्योग करना
-.artha: व्यवहार
-.draft_note: Hindi 'उद्योग करना'
+.artha: व्यवहार;विवाद
+.draft_note: Hindi 'उद्योग करना' | UAC: व्यवहारिणः=विवदमानाः; व्यवहर्तुम्=व्यवहारायाऽधिकरणे निर्णयाय
 .(notes)prev-artha: व्यवहारे
 
 .--- 01.1046 संहृ
@@ -1875,7 +1889,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विनी
 .artha_hindi: नम्र होना, प्रार्थना करना
-.artha: विनय;प्रार्थना
+.artha: विनय;प्रार्थना;अपनयन;निग्रह;दण्डन;प्रेरण;विनियोग;विभाग;विस्तार;कालयापन;क्षेपण;अनुनय;नाश;आकर्षण
+.draft_note: UAC: विनैषम्=अपनयम्; विनेष्यामि=अपनेष्यामि; कोपं विनयते=दूरी करोति, शमयति; विनयनमपनयनम् | UAC: विनेष्यन्=दमयिष्यन्; विनीतैः=दमितैः; विनेता=निग्रहीता, शासिता | UAC: विनीय=दण्डयित्वा; विनयो दण्डः; विनेया दण्ड्याः | UAC: विनीयसे=संचाल्यसे; विनयन्ति=प्रेरयन्ति; विनयन्तं=प्राजन्तम् | UAC: शतं विनयते=धर्माद्यर्थं विनियुङ्क्ते; विनयेत् विधिना प्रयुञ्जीत | UAC: व्यनयन् पृथगकुर्वन्; केशान् विनीय=सीमन्तयित्वा, विभज्य | UAC: विनीतायाम्=प्रसारितायाम् | UAC: (यामिनीं) विनीय=क्षपयित्वा | UAC: विनयति=प्रक्षिपति | UAC: विनयन्ति=अनुनयन्ति | UAC: मा विनैत्=मा विनीनशत् | UAC: व्यनयन्त=इत आकर्षन्; विनय आकर्षणम्
 .(notes)prev-artha: विनये;प्रार्थनायाम्
 
 .--- 01.1049 व्यपनी
@@ -1885,7 +1900,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+अप
 .combined: व्यपनी
 .artha_hindi: विरल होना, फैलाना
-.artha: विरलीभाव;विस्तार
+.artha: विरलीभाव;विस्तार;अपनयन
+.draft_note: UAC: व्यपनिन्युः=व्यपचकृषुः, अन्यत्र निन्युः; व्यपनीतमात्रे=समुद्धृते; व्यपनायितम्=अन्यत्र प्रापितं हारितम्
 .(notes)prev-artha: विरलीभावे;विस्तारे
 
 .--- 01.1049 विनिर्नी
@@ -1967,7 +1983,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विगै
 .artha_hindi: निश्चय पूर्वक कहना, निन्दा करना
-.artha: निश्चयकथन;निन्दन
+.artha: निश्चयकथन;निन्दन;विवाद
+.draft_note: UAC: विगीतान्=विरुद्धान्, परस्परव्याहतान्; विगानं विरोधोक्तिः
 .(notes)prev-artha: निश्चयकथने;निन्दने
 
 .--- 01.1065 अवगै
@@ -2007,7 +2024,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अधि
 .combined: अधिष्ठा
 .artha_hindi: पदारूढ़ होना, अधिकाररूढ़ होना, ऊपर रहना, ऊपर बैठना
-.artha: अधिकार;उपरिस्थिति
+.artha: अधिकार;उपरिस्थिति;सामीप्य;निवास;विजय;प्राप्ति;अतिक्रम;रक्षण;वशीकरण;अवस्थान;आधार;अभिभव
+.draft_note: UAC: अधितिष्ठति=उपतिष्ठति, समीपे तिष्ठति | UAC: अधितिष्ठति=उपवसति, अधिवसति | UAC: अधिष्ठास्यसि=विजेष्यसे, प्रसहिष्यसे | UAC: अधितिष्ठति=अधिगच्छति, विन्दति; अधिष्ठितो गतः | UAC: अधितिष्ठति=अतिक्रामति, अतिशेते | UAC: अधिष्ठितेषु=पर्यवेक्षितेषु; अधिष्ठितं कृतप्रतिजागरं सम्यग्रक्षितम् | UAC: अधिष्ठितः=स्ववशः कृतः; अधिष्ठिता=आविष्टा, उपहता | UAC: दन्तान्तरधिष्ठितम्=दन्तावकाशस्थितम् | UAC: अधिष्ठानमाश्रयः प्रदेशः, आस्पदम्, अधिकरणम् | UAC: अधिष्ठानात्=अभिभवात्, परिभवात्, बाधात्
 .(notes)prev-artha: अधिकारे;उपरिस्थितौ
 
 .--- 01.1077 अनुस्था
@@ -2120,7 +2138,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विष्ठा
 .artha_hindi: अलग खड़ा होना, दूर खड़ा रहना, बात जोहना
-.artha: पृथक्स्थिति;प्रतीक्षा
+.artha: पृथक्स्थिति;प्रतीक्षा;अवस्थान;प्रादुर्भाव;व्याप्ति;प्रस्थान
+.draft_note: UAC: वितिष्ठते=अवतिष्ठते, तिष्ठति; विष्ठितः स्थितः; विष्ठितमवस्थितमाधृतम् | UAC: व्यस्थात्=व्युदस्थात्, निरक्रामत्, आविरासीत् | UAC: वितस्थिरे=दिशो व्याप्य स्थिताः; व्यस्थात्=व्याप्यास्थात् | UAC: वितिष्ठन्ते=प्रतिष्ठन्ते (गोचराय); वितिष्ठन्तां=प्रवर्तन्ताम्
 .(notes)prev-artha: पृथक्स्थितौ;प्रतीक्षायाम्
 
 .--- 01.1077 व्यवस्था
@@ -2130,8 +2149,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+अव
 .combined: व्यवस्था
 .artha_hindi: आज्ञा मानना
-.artha: आज्ञापालन
-.draft_note: doubtful; व्यवतिष्ठते = be settled
+.artha: आज्ञापालन;नियमन;अवस्थान
+.draft_note: doubtful; व्यवतिष्ठते = be settled | UAC: व्यवतिष्ठते=नियम्यते | UAC: व्यवस्थितः=स्वां गतिं निरुध्य स्थितः
 .(notes)prev-artha: आज्ञापालने
 
 .--- 01.1077 संस्था
@@ -2285,7 +2304,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विसृ
 .artha_hindi: आना, अलग अलग जाना
-.artha: आगमन;विप्रसरण
+.artha: आगमन;विप्रसरण;विस्तार
+.draft_note: UAC: विसस्रुः=विस्तारमापुः, पप्रथिरे; विसार्य=समन्तात् प्रसार्य
 .(notes)prev-artha: आगमने;विप्रसरणे
 
 .--- 01.1085 निःसृ
@@ -2343,7 +2363,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विश्रु
 .artha_hindi: कीर्तिमान होना, प्रख्यात होना
-.artha: प्रसिद्धि
+.artha: प्रसिद्धि;उच्चारण
+.draft_note: UAC: विश्रावयामास=उच्चैरुच्चार्य श्रवणयोरगोचरयत्; विश्राव्य=उच्चैरुच्चार्य
 .(notes)prev-artha: प्रसिद्धौ
 
 .--- 01.1095 विद्रु
@@ -2353,7 +2374,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विद्रु
 .artha_hindi: विद्रव करना
-.artha: विद्रवण
+.artha: विद्रवण;विदारण
+.draft_note: UAC: (गिरयः) व्यद्रवन्=विदीर्णतामगच्छन्
 .(notes)prev-artha: विद्रवणे
 
 .--- 01.1095 उपद्रु
@@ -2382,7 +2404,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.0642
 .upasarga: वि
 .combined: विजि
-.draft_note: UAC: जि जये, जि अभिभवे — added S3: UAC's root differs from row विजि|01.1096
+.artha: विजय;अभिभव;उत्कर्ष
+.draft_note: UAC: जि जये, जि अभिभवे — added S3: UAC's root differs from row विजि|01.1096 | UAC: विजयते=वियुज्य शत्रून् जयति; जयो विजय इत्येकोऽर्थः | UAC: विजयते=अभिभवति | UAC: विजयते=सर्वोत्कर्षेण वर्तते; अतिशेते, अतिक्रामति
 
 .--- 01.1096 पराजि
 .dhatu: जि
@@ -2513,7 +2536,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: वितॄ
 .artha_hindi: बांटना
-.artha: वितरण
+.artha: वितरण;उच्चारण;विवरण;उत्पत्ति;आचरण;वृद्धि;हिंसन;व्याप्ति;प्रवेश;वियोजन;अवतरण
+.draft_note: UAC: वितर (गिरम्)=देहि, उद्गिर, उच्चारय | UAC: (द्वारं) वितरामि=उद्घाटयामि, विवृणोमि | UAC: वितरति=जनयति | UAC: वितरेत्=आचरेत्; वितारयति=अनुतिष्ठति, आचरति | UAC: वितिरन्ति=वर्धयन्ति, उपचिन्वन्ति; वितरति=वर्धयति | UAC: मा वितारीः=मा हिंसीः (सायण) | UAC: व्यतिरत्=व्याश्नुत, अत्यक्रामत् | UAC: व्यतारीत्=(गृहं) प्रविशति | UAC: (लोकौ) वितारयति=विग्रथितौ विश्लिष्टौ करोति | UAC: वितीर्णमवतीर्णम्; (वाणी) वितरते=अवतरति
 .(notes)prev-artha: वितरणे
 
 .--- 01.1129 आरभ्
@@ -2563,8 +2587,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अधि
 .combined: अधिगम्
 .artha_hindi: मिलना, प्राप्त होना, त्यागना
-.artha: प्राप्ति;त्याग
-.draft_note: त्यागे doubtful
+.artha: प्राप्ति;त्याग;अवगम;निश्चय;उपगमन
+.draft_note: त्यागे doubtful | UAC: अधिगम्यतेऽवगम्यते; अधिगच्छेत्=विद्यात्, विजानीयात्; अधिगतोऽधीतः; अधिगन्तुं प्रतिपत्तुम्, अवगन्तुम् | UAC: नाधिगच्छामि=न व्यवस्यामि, नावधारयामि, न निश्चिनोमि | UAC: नाधिगम्यते=अभिगम्यो न भवति, उपसर्पणीयो न भवति; अनधिगमनीयः=अनुपगन्तव्यः
 .(notes)prev-artha: प्राप्तौ;त्यागे
 
 .--- 01.1137 अपगम्
@@ -2684,8 +2708,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विगम्
 .artha_hindi: शत्रु की और चढ़ जाना
-.artha: अभियान
-.draft_note: doubtful; विगच्छति = depart, vanish
+.artha: अभियान;वियोग;कालयापन;नाश
+.draft_note: doubtful; विगच्छति = depart, vanish | UAC: विगच्छन्ति=वियुज्य गच्छन्ति, व्यपयान्ति; विगमो वियोगः | UAC: (निशा) व्यगमत्=व्यत्यगात्; विगमयति=यापयति, क्षपयति | UAC: ईतिविगमः=आपदां विनाशः; विगते=विनष्टे; विगतम्=उपरतं मृतम्
 .(notes)prev-artha: अभियाने
 
 .--- 01.1137 समागम्
@@ -2777,7 +2801,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+आ
 .combined: व्यायम्
 .artha_hindi: कष्ट करना, व्यवहार करना, मेहनत करना
-.artha: व्यायाम;परिश्रम
+.artha: व्यायाम;परिश्रम;क्षेपण;कलह;युद्ध;भ्रमण
+.draft_note: UAC: व्यायच्छत् (शरान्)=अक्षिपत्, प्रास्यत् | UAC: व्यायच्छेते=विवदेते, कलहायेते; व्यायच्छन्त=अकलहायन्त | UAC: व्यायच्छन्ते=संग्रामयन्ते; व्यायच्छतां=प्रहरताम्; व्यायामो युद्धम् | UAC: व्यायामेन=देशान्तरसंचारेण; व्यायामे=संचरणे; व्यायामो मृगयाविहारः
 .(notes)prev-artha: व्यायामे;परिश्रमे
 
 .--- 01.1139 संयम्
@@ -3032,7 +3057,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विवद्
 .artha_hindi: वाद विवाद करना
-.artha: विवाद
+.artha: विवाद;कथन
+.draft_note: UAC: विवदन्ति=विशेषेण वदन्ति, निर्ब्रुवन्ति; विवदन्=बहु वदन्; विवदतोः=संभाषमाणयोः
 .(notes)prev-artha: विवादे
 
 .--- 01.1164 विप्रवद्
@@ -3042,7 +3068,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+प्र
 .combined: विप्रवद्
 .artha_hindi: बकवास करना
-.artha: प्रलाप
+.artha: प्रलाप;विवाद
+.draft_note: UAC: विप्रवदन्ते=परस्परप्रतिषेधेन विरुद्धं वदन्ति
 .(notes)prev-artha: प्रलापे
 
 .--- 02.0001 अवाद्
@@ -3174,7 +3201,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अधि
 .combined: अध्यास्
 .artha_hindi: वास करना, रहना
-.artha: निवास
+.artha: निवास;उपरिस्थिति;निश्चय;शासन;प्रवेश
+.draft_note: UAC: सिंहासनमध्यास्ते=अधितिष्ठति; अध्यासिता=आक्रान्ता, आरूढा; पादुके अध्यास्य | UAC: अध्यास्यामहे=निश्चेष्यामहे | UAC: अध्यासते=प्रशासति | UAC: (आश्रमम्) अध्यासितुं=प्रवेष्टुम्
 .(notes)prev-artha: निवासे
 
 .--- 02.0011 अभ्यास्
@@ -3213,7 +3241,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अति
 .combined: अती
 .artha_hindi: अतिक्रमण करना, समय बिताना, अधिक श्रेष्ठ होना
-.artha: अतिक्रम;कालयापन;उत्कर्ष
+.artha: अतिक्रम;कालयापन;उत्कर्ष;उपेक्षा;अतिरेक;मरण;प्रवेश;नाश;अपराध;दण्डन
+.draft_note: UAC: अत्यगाम्=पर्यहार्षम्, उपैक्षिषि | UAC: अतियन्ति=अतिरिक्ता भवन्ति | UAC: अत्यगात्=अमृत; अतीते=मृते; अत्ययो मृत्युः | UAC: नातीयात्=न प्रविशेत् | UAC: तपात्यये=निदाघान्ते; अत्ययः नाशः, संकटः; अत्ययः प्रलयः | UAC: अत्ययोऽपराधः; अत्ययः प्राणधनातिपातः | UAC: अत्ययो दण्डः
 .(notes)prev-artha: अतिक्रमे;कालयापने;उत्कर्षे
 
 .--- 02.0040 अन्वि
@@ -3363,7 +3392,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: वी
 .artha_hindi: व्यय करना, विध्वंस करना
-.artha: व्यय;विध्वंस
+.artha: व्यय;विध्वंस;गमन;वियोग;परिवर्तन;नाश;प्रादुर्भाव
+.draft_note: UAC: वि श्लोक एति=विशेषेण गच्छति; वियन्ति=विविधं गच्छन्ति, संचरन्ति | UAC: वीयात्=पृथक् कुर्यात्; व्यैताम्=पृथगभूताम्; वियन्ति पृथग्भवन्ति; वीत=परस्परं वियुक्ता गच्छत | UAC: वियन्ति=विपरिवर्तन्ते, रूपान्तरं सङ्क्रामन्ति; न व्येति=न परिवर्तते | UAC: व्येतु=अपगच्छतु, विनश्यतु; मा विगात्=मा नशत्; वीता=नष्टा; व्येति=विगच्छति, अपैति | UAC: व्येति=सृष्टिकाले निर्गच्छति; वियन्ति=निर्गच्छन्ति, उद्यन्ति, प्रभवन्ति
 .(notes)prev-artha: व्यये;विध्वंसे
 
 .--- 04.0038 वी
@@ -3372,7 +3402,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 04.0038
 .upasarga: वि
 .combined: वी
-.draft_note: UAC: ईङ् गतौ — added S3: UAC's root differs from row वी|02.0040
+.artha: चलन
+.draft_note: UAC: ईङ् गतौ — added S3: UAC's root differs from row वी|02.0040 | UAC: न व्यैष्ट=न व्यचालीत्
 
 .--- 02.0040 प्रती
 .dhatu: इ
@@ -3500,7 +3531,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विभा
 .artha_hindi: विशेष प्रकाश करना
-.artha: विशेषदीप्ति
+.artha: विशेषदीप्ति;प्रकाशन
+.draft_note: UAC: विभाति=भापयति, भासयति; विभावरी=प्रकाशिका
 .(notes)prev-artha: विशेषदीप्तौ
 
 .--- 02.0046 प्रभा
@@ -3562,7 +3594,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विख्या
 .artha_hindi: प्रख्यात होना
-.artha: प्रसिद्धि
+.artha: प्रसिद्धि;दर्शन;प्रकाशन
+.draft_note: UAC: व्यख्यत्=अपश्यत् | UAC: व्यख्यत्=प्राकाशयत्, अदीपयत्, प्रभामकरोत्
 .(notes)prev-artha: प्रसिद्धौ
 
 .--- 02.0055 सुख्या
@@ -3957,7 +3990,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विधा
 .artha_hindi: कहना, धर्म सम्बन्धी कार्य करना, पसन्द करना, आज्ञा देना, आज्ञा करना
-.artha: कथन;धर्मकार्य;आज्ञा
+.artha: कथन;धर्मकार्य;आज्ञा;करण;उत्पादन;स्थापन;दान;विभाग;वशीकरण;व्याख्यान;नियमन;अधिकार
+.draft_note: UAC: विदधीत=कुर्यात्; विधातुम्=आचरितुम्; विधानमनुष्ठानम् | UAC: विदधाति=सृजति, उत्पादयति; विदधे=निर्ममे; विदधे मृत्युम्=जनयामास | UAC: विदधे=निदधे; व्यधात्=न्यधात्, न्यक्षिपत्; विदधाति=अर्पयति; विधाय=व्यवस्थाप्य | UAC: विधाति=ददाति, वितरति, विश्राणयति; वि नो धेहि=साधनानि नो देहि | UAC: त्रेधा विधीयते=त्रिधा विभज्यते; व्यदधुः=व्यभजन्; विहिता=विभक्ता; व्यधत्त=व्यभजत | UAC: विधीयते=वशी क्रियते; विधेयाः=वशे करणीयाः; निद्राविधेयम्=निद्रापरवशम् | UAC: विदधाति=व्याकरोति, व्याचष्टे | UAC: विहिता=व्यवस्थापिता विधात्रा, नियता | UAC: विहितोऽधिकृतः; न विहितो नाधिक्रियते
 .(notes)prev-artha: कथने;धर्मकार्ये;आज्ञायाम्
 
 .--- 03.0011 व्यवधा
@@ -3967,8 +4001,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+अव
 .combined: व्यवधा
 .artha_hindi: छिपाना
-.artha: व्यवधान
-.draft_note: Hindi 'छिपाना'
+.artha: व्यवधान;विच्छेद;आवरण;वियोग
+.draft_note: Hindi 'छिपाना' | UAC: व्यवधीयते विच्छिद्यते; व्यवहिता विच्छिन्ना स्मृतिः | UAC: व्यवधानमावरणम्, आस्तरणम् | UAC: व्यवधीयन्ते=वियुज्यन्ते
 .(notes)prev-artha: व्यवधाने
 
 .--- 03.0011 संप्रधा
@@ -4160,7 +4194,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विपद्
 .artha_hindi: दुःख का अनुभव करना
-.artha: दुःखानुभव
+.artha: दुःखानुभव;नाश;मरण;विकार
+.draft_note: UAC: विपद्यते=नश्यति, ध्वंसते, विफलो भवति; विपत्तिर्विनाशः; व्यपद्यत=विच्छिन्नो विशीर्णोऽभवत् | UAC: विपद्यते=म्रियते; विपन्नं (जीवितम्)=समाप्तम्; विपत्तिर्मृत्युः | UAC: विपन्नं=विकृतम्
 .(notes)prev-artha: दुःखानुभवे
 
 .--- 04.0065 व्यापद्
@@ -4170,7 +4205,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+आ
 .combined: व्यापद्
 .artha_hindi: मार डालना
-.artha: मारण
+.artha: मारण;विकार;नाश;विपत्ति;मरण
+.draft_note: UAC: व्यापद्यते=दुष्यति, विक्रियते; व्यापादयन्ति=दूषयन्ति, विकृतिं नयन्ति; व्यापत्तिर्विकारः | UAC: व्यापादयेत्=प्रणाशयेत्; व्यापन्ने=विनष्टे; व्यापत्तिर्विनाशः, असिद्धिः | UAC: व्यापत्तिं=विपत्तिम्; व्यापदं=विपत्तिम् | UAC: अव्यापन्नाम्=जीवन्तीम्; व्यापत्तिर्मरणम्
 .(notes)prev-artha: मारणे
 
 .--- 04.0065 संपद्
@@ -4302,7 +4338,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विसृज्
 .artha_hindi: छोड देना
-.artha: त्याग
+.artha: त्याग;प्रेषण;उच्चारण;उत्पादन;दान;वियोजन;विस्तार
+.draft_note: UAC: विससर्ज=प्रेषयामास, प्रस्थापयामास | UAC: (वचो) विससर्ज=उज्जगार, व्याजहार | UAC: विसृजामि=उत्पादयामि; विसृष्टः=उत्पादितः; विसर्गः=सृष्टिः; विसृष्टिर्विविधा सृष्टिः | UAC: विसर्गे=दाने; विसृष्टाम्=अतिसृष्टां दत्ताम्; विसृज्य=समर्प्य; विससर्ज=ददौ | UAC: (देवाः) एनसो व्यसृजन्=पापाद् वियुक्तवन्तः | UAC: विसृष्टं=विस्तीर्णमपरिच्छिन्नम्
 .(notes)prev-artha: त्यागे
 
 .--- 04.0075 निसृज्
@@ -4431,7 +4468,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विवृ
 .artha_hindi: स्पष्ट करना या होना
-.artha: विवरण;स्पष्टता
+.artha: विवरण;स्पष्टता;व्याख्यान;प्रकाशन;विस्तार
+.draft_note: UAC: विवव्रे=व्याचचक्षे, उपदिदेश; विवृतो व्याख्यातः | UAC: विवर्थ=प्रकाशयामासिथ | UAC: विवृण्वन्=विस्तारयन्, प्रथयन्, प्रसारयन्
 .(notes)prev-artha: विवरणे;स्पष्टतायाम्
 
 .--- 05.0008 संवृ
@@ -4581,7 +4619,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: व्याप्
 .artha_hindi: व्यापना
-.artha: व्याप्ति
+.artha: व्याप्ति;प्राप्ति;स्वीकार
+.draft_note: UAC: व्याप्नोति=प्राप्नोति | UAC: व्याप्ता=स्वाधिकारे कृता; व्याप्तम्=परिगृहीतं स्वीकृतं स्वायत्तीकृतम्
 .(notes)prev-artha: व्याप्तौ
 
 .--- 05.0016 संव्याप्
@@ -4652,7 +4691,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विनुद्
 .artha_hindi: प्रसन्न करना
-.artha: विनोद
+.artha: विनोद;निष्कासन;अपनयन
+.draft_note: UAC: विनुदते=पराणुदति, आराद् वियौति, दवयति | UAC: (तापं) विनोदय=दूरी कुरु; श्रमविनोदः=श्रमापनयः
 .(notes)prev-artha: विनोदे
 
 .--- 06.0002 संनुद्
@@ -4724,7 +4764,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+अप
 .combined: व्यपदिश्
 .artha_hindi: बहाना करना
-.artha: व्याज
+.artha: व्याज;कथन;विशेषण
+.draft_note: UAC: व्यपदिशसि=सम्बोधयसि, आलपसि; व्यपदिश्यते=व्यवह्रियते, अभिलप्यते; व्यपदिशन्=कीर्तयन्; व्यपदेश्या=कीर्तनीया | UAC: व्यपदिश्यते=विशेष्यते
 .(notes)prev-artha: व्याजे
 
 .--- 06.0003 विनिर्दिश्
@@ -4734,7 +4775,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+निर्
 .combined: विनिर्दिश्
 .artha_hindi: साफ़ साफ़ कहना
-.artha: स्पष्टकथन
+.artha: स्पष्टकथन;आज्ञा
+.draft_note: UAC: विनिर्दिष्टः=व्यादिष्टः, आज्ञप्तः
 .(notes)prev-artha: स्पष्टकथने
 
 .--- 06.0003 समादिश्
@@ -4765,7 +4807,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अधि
 .combined: अधिक्षिप्
 .artha_hindi: दोष लगाना, आरोप लगाना
-.artha: दोषारोपण
+.artha: दोषारोपण;निन्दन;तिरस्कार;उपहास;अपनयन
+.draft_note: UAC: अधिक्षिपथ=निन्दथ | UAC: अधिक्षिप्तोऽवमानितः, आक्रुष्टः, अवज्ञातः; अधिक्षेपोऽवज्ञा तिरस्कारः | UAC: अधिक्षिपत्=उपहसत्, न्यक्कुर्वत्, अधरयत् | UAC: (दोषम्) अधिक्षिपेत्=अपनयेत्, पराकुर्यात्, निर्हरेत्
 .(notes)prev-artha: दोषारोपणे
 
 .--- 06.0005 अवक्षिप्
@@ -4835,7 +4878,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विक्षिप्
 .artha_hindi: फैलाना
-.artha: विक्षेप
+.artha: विक्षेप;विस्तार;अपनयन;व्याकुलता;आकर्षण;प्रेरण;व्याप्ति
+.draft_note: UAC: विक्षिपेत्=विस्तारयेत्; विक्षिप्य=वितत्य, प्रसार्य | UAC: विक्षिपन्ति=हरन्ति, अपनुदन्ति (व्रणवेदनाः) | UAC: न विक्षिपन्ति=व्याकुला न भवन्ति | UAC: विक्षिपतः=कर्षतः (चापम्); विक्षेप इतस्ततः कर्षणम् | UAC: विक्षिपन्ती=प्रेरयन्ती; विक्षिपता=विविधं प्रेरयता | UAC: विक्षिप्तं=व्याप्तम्
 .(notes)prev-artha: विक्षेपे
 
 .--- 06.0005 विनिक्षिप्
@@ -5035,7 +5079,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विकॄ
 .artha_hindi: विरल करना
-.artha: विरलीकरण
+.artha: विरलीकरण;विक्षेप;छेदन;भेदन;मोचन;विदारण;विकसन
+.draft_note: UAC: व्यकीर्यत=व्यक्षिप्यत; विकिरेत्=विक्षिपेत्; विकिरन्=विक्षिपन्, वियुवन् | UAC: विकिरतु=खण्डयतु | UAC: विकिरति=विस्रंसयति, भिनत्ति (ग्रन्थिम्) | UAC: (श्वासान्) विकिरति=विसृजति, मुञ्चति | UAC: विकीर्णः=विदीर्णः | UAC: विचकार=विकासयामास
 .(notes)prev-artha: विरलीकरणे
 
 .--- 06.0145 संकॄ
@@ -5232,7 +5277,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विमृश्
 .artha_hindi: विचार करना, मनन करना
-.artha: विमर्श;मनन
+.artha: विमर्श;मनन;परीक्षा;स्पर्श
+.draft_note: UAC: विमृशेत्=परीक्षेत; विमृश्यते=विचार्यते, परीक्ष्यते | UAC: व्यमृशत्=समस्पृशत्; विमृशति=स्पृशति; विममर्श=पस्पर्श
 .(notes)prev-artha: विमर्शे;मनने
 
 .--- 06.0161 संमृश्
@@ -5313,7 +5359,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विलुप्
 .artha_hindi: लुप्त करना
-.artha: विलोप
+.artha: विलोप;अपहरण;छेदन;नाश
+.draft_note: UAC: विलुम्पन्ति=आमृशन्ति, आच्छिन्दन्ति | UAC: विलुप्ताः=छिन्नाः (छदाः); विलुप्ता=कर्तित्वा निगीर्णा | UAC: विलुप्तदर्शनम्=नष्टदर्शनम्
 .(notes)prev-artha: विलोपे
 
 .--- 07.0001 अभिसंरुध्
@@ -5394,7 +5441,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विच्छिद्
 .artha_hindi: अलग अलग करना या होना
-.artha: विच्छेद
+.artha: विच्छेद;वियोग
+.draft_note: UAC: विच्छेदो वियोगः
 .(notes)prev-artha: विच्छेदे
 
 .--- 07.0004 अतिरिच्
@@ -5414,7 +5462,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विरिच्
 .artha_hindi: मलशुद्धि होना
-.artha: विरेचन
+.artha: विरेचन;अतिरेक
+.draft_note: UAC: विरेचि=व्यतिरिक्तोऽभूत्, ज्यायानभूत्
 .(notes)prev-artha: विरेचने
 
 .--- 07.0007 अनुयुज्
@@ -5485,7 +5534,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+नि
 .combined: विनियुज्
 .artha_hindi: व्यय करना, नियमित करना, गूंथना, एकत्र करना
-.artha: विनियोग;व्यय
+.artha: विनियोग;व्यय;वियोग
+.draft_note: UAC: विनियुज्यन्ते=विप्रयुक्तानि भवन्ति; विनियुक्ताः=रथेभ्यो वियुक्ता विमुक्ताः
 .(notes)prev-artha: विनियोगे;व्यये
 
 .--- 07.0007 विप्रयुज्
@@ -5495,7 +5545,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+प्र
 .combined: विप्रयुज्
 .artha_hindi: अलग अलग करना
-.artha: वियोजन
+.artha: वियोजन;वियोग
+.draft_note: UAC: विप्रयुक्तो=विरहितो विनाकृतः; विप्रयोगो विरहः, विनाभवः
 .(notes)prev-artha: वियोजने
 
 .--- 07.0007 संयुज्
@@ -5537,7 +5588,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: व्यञ्ज्
 .artha_hindi: स्पष्ट करना, उत्पन्न करना
-.artha: व्यक्तीकरण
+.artha: व्यक्तीकरण;दीप्ति;विशेषण
+.draft_note: UAC: व्यञ्जत=प्राकाशन्त, अदीप्यन्त | UAC: व्यञ्जनं विशेषणम्
 .(notes)prev-artha: व्यक्तीकरणे
 
 .--- 07.0021 अध्यञ्ज्
@@ -5608,7 +5660,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अधि
 .combined: अधिकृ
 .artha_hindi: जीतना, अधिकार होना, दूसरे के अनुकूल करना
-.artha: अधिकार;विजय
+.artha: अधिकार;विजय;आरम्भ;स्वीकार;सामर्थ्य
+.draft_note: UAC: अधिकुरुते=प्रस्तौति, प्रारभते; अधिकारः प्रस्तावः | UAC: अधिकुर्वते=स्वीकुर्वते; अधिकृता=स्वीकृता विधिवदूढा | UAC: अधिकृता=समर्था, अर्हा; अधिकारः सामर्थ्यम्
 .(notes)prev-artha: अधिकारे;विजये
 
 .--- 08.0010 अपकृ
@@ -5681,7 +5734,7 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: परि
 .combined: परिकृ
 .artha_hindi: स्वच्छ करना, परिष्कार करना
-.artha: परिष्कार
+.artha: निराकरण;निन्दन;त्याग
 .(notes)prev-artha: परिष्कारे
 
 .--- 08.0010 पराकृ
@@ -5731,7 +5784,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विकृ
 .artha_hindi: ढूढना, शब्द करना, बदलना, कम्पित करना
-.artha: विकार;शब्द;कम्पन
+.artha: विकार;शब्द;कम्पन;उत्पादन;विभाग;विस्तार;अपकार;करण;चेष्टा;निन्दन;विक्षेप;हिंसन;प्रयोग;हर्ष
+.draft_note: UAC: विकुरुते=करोति, उत्पादयति | UAC: विचक्र=विभेज, विभक्तं कुरुथ; व्यकुरुत=व्यभजत् | UAC: व्यकः=अप्रथयत्; (भुजौ) विकुर्वाणम्=प्रसारयन्तम्, वितन्वानम् | UAC: विकुर्वन्ति=अपरक्तं कुर्वन्ति, अपकुर्वन्ति, विरुद्धं चेष्टन्ते; विकुर्वाणः=बाधमानः, पीडयमानः | UAC: विकुर्वते=कुर्वते | UAC: विकुर्वते=निष्फलं चेष्टन्ते; विकुर्वाणे=विविधाः क्रियाः कुर्वाणे | UAC: विकरिष्यन्ति=निन्दिष्यन्ति, विगर्हिष्यन्ते | UAC: (पादौ) विकुरुते=इतस्ततो विक्षिपति, नाना करोति | UAC: विकृणवन्=विहिंसन्, उत्सादयन् | UAC: (अस्त्रम्) विकुर्वाणः=प्रयुञ्जानः | UAC: विकुर्वाणाः=प्रहृष्यन्तः (हर्षमाणो विकुर्वाणः, अमरः)
 .(notes)prev-artha: विकारे;शब्दे;कम्पने
 
 .--- 08.0010 व्याकृ
@@ -5741,7 +5795,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि+आ
 .combined: व्याकृ
 .artha_hindi: स्पष्ट करना, समझाना
-.artha: व्याख्यान
+.artha: व्याख्यान;वियोजन;विभाग;उच्चारण;कथन;प्रकाशन
+.draft_note: UAC: व्याकरोमि=पृथक् करोमि, द्विधा करोमि; व्याकरोति=विविनक्ति; व्याकृत्य=पृथक्कृत्वा | UAC: व्याकरोत्=प्रकृतिप्रत्ययादिविभागेन व्यभजत्; अव्याकृता=अविभक्ता | UAC: (वाचं) व्याकरोति=शब्दमुच्चारयति | UAC: मिथ्या व्याकरोति=व्याहरति | UAC: व्याचकार=प्रकटयामास; व्याकरणात्=प्रकटीकरणात्
 .(notes)prev-artha: व्याख्याने
 
 .--- 08.0010 संकृ
@@ -5854,7 +5909,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विज्ञा
 .artha_hindi: स्पष्ट जानना
-.artha: विज्ञान
+.artha: विज्ञान;ज्ञापन;प्रार्थना
+.draft_note: UAC: विज्ञापयतु=विशेषेण ज्ञापयतु, वेदयतु; विज्ञापयामि=बोधयामि; विज्ञाप्यं=विज्ञप्तिः | UAC: विज्ञापना=प्रार्थना
 .(notes)prev-artha: विज्ञाने
 
 .--- 09.0043 प्रतिज्ञा
@@ -5998,7 +6054,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विग्रह्
 .artha_hindi: झगड़ना, अलग अलग करना
-.artha: कलह;विभाग
+.artha: कलह;विभाग;युद्ध;ग्रहण;विस्तार;विवाद
+.draft_note: UAC: विगृह्य=युद्ध्वा; विग्रहो युद्धम्; विगृहीतस्य=योध्यमानस्य | UAC: विजगृहे=गृहीतवान्; विगृह्य=विशेषेण गृहीत्वा; धनुर्विगृह्य=गृहीत्वा | UAC: विगृह्य=प्रसार्य, वितत्य, विस्तार्य; विगृह्णन्ति=विस्तारयन्ति | UAC: व्यगृह्णत=तामुद्दिश्य व्यवदन्त
 .(notes)prev-artha: कलहे;विभागे
 
 .--- 09.0071 संग्रह्
@@ -6137,7 +6194,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विघट्ट्
 .artha_hindi: मांजना, धोना, बिगाड़ना
-.artha: मार्जन;विनाश
+.artha: मार्जन;विनाश;विवरण;कम्पन;विक्षेप
+.draft_note: UAC: विघट्टयन्=उद्घाटयन् (द्वारौ) | UAC: विघट्टितानां=बलवत्कम्पितानाम् | UAC: विघट्टिता=विक्षिप्ता; विघट्टितैः=विकीर्णैः
 .(notes)prev-artha: मार्जने;विनाशे
 
 .--- 01.0867 विघट्ट्
@@ -6146,7 +6204,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.0867
 .upasarga: वि
 .combined: विघट्ट्
-.draft_note: UAC: घट चेष्टायाम् — added S3: UAC's root differs from row विघट्ट्|10.0125
+.artha: भेदन;विराम;विवरण;विभाग
+.draft_note: UAC: घट चेष्टायाम् — added S3: UAC's root differs from row विघट्ट्|10.0125 | UAC: विघटिष्यन्ते=भेदं प्राप्स्यन्ति; शैला भेदमापुः, संहतिं जहुः; विघटितं द्विधा भिन्नम् | UAC: विघटते=प्रतिहन्यते, विराममेति | UAC: विघाट्यतां=उद्घाट्यतां विव्रियताम् | UAC: विघटयन्ति=द्विधा विभजन्ति
 
 .--- 10.0143 संचूर्ण्
 .dhatu: चूर्ण्
@@ -6205,8 +6264,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विगल्
 .artha_hindi: नजदीक जाना, मदत लेना
-.artha: उपगमन;साहाय्यग्रहण
-.draft_note: doubtful; विगलति = drip away
+.artha: उपगमन;साहाय्यग्रहण;अधःपतन;स्रवण;नाश
+.draft_note: doubtful; विगलति = drip away | UAC: विगलिताः=पतिताः; विगलितो भ्रष्टः; विगलत्=द्रवत्, भ्रश्यत् | UAC: विगलित=क्षरित; विगलिता=निःशेषेण स्रुता स्यन्ना | UAC: विगलितप्रत्याशः=नष्टाशंसः
 .(notes)prev-artha: उपगमने;साहाय्यग्रहणे
 
 .--- 10.0232 निविद्
@@ -6249,6 +6308,22 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .artha: अवबोध
 .draft_note: Hindi 'समझके रहना'
 .(notes)prev-artha: अवबोधे
+
+.--- 02.0059 निर्विद्
+.dhatu: विद्
+.aupadeshika: विदँ
+.src_link: 02.0059
+.upasarga: निर्
+.combined: निर्विद्
+.draft_note: UAC: विद ज्ञाने — added S4: UAC U01595 gives two roots (विद्लृ लाभे, विद ज्ञाने); both kept
+
+.--- 06.0168 निर्विद्
+.dhatu: विद्
+.aupadeshika: विदॢँ
+.src_link: 06.0168
+.upasarga: निर्
+.combined: निर्विद्
+.draft_note: UAC: विद्लृ लाभे — added S4: UAC U01595 gives two roots (विद्लृ लाभे, विद ज्ञाने); both kept
 
 .--- 10.0232 प्रतिविद्
 .dhatu: विद्
@@ -6349,7 +6424,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: अति
 .combined: अत्यर्ज्
 .artha_hindi: जाने देना, दूर करना
-.artha: विसर्जन;अपनयन
+.artha: विसर्जन;अपनयन;प्रापण
+.draft_note: UAC: अत्यर्जन्ति=गमयन्ति, प्रापयन्ति; अति…अर्ज=अवकाशं प्रापय
 .(notes)prev-artha: विसर्जने;अपनयने
 
 .--- 10.0250 अन्वर्ज्
@@ -6408,7 +6484,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.0030
 .upasarga: वि
 .combined: वियत्
-.draft_note: UAC: यती प्रयत्ने — added S3: UAC's root differs from row वियत्|10.0261
+.artha: प्रयत्न;स्थापन;शोधन;पीडन;प्रयोग
+.draft_note: UAC: यती प्रयत्ने — added S3: UAC's root differs from row वियत्|10.0261 | UAC: वियेतिरे=यत्नेन कृतवन्तः; वियतेत=विशेषेण यतेत | UAC: वियातयति=आनुपूर्व्या न्यस्यति | UAC: वियातयन्ताम्=निष्कुर्वताम्, प्रायश्चित्तेन शुन्धन्तु | UAC: वियातयति=विशेषेण पीडयति | UAC: वियातयति=व्यापारयति
 
 .--- 10.0274 विचर्
 .dhatu: चर्
@@ -6426,7 +6503,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.0640
 .upasarga: वि
 .combined: विचर्
-.draft_note: UAC: चर गतिभक्षणयोः — added S3: UAC's root differs from row विचर्|10.0274
+.artha: भ्रमण;प्रमाद;आक्रमण;आचरण;विचार
+.draft_note: UAC: चर गतिभक्षणयोः — added S3: UAC's root differs from row विचर्|10.0274 | UAC: विचचार=बभ्राम, पर्याट; विचरन्ती=स्वैरं परिभ्रमन्ती; विचरितप्राया=प्रायेण भ्रान्ता | UAC: व्यचरत्=अपाचरत्, प्रामाद्यत् | UAC: व्यचरत्=आक्रामत्, आस्कन्दत्, अभ्ययात् | UAC: विचेरुः=आचेरुः | UAC: विचारयेत्=संचारयेत् (साधकबाधकभूमौ); विचारो व्यवहारपरीक्षा, विमर्शः; अविचारणीया=अचिन्तनीया
 
 .--- 10.0274 उच्चर्
 .dhatu: चर्
@@ -6493,7 +6571,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .upasarga: वि
 .combined: विसह्
 .artha_hindi: दृढ़ निश्चय करना, निर्णय करना
-.artha: निश्चय
+.artha: निश्चय;सहन
+.draft_note: UAC: विषेहे=सेहे
 .(notes)prev-artha: निश्चये
 
 .--- 10.0342 प्रेर्
@@ -6622,7 +6701,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 07.0014
 .upasarga: वि
 .combined: विशिष्
-.draft_note: UAC: शिष्लृ विशेषणे — added S3: UAC's root differs from row विशिष्|10.0349
+.artha: उत्कर्ष;वृद्धि
+.draft_note: UAC: शिष्लृ विशेषणे — added S3: UAC's root differs from row विशिष्|10.0349 | UAC: विशिशेष=अतिशिष्ये; विशिष्यते=वरतरं, वरिष्ठं भवति | UAC: विशिनष्टि=वर्धयति, बृंहयति, प्रकर्षति
 
 .--- 10.0350 अनुतप्
 .dhatu: तप्
@@ -6738,7 +6818,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 08.0001
 .upasarga: वि
 .combined: वितन्
-.draft_note: UAC: तनु विस्तारे — added S3: UAC's root differs from row वितन्|10.0377
+.artha: विस्तार;धर्मकार्य;रचना;उत्पादन;प्रकाशन;व्याप्ति;आकर्षण
+.draft_note: UAC: तनु विस्तारे — added S3: UAC's root differs from row वितन्|10.0377 | UAC: वितानितं=विस्तारितम्; वितता=निरायता; विततिः प्रतानः; वितत्य=व्याप्य | UAC: (यज्ञं) वितन्वते=अनुतिष्ठन्ति; विततयज्ञः=अनुष्ठिताध्वरः; वितताः=प्रवर्तिता अनुष्ठीयमानाः | UAC: वितन्यते=विरच्यते, प्रणीयते; वितन्वद्भिः=विरचयद्भिः | UAC: वितनुते=करोति, जनयति | UAC: व्यतनोत्=व्याञ्जयत्, आविरभावयत्; वितन्वता=प्रकटयता | UAC: विततं=व्याप्तम् | UAC: वितत्य (शरान्)=धनुराकृष्य
 
 .--- 10.0379 अनुवद्
 .dhatu: वद्
@@ -6836,7 +6917,8 @@ HEADER:columns=dhatu|aupadeshika|src_link|upasarga|combined|artha_hindi|artha|dr
 .src_link: 01.1164
 .upasarga: वि+सम्
 .combined: विसंवद्
-.draft_note: UAC: वद व्यक्तायां वाचि — added S3: UAC's root differs from row विसंवद्|10.0379
+.artha: विसंवाद;वञ्चन
+.draft_note: UAC: वद व्यक्तायां वाचि — added S3: UAC's root differs from row विसंवद्|10.0379 | UAC: विसंवदेत्=विरुद्धं ब्रूयात्, समयं लङ्घयेत्; न विसंवदन्ति=न विरुन्धन्ति, न मिथ्या वदन्ति; विसंवादो विरोधः | UAC: विसंवदति=विप्रलभते; फलाद् वञ्चयते; विसंवादको मृषावादी मिथ्याफलाख्यायी
 
 .--- 10.0379 संप्रवद्
 .dhatu: वद्

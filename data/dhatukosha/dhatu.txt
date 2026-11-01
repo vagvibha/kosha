@@ -2661,7 +2661,7 @@ HEADER:columns=src_link|dhatu|aupadeshika|gana_index|gana_name|pada|settva|karma
 .settva: सेट्
 .karma: सकर्मकः
 .artha: गतिस्थानार्जनोपार्जनेषु
-.dhatu_artha: गति;स्थान;अर्जन;उपार्जन
+.dhatu_artha: गति;अवस्थान;अर्जन;उपार्जन
 .artha_flag: cpd
 .artha_hindi: जाना, खड़ा रहना, स्थिर होना, वलिष्ट होना, जीना, संपादन करना, प्राप्त करना, मिलाना
 
@@ -12711,7 +12711,7 @@ HEADER:columns=src_link|dhatu|aupadeshika|gana_index|gana_name|pada|settva|karma
 .settva: सेट्
 .karma: अकर्मकः
 .artha: स्थाने
-.dhatu_artha: स्थान
+.dhatu_artha: अवस्थान
 .artha_hindi: स्थिर होना, थमना, स्तब्ध होना, खड़ा होना
 
 .--- 01.0971 हल्
@@ -15986,7 +15986,7 @@ HEADER:columns=src_link|dhatu|aupadeshika|gana_index|gana_name|pada|settva|karma
 .settva: अनिट्
 .karma: सकर्मकः
 .artha: गतिव्याप्तिप्रजनकान्त्यसनखादनेषु
-.dhatu_artha: गति;व्याप्ति;प्रजन;कान्ति;असन;खादन
+.dhatu_artha: गति;व्याप्ति;प्रजन;कान्ति;क्षेपण;खादन
 .artha_flag: cpd
 .artha_hindi: जनजाति, घेरना, आक्रमण करना, गर्भवती होना, गर्भधारण करना, चमकना, फेंकना, खाना, भक्षण करना
 
@@ -16410,7 +16410,7 @@ HEADER:columns=src_link|dhatu|aupadeshika|gana_index|gana_name|pada|settva|karma
 .settva: सेट्
 .karma: सकर्मकः
 .artha: गतिव्याप्तिप्रजनकान्त्यसनस्वादनेषु
-.dhatu_artha: गति;व्याप्ति;प्रजन;कान्ति;असन;स्वादन
+.dhatu_artha: गति;व्याप्ति;प्रजन;कान्ति;क्षेपण;स्वादन
 .artha_flag: cpd
 .artha_hindi: जाना, चलना, व्याप्त होना, गर्भवती होना, इच्छा करना, भेजना, खाना, स्वाद लेना
 
